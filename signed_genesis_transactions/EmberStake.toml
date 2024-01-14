@@ -1,0 +1,46 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qprzf0s5vtjqg09qyymul22msekwdnqfw5sxyex2th3l3cggpt4h62ysz9z"]
+
+[[validator_account]]
+address = "tnam1q9k0jkssxmwdd0g3vpulvl7yp3rv7rnnuyezutcp"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "38.242.152.80:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqeew9frhkc9lth2ds26vy2keen2tejstv79n62vxzn0ka53ylknx4z08w5"
+authorization = "signam1qzvzlkjz2xk4e4fnzefyzf9vvcenu3z64t4877dwcxhsf940ss7a04yhkgckmfdmwzc2e3shupe2f2z29lrthunfp67yxcjhv7pykusg6ncygt"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpflptmaf24k5qrruadx53sgch0pnd9rxaz74rw0h7y06phxv3wegty4lnv"
+authorization = "signam1qr0527h5a0kc4uc6du5qhmgz3hr63e49djxstmfeuut4lw03lmfl09ehc20gmnsh807vgfsh0a78zh4wal00wurcj3gez8stk33n7ysq4f8wq9"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qztchhnsacq8zz97ak8dgjtklpm2j7lgxrfgffv7t2k9ganjalw5jz5skcl"
+authorization = "signam1qp0r4r7xr07h3rgttezvafrrq62rcd8fl0rws0rhczwr9tsh3k9j4j5p3x85rtq4k6799d2qx8qyeag9x8fj65egm2uw9g5vkzq3edcd5vecd4"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp4uy8ntl02jvkkwq80pch2wkhlmlgsmvc9my9lg80w34lz8p3fajsrnya0p"
+authorization = "signam1qxnme9ewxxxpnr9eqj5wxjfvkxfj9cxpstmf6taxd6jrucka5al05khjs56th8230z7qxzg9u7ue7lztvvmygjnzmp6zmxtxqndvwf7yqq6k0cwl"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyphqn0we4wekjvghd4qvq6an7skh23v033zl3xlvregsr3ujh0gusqrpth7p"
+authorization = "signam1qxzf76lt5ehe38luj5c9rgps602rdc6ufwgsr8c200esfaqjvvpeu0pflc3yz59vcj9kyt85jd420rm0d0qztk50ckj09w5cv5wchwv6qywelamc"
+
+[validator_account.metadata]
+email = "contact@emberstake.xyz"
+discord_handle = "4rash"
+
+[validator_account.signatures]
+tpknam1qprzf0s5vtjqg09qyymul22msekwdnqfw5sxyex2th3l3cggpt4h62ysz9z = "signam1qqjfrtt2zptvmp9njnzpxpevnsgyaavnaaa73xlrmhequ5zspuptk4uj0nm3gampm99pu9gzz2er20gv9v9sxlqdx0zd2scldd3rfxc96ugj3s"
+
+[[bond]]
+source = "tnam1q9k0jkssxmwdd0g3vpulvl7yp3rv7rnnuyezutcp"
+validator = "tnam1q9k0jkssxmwdd0g3vpulvl7yp3rv7rnnuyezutcp"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qprzf0s5vtjqg09qyymul22msekwdnqfw5sxyex2th3l3cggpt4h62ysz9z = "signam1qrg55z5cl8hthtt3fxsj5fw8n9enlrl3357ekdy5gdrg0hxemdrr3e37gg2ygaxwgyecfv7qggt669f9xv9r0nzktl3cxzm36yrg0jgw77pem0"
