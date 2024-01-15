@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrtnsu8rgxe0txz0er370vxqpaarcpn6qvuawqesr2atqw9t8yyrvks9667"]
+
+[[validator_account]]
+address = "tnam1qx7757f5aerzdy3hx4yjaxlzlgyw22rcmvkh6jks"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "95.217.203.60:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzt5qkw5uudnjdp2l72kdwpwmw6hwq0k4lz8hkdv4wxyts28z9ggz9nfg8d"
+authorization = "signam1qztgfnsvc0hhfc2qj457u0s0n3ymj6mxyz4dxl444709m4n2pv9fh4u5yqp3x0nan2xr0vdkr0kpdspya4zfxxuf8grkwx9r8t48u8g0c868p4"
+
+[validator_account.protocol_key]
+pk = "tpknam1qz3f4gu788me8rv3cfgx4en6wmfyx5vyax7atwwgh6cyvq03tu35xg46nxv"
+authorization = "signam1qrsd3fd3n5z5r06jztz6vcnzm5fdgrq9dzr2p3xwzdl0rjq5jnzq5s4tdx6zhrqq0emuhydzzxh4jk5kjayxnlm7eqkgynnrr8ddq8qgjhrfem"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpzae35mujrf7f554k4tj5l2afz2grdlm56kmxkk3qdfyuvdg4pmjcdu7gm"
+authorization = "signam1qr3hud3uud5lta032n5s7xgzqaewn30xcs6x69cxq3v85zxa75tslln6jnvz4kpfzr5a0k82l00ajjrpu6psag52hsxju7cfpk90c5s83sfr0q"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyphpct074jqh0e5l7xxp4vmup2edq7fszfp4uzjsl5hqpd9uqx20rcqguh0u"
+authorization = "signam1q97m70m0t7aanae9clzamcg03uvzajc8m4axcjs4kmjvd5t5363uk39q8qkfjsgt2efu2km4xl0a96vcng58yalvemg2at6kc96v6ya4qy7z9kwe"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypxkt8v2wkgn5yfem00xphqwym2sqzk7vgfwyme5xmm335p6c3m9rsx33a39"
+authorization = "signam1qyft7lmfqmshwfqe9mfs72pgu50mq87uc0hy2sumyu75xhe30tz5zfl7jypsw26r9x253lymmp2p3a4sflu9qgn7nm0ty06aae7xs25eqqfse66p"
+
+[validator_account.metadata]
+email = "validatorvn@gmail.com"
+description = "Validatorvn has been selected to join the Namada Shielded Expedition as a Pre-genesis Pilot"
+website = "https://validatorvn.com"
+discord_handle = "Node&Validator#8707"
+avatar = "https://github.com/NodeValidatorVN/GuideNode/blob/main/logo.png"
+
+[validator_account.signatures]
+tpknam1qrtnsu8rgxe0txz0er370vxqpaarcpn6qvuawqesr2atqw9t8yyrvks9667 = "signam1qqd454kz044kjepspf7972hwu84gc22m5ldy4hhkzf9eq3gtu7mxkuh6zzk2y9pgwzxt67t0q8ath4yagz7kw8zus0hjl6gev8zf2rgqf5vqfz"
+
+[[bond]]
+source = "tnam1qx7757f5aerzdy3hx4yjaxlzlgyw22rcmvkh6jks"
+validator = "tnam1qx7757f5aerzdy3hx4yjaxlzlgyw22rcmvkh6jks"
+amount = "2600000"
+
+[bond.signatures]
+tpknam1qrtnsu8rgxe0txz0er370vxqpaarcpn6qvuawqesr2atqw9t8yyrvks9667 = "signam1qp98envhwre6r9l5ljhlerlevd2gsvjkfp74f8t60pth0649ryllxermkmjqz8ptc3svzlr8775rj7nfwdwravfeh0uyx9tzuk2v72gf2cgvyq"
