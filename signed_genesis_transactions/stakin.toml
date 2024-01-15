@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrr72rer8ntmryquy73mddezu4y6fdzwf54a9ey3z4zz3aspc7445cjxv8n"]
+
+[[validator_account]]
+address = "tnam1qyaqwwhhxxhdll6vwmamga3x8gezqm23qccxt7gq"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.236.229:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz0j6we0mrm2qj64vn37wwaedfdluevqslhz3veg5az4mjf6uye0xy8y0gp"
+authorization = "signam1qppsn325k3f0qx84u7rt4fh8vj3v7pny2w86afh8zmstt8rz54ycus2uujh8228erstrwvltk952kdcrtpnhy0t29fzm24pn5r4x3vgdrnqmmf"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqr2yytkwnjgpqk4lzc9ghuseu9aes4rulmp9v609vgatjgrtgte6fyvljf"
+authorization = "signam1qpsf293pnyjge25awy5qw9g6wer4lq9h2a79qfde0n75pll7599wxujrukt5et0cwdyksjxnwc8zpccz6mrwk8sxw33msve0mxpjqrstvznphm"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq92z538ngn84u2xu5ldnhsj8nkg7juvd0pvxgusucx3w8a3gqegv54yhuz"
+authorization = "signam1qqll5q09k08y52yyz0qd0sttr77anthhju4f249s4l9c4rnx209g9ta3wjvynflzmxy6gwyt0fua9vszh6dfzdr2trmlqr7lu5tslpsql2jzk7"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypd05fmqdz5mmlzrv5v2f7ysdetm00k6r8uyvemd6arxk329zkpemqn382z5"
+authorization = "signam1qx0skcvzkvjl62stmrsn0pnxmgx0xmpynahc3ztetptkky6ds6daxrcdzn0zvtlydzqqueevnntfysaq375g9qzseu258qxp8tafnkr2qqng7e46"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp8ryws0e6wnx7pkvjkfh00l5zpx526hmx6qrdqtuhcx948xm5zjjghwgpmj"
+authorization = "signam1qy6xtv3u0psah5220drxx4mcqnvnwxnrsptv5g50v7cx27rt6qq3jlj8a29p5v5qrxmsz36l4lnyrqt0dpgc4akeuqnetlqvhla5n4gqqqdmrqkv"
+
+[validator_account.metadata]
+email = "security@stakin.com"
+description = "Leading non-custodial staking service with operations on 20+ Cosmos chains, IBC Relaying, slashing guarantees and ISO27001 certified infrastructure"
+website = "https://stakin.com"
+discord_handle = "edouardlvdl"
+avatar = "https://stakin-data.s3.eu-west-2.amazonaws.com/stakin128.png"
+
+[validator_account.signatures]
+tpknam1qrr72rer8ntmryquy73mddezu4y6fdzwf54a9ey3z4zz3aspc7445cjxv8n = "signam1qr2uf2zlr9eeftwrc8gaxk3jlvtmy0mxj6wlrgfr3dz4qc9klgephh9z0qvcfz59fz44nkvjda5nfyysr2p8zqn5ykfgxphfvpxjyqsx22pz92"
+
+[[bond]]
+source = "tnam1qyaqwwhhxxhdll6vwmamga3x8gezqm23qccxt7gq"
+validator = "tnam1qyaqwwhhxxhdll6vwmamga3x8gezqm23qccxt7gq"
+amount = "2631540000000"
+
+[bond.signatures]
+tpknam1qrr72rer8ntmryquy73mddezu4y6fdzwf54a9ey3z4zz3aspc7445cjxv8n = "signam1qz80pseh884cg02enj03tj4wh75232twfuern82fxzjwdf4apluh0aak22usjd8vdp7gh9y4e2tcastmmg05jcv7z8f40gt8l05vpvgtxeg4yd"
