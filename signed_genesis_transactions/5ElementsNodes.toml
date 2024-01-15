@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqkfc64jkx3rl9zwwlqxhh65nlduxrjphdaa6lzqh2lvgxctf0exje2dh5l"]
+
+[[validator_account]]
+address = "tnam1q89kns38yfru4jexhk5d6wx40zzmq9p5pcp3etpf"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "176.9.45.137:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz3anfky4dppzvvxcr0r7hkdzf6ru6eduhrn4gr0ls6pxp5penk7ccywm9w"
+authorization = "signam1qrp243zuyzhy6l9htmtksg8csdvutanu25ndvdh2tv6q887spzx4vzcrqq7z5mtmcrh3402tnfugpu7aqcj4t03ukmy9zjcvueq2w2ggslx8fs"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrg3uryd7aspn7sqtdw3puheylw3cedeq00mkz6mlf2nv3u5l605z698s7g"
+authorization = "signam1qzuauvw0qgaqx2slt8j03ye69he70yyg3z5hmpzddgc3x6zs8l9jmr7gdzryqsmqftym6c9j2muj52xgevsxcju6699ewwf3ffdr3sg025kfx3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpdrfm2dw2j3qmypm26ke9wyjfqqy9l50qvvamarthzusu532qkq7t8ywe7"
+authorization = "signam1qpk8mu2knsqkamkjgevqtt23udsk7z3spujn8ggsy3zns2rf6xeqrgup7va6g96kj9ngrvajwfcetqevdchcjrfrzthwau9k7smcfds9vwcrf5"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypd8arkg6ujk4zzqlg4t0qt52zzlf3k032jqvy2l23k3cwudjxtyncw87shf"
+authorization = "signam1qxc033r2rt5tg2ee4620yggptx025glyzl5lmlu4d04tehxam7yvj8mu533gsgdjknxw42ekk7z3zvywalnn9nlrrs6tgq5kupxa6fqvqy47x7su"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypjg8xk2fw6dvhw8wp3pkw9n7eh4w3cyu5q7gkg6jry3wt84hlgr4slnyeqq"
+authorization = "signam1qx73a34yvqtw2t7jxg79fvkdgam6atm0ez73cmqsg66hzpkl06rvus36fegyw8zp47gz8qaw3k9a6sm5236d3fvr0yy3kxclkmewdx4aqy3qt29d"
+
+[validator_account.metadata]
+email = "info@5elementsnodes.com"
+website = "https://www.5elementsnodes.com/"
+discord_handle = "5elementsnodes"
+avatar = "https://www.marcopresti.cloud/extra/5enlog.png"
+
+[validator_account.signatures]
+tpknam1qqkfc64jkx3rl9zwwlqxhh65nlduxrjphdaa6lzqh2lvgxctf0exje2dh5l = "signam1qqqfeq93nws68rkzurhhd30f6enfr5a7fne42prr4wl6cf8whs06gvqxcc79tf4eqlg5gmcnal9q8mvkt3nh0l7rjzvw5wmr0plpkrqfa85h5v"
+
+[[bond]]
+source = "tnam1q89kns38yfru4jexhk5d6wx40zzmq9p5pcp3etpf"
+validator = "tnam1q89kns38yfru4jexhk5d6wx40zzmq9p5pcp3etpf"
+amount = "2630549"
+
+[bond.signatures]
+tpknam1qqkfc64jkx3rl9zwwlqxhh65nlduxrjphdaa6lzqh2lvgxctf0exje2dh5l = "signam1qrzqllp8pvpzcj23xuqaujg84u7yzjwscnwk9r5z028m5rn9xezzh5l7pp60rn60lpwel0jp5dltma78avkucvh7p9qg9sghjhj4pug8efqp5s"
