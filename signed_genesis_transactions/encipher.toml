@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrj4pnajqheqwnjrvpx7hw2vu9a7nn33cv0734arwsyxk9fs8mxwwyxsllt"]
+
+[[validator_account]]
+address = "tnam1q929d8arfku864ygpt73tsllg2zm0p6sjy0mqdzg"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.109.39.125:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpnp6htv5arerepck80g60kc306tq6tzqd8j9hnkwzj6pg46gcmj6p0vrlc"
+authorization = "signam1qzha8jfnxvq6lj4pl49xh3kew3xwvjpu5ma7ujp48dt3808vwxd3c6njtgr66a97hza0wnlf2ne0p82xwczeqau6u9qg7tag5xr7feqrhyznl9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzq095f8z03xrs0v3xrtqjg3adypt4avtsq45clppxh4rsl75nr7v7m6c4h"
+authorization = "signam1qqnpnt6p6h0f4r4trg4hh2t48qdwx30xjnt5v3e39l2wht2tfaqjj30zx96hps39xxqul8lhhev7fallt8z7q6hxkc3e939ye3xmcjspq5v50u"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqdv3kq7zxkppl9am4kcwj90r5xgxvey850x4leeekjayvaq324swddyeu7"
+authorization = "signam1qzr0l8u6zav6fv400rxrkdr6d37e6y6epufkms73yc0x50m7tkxyjhwgx6mgv70v3vxmqkj3gjrgzsvdwrcl8kk8s77y3xr6hvcrjcqthppwmr"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypslp4hs6tsc3lwz605wh060aya3xc3m6c8ry7fyzqhknz6egj4pyqu3km32"
+authorization = "signam1q9u93laqcvzytqldunav7ffkzjehkcgt7ckwa5l3jad96rp0ayutvj3c9vpsvu2grx966qa5s902hnhp9guwm7mpchycsdmwzqfemslkqqr4rpff"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp9wl5jdpegs5xj8gw4wxvp0an6f2q3ah239ymfqrlwvpf7ckrhfcsgprwzy"
+authorization = "signam1q8psxepr8s883hqeagdkdxpv7xn425y997rcq9c3cetqfkqt9drjzex6htvgugyc6zz6xc09ydjfyc62lueky49fn7vfamdwptfkpncdqy6cuse0"
+
+[validator_account.metadata]
+email = "encipher88@protonmail.com"
+discord_handle = "enbit88"
+avatar = "https://raw.githubusercontent.com/encipher88/namada/main/avatar.png"
+
+[validator_account.signatures]
+tpknam1qrj4pnajqheqwnjrvpx7hw2vu9a7nn33cv0734arwsyxk9fs8mxwwyxsllt = "signam1qr97wdusp8msmz4lqtsaw4fplv9ndch59j8culvyy024n3ca54xdyz7lsq772t2kvecnt6fujfvqxrdp8xzzd8g36gxnspzc5qzwmmqyc4jvu4"
+
+[[bond]]
+source = "tnam1q929d8arfku864ygpt73tsllg2zm0p6sjy0mqdzg"
+validator = "tnam1q929d8arfku864ygpt73tsllg2zm0p6sjy0mqdzg"
+amount = "2600088"
+
+[bond.signatures]
+tpknam1qrj4pnajqheqwnjrvpx7hw2vu9a7nn33cv0734arwsyxk9fs8mxwwyxsllt = "signam1qqsqe7ddwyucgfz8x845vntvzy77lrwh8pal0alwx50dkcjczg8qrfx729ja44fa8g7s0gsc6ez2w6rv3syd8u36dq07wmz2zz57n5cfdaz54z"
