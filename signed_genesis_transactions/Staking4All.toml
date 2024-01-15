@@ -1,0 +1,46 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpq3ywx2c2swajkt6cxrgmgevflhayvpzwmr5vqf4twkqs7qsgj7jktzrce"]
+
+[[validator_account]]
+address = "tnam1q9hn59g0cpzmyhs799hr32v8q4ar9vg03gpakqqs"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "95.216.225.15:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp8yexzlpvlmzagz7ltdc80aely4mpdsrctr8268rh5vzrzf8dkgvnp7j7t"
+authorization = "signam1qzyd7kp52q8v9w5cy2m48a9nvc937yxyfa6d7fnh4fe4kyn8msqvz0dx9waa8svpsyck7kelasdjzxrzm3p0xwntxzqua5ze69jreks9x9xud6"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqwx5yrf7rs6aryl5eygz4ejawzxm97vyy628f35nksjeh83vfcpvuxr2qa"
+authorization = "signam1qz7ycvjap7pvztr43ayzkymy2aa2lyh7zcnez2u4d72cctksrle5y3767jnudl4d3pkdv7269f8sk7h0hazrakq0l7zs5c2eszjrg6cdhxps3k"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrhyd6xz7pu8ruvnuncqmr39h3dq2aph0pqvmgxlsgap66t5xljdgr3s49m"
+authorization = "signam1qqwwc3zk3ckkalzmuj467ck6lse7clnjkhsr8uehaxq04kkq2f7d0ln37wlpfnv83n03a47z58j4nrk6ee26ey6wvyjma5we2xw55ccfgdfscv"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypk5hupngey7dtll7vjyqt3xxu23gvgzpvhqn7ec4e2etpmn5f7q8ghlr6rc"
+authorization = "signam1qxs2v52704q9c3d736s8fda06qg07rzyj87gdfqa2p8me0uqr8syyr3jcvd5ym38cgkhsh9dkdwj2qvw3gceqnl9c2eknpads2pzt47rqyfle8dv"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyplwsqj7740kl73a3k0lt8ksvz5lqe50y3l55r98g5xfzkw0sd2u7s03vnxw"
+authorization = "signam1q99jvke70asxllqm6tanj7xc4z45jsdxh48lfamehxf9j24m57jpylv3s0zm3wjys7rn3pmuwcjtnm5vy5mye326p0n0tsd9vlzrsea4qy8zrl5u"
+
+[validator_account.metadata]
+email = "info@staking4all.org"
+discord_handle = "sheznez"
+
+[validator_account.signatures]
+tpknam1qpq3ywx2c2swajkt6cxrgmgevflhayvpzwmr5vqf4twkqs7qsgj7jktzrce = "signam1qq7whpzgvv8my3hh4thp06lg75kw3ydxxn46ctp9cf0049nufnwrw5559zp9g5z040l32z03y6ljsxrmesksespkzw3ry8de4wj8fdq8mw2793"
+
+[[bond]]
+source = "tnam1q9hn59g0cpzmyhs799hr32v8q4ar9vg03gpakqqs"
+validator = "tnam1q9hn59g0cpzmyhs799hr32v8q4ar9vg03gpakqqs"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qpq3ywx2c2swajkt6cxrgmgevflhayvpzwmr5vqf4twkqs7qsgj7jktzrce = "signam1qzsn5gk8e6gwfwh95k0pf2q2hdd6rz9qrtyvapszg4arznaces6nc25qxwync3llh66qvzns9u6fh82hwt96dyta2kp8w073mhc43hsgkck08t"
