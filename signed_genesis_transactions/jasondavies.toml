@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq3zfzrr3y6mknmszmuhrjxg8fuyap0y75mc46zmmn7sj9rm5q465ke4pzr"]
+
+[[validator_account]]
+address = "tnam1q9xx3f22xla3xtlm0j5h5pxwlpv0q3x7a5acqpn7"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "54.36.166.159:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrj642mqt9mwp06xsud3lnwxujdvd92rptap8acctqwvlwdvgyglw393e5s"
+authorization = "signam1qp6k8ekk50ckawn5pj2arjmh38n09ugzldzf30xc6h3zzugqls5qkkkhj94d47s5jvphl0pxs0mx8jgna570rjra7cdzed74xrdmtpgr2cs0t9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzqtd0l85g99df9yvh45z48w8sfarmvpyqfu59r8t0prr9ymrzgsk4s77e7"
+authorization = "signam1qztzfxqasfj7fwx5xh0s3qhgadre7cup2pcgpujy7q69ay8eqt6gw68wta6f43hzhuvmtyvf5gaee57em7hh4cngthvhga3k2xf93wc9ynz9ls"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzgkfl6gjcrh95748rlmwqqpmch2e7twuan4rqxl687x32vselzmutmevvn"
+authorization = "signam1qr082daantvsu2xzrdyhvu0l8ewflcr0avjckjtf6wlq8vv2y3k7jzx85x99p9zxywy0lva2l7hl06skgtn2fntf43wrk8xy9kplckswmjf6ps"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypmegxen4zs4pyenhwsmhfpmu2fcvhunuu3xyztvd0zxtszse84m0g5xrc22"
+authorization = "signam1q8hc6na6nqz9tll463cmezv68teeal09xga5jy89hu0ul839ekpezuhw9hnq35v5caay07mrr4482mt4azsnjqgg78yncpggd9wwkglaqqlj0vpe"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypekdal9ds7tlzvgjq625m5rmnatm3n2xdlnqqz5pygtms7ueteaeqluuqlc"
+authorization = "signam1q8ds8rqpc8dzqj8ckvqrrnapjexknu40kmfpmx0gktsa7eyun33pq8ly3k8ly5tfff3xhrmrqs663rgmq2dnceyzk7w4d7uumfmr3hppqq049w9g"
+
+[validator_account.metadata]
+email = "jason@jasondavies.com"
+description = ""
+website = "https://www.jasondavies.com"
+discord_handle = "jasondavies"
+avatar = ""
+
+[validator_account.signatures]
+tpknam1qq3zfzrr3y6mknmszmuhrjxg8fuyap0y75mc46zmmn7sj9rm5q465ke4pzr = "signam1qquj73jqymr3rswak2amd848vtethfcn3933cn55tgheuyarrkz7pcjwa0wuqcwgv5q607f399a8r8rud2ncqfjqhnlau7wxvyatt8sxn0hfaj"
+
+[[bond]]
+source = "tnam1q9xx3f22xla3xtlm0j5h5pxwlpv0q3x7a5acqpn7"
+validator = "tnam1q9xx3f22xla3xtlm0j5h5pxwlpv0q3x7a5acqpn7"
+amount = "2631500.0"
+
+[bond.signatures]
+tpknam1qq3zfzrr3y6mknmszmuhrjxg8fuyap0y75mc46zmmn7sj9rm5q465ke4pzr = "signam1qru43sjrql9wxgkrg6e9dzvw6ah044ea4mpznys4vfp6l884ckckj9zkwp0gxpj2vjrrkajy2f6fk65tkvzjzf89xry409zga64nq9qg2g2unu"
