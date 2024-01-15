@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzqpflw45ermgksyj8uvthx35xm8vre3v8err2lvqehjhwg3wgm9kdav7rg"]
+
+[[validator_account]]
+address = "tnam1q928fzf5tvr8mstxj28x0k6a3pege27lcsxtp5qs"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "84.247.128.11:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzpum3pj89jhav3g4qcw0xfzfv8ypc4npqkhe8ug7frl8ura97u8y6vwxf8"
+authorization = "signam1qpml95k5keyfxknkzetkehj2rwucwaut5n3cllvqy83pld03rfejrph66ckxds8rnexqru4lmzqra3fgjqeycm9s2n75rydr55ul8eqw9e8k5v"
+
+[validator_account.protocol_key]
+pk = "tpknam1qq8gtz3p0ygjttmpdws0x2ra2l8mqacdr2xsm3rjs5clnnrajcmrk0k2wnn"
+authorization = "signam1qptnclxzw34x8nvn3pp25lhwgh3upvt5mrh4fe2p2zttdsmz97au2pxl40cztvl9hxka6dflxn8ttq6uw3c3z9zj4v40y297yfds6ccprjtd3t"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qru60qhu4ggg3l6kfqlm67crxe55h84j2n2gxglajwf3prmj0jmskezjk37"
+authorization = "signam1qzwecqw6mw8mjngvjttx04aygd8ewzrtdrwdnk73lu7swthv8xyv90fvsyvcfc39g3p9dv2mzrfl90yj95c09ydugmhnuxfzlzfp88g9ne6670"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyppwp4gnv9gsyqs7xvxaw5gllwwn8kyts4h5mhx0eruh20l73zsk7gc8v62y"
+authorization = "signam1q9wenrzs6rl3a85u579znlcmyuv06x66dfeze7zzp8ceksw84pmpclwjl30d72386upf5cqxksdur4g6ta77adkwaafuqea2utw3e6fxqqmjj79g"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyplekku9m4hkkc833d9y8tura2ag9sgh0st93zg89mfapdmknq7wnsgnymwn"
+authorization = "signam1qyjm8d0t3dfv7hwu6gk2ue2enjxlum8ge8dtnl36u5sallhmergpzdrt9yjyzcyx2y24p4zzyyftga6lw2vdw7dhdwgypukj72997t8zqyftm6wu"
+
+[validator_account.metadata]
+email = "xyzerdi@gmail.com"
+description = "noderunner"
+website = "https://xyznodes.xyz"
+discord_handle = "xyznodes"
+avatar = "https://raw.githubusercontent.com/erdinin/new-web-site/main/img/xyznodes_8071093-1.png"
+
+[validator_account.signatures]
+tpknam1qzqpflw45ermgksyj8uvthx35xm8vre3v8err2lvqehjhwg3wgm9kdav7rg = "signam1qrguwxz5y5r46y59dy5snp6t79xfr6433fjnggdynp9hv9lqu6dykfye8frcpyxs3v0jr3h4t9y2cjzz59mkk5uz7592amzdc95n9es2tjwghf"
+
+[[bond]]
+source = "tnam1q928fzf5tvr8mstxj28x0k6a3pege27lcsxtp5qs"
+validator = "tnam1q928fzf5tvr8mstxj28x0k6a3pege27lcsxtp5qs"
+amount = "2600000"
+
+[bond.signatures]
+tpknam1qzqpflw45ermgksyj8uvthx35xm8vre3v8err2lvqehjhwg3wgm9kdav7rg = "signam1qqydg530zmcypg2uyq702akd9mjxp3r8rx24pksgvfasjqkan8pa6v4qc2su6hrrujzd3qlv3cyzfp2uxdtpnvr42eys2ynlsqhptuqrqzz37k"
