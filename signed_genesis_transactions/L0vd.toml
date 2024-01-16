@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr9236k0every8fufge6qxf239gs3hyyng0ddtk3vrg7my6v5ntpsc0cz8y"]
+
+[[validator_account]]
+address = "tnam1qyz79z2htu35965pgnwfvg97fvspxwdraq9knq93"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "148.113.1.70:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpp6zl08mmykwvp9w6p0ssup4845hgsvdwrmnapktwm0alq2qd66kpsur3l"
+authorization = "signam1qpcz3uq2fd430enpunprmv32y5ualluwfkeav6ffzf6ync6fqq5c8fgpv3t7kddhm7ulvzmcrru0kq6awwxfak8t699kamvd7y7m2ec2sw36j5"
+
+[validator_account.protocol_key]
+pk = "tpknam1qq964283ttjdw93nyeuycenyznqj3tey75yak87h5h7r4we8a39fqw6k54a"
+authorization = "signam1qz5fe7qnvunlrfxrg4a6439xcj25cqf8l2nt8w9npcjn2g3ta0hcyv65tu6c9g46ejv74lcdspvkqtfj5kt744sg980ygqj2eguawcg9fvna5r"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp0jwlpsuw3hefr88n9dfq7jzp56fvagfwz4lcq5npl7nhk6ldltzd6rne9"
+authorization = "signam1qrguvcjqye7xsccwey6zx43q5ulgpjskmrxpqt9sx4zzzscxz5v4dezge7h4wvl0netlwngh26js9ymt60zwe9vqemurj9pte2qhhlg2mfxgrs"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypwy0vj9hw96a6qxrh80ke0m25rnr938elynqw2kw37jqnnyadpl6g4l85wy"
+authorization = "signam1qxt2dhtg3n5qfppfd2zp87ewu0glrl3twj44drv9fhdc2pqq9pym5tl3e5zmd7tms490haq0u2uysmmk4r3y82lt9rdl0f4vecsc5kraqy80awvg"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp0xwu3dhh8ly5qcy0y2mqppxr8y5r9mnfqmgz3zmcflnhm4v8ejqcw3dl49"
+authorization = "signam1q83yueqf4gfq99450mh65ahruvgcdtlqngurnuxj888zsdc0gnx27j82a4eagja0p8e2gm6dvc8x8mnk3dgm7e27kjdqzepahqf850clqq8tnraz"
+
+[validator_account.metadata]
+email = "info@l0vd.com"
+description = "Professional validator, staking and infrastructure provider. More than 50 networks contributed. With L0ve."
+website = "https://chain-services.l0vd.com"
+discord_handle = "l0vd2"
+avatar = "https://raw.githubusercontent.com/L0vd/image-content/60f29421facb41799b3113939c91712d46509333/L0vd_logo.png"
+
+[validator_account.signatures]
+tpknam1qr9236k0every8fufge6qxf239gs3hyyng0ddtk3vrg7my6v5ntpsc0cz8y = "signam1qrawy034xn6ck0j48tw9uhjvap78g5pn2edz0mqng9snnyz8u8c36l8ts662jefj90vn7h8e08y9y29jufpr4qfwegasqknqjplqjjg2zhs2cg"
+
+[[bond]]
+source = "tnam1qyz79z2htu35965pgnwfvg97fvspxwdraq9knq93"
+validator = "tnam1qyz79z2htu35965pgnwfvg97fvspxwdraq9knq93"
+amount = "2630549"
+
+[bond.signatures]
+tpknam1qr9236k0every8fufge6qxf239gs3hyyng0ddtk3vrg7my6v5ntpsc0cz8y = "signam1qzmnq9yj34gg4e2k265xghqepc89g57uqlp7yc9wf8d8ss94r5yepcydd32hlx968nhlt8mlrdm0xpjssm8kju0hepdx5rqfwq4yu6q8wrn0fg"
