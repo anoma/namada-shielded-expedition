@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpfzaplgj6k00kw3ly4p7x9lxsvdeqy0wfu847xez085kwfmm650jge6dt8"]
+
+[[validator_account]]
+address = "tnam1qyvwsx5aj96szaxdydfx556pf7v72cutuy6j663v"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "88.198.200.207:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzamwwp9u03099f2x4535jdtr5g740d4dsnkzcznnhvmhcky0pfjc6s7rxk"
+authorization = "signam1qr4dj4053e76tys4kkuh6urs8cunz4zd777ply3y7yzr7ggwra6ldu7pdeds6c3n3pyvutdmmcjjy0f59rmavv9t42hdhhyxlu5qx0qy0k7w09"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzxaspeszk05g9evjfy0carx5f33dt9vp75gw5xyf959wjuchuvp5rcdlmz"
+authorization = "signam1qq697v9gm850gw52xg0j2849xkrn6zm8vwvnqfz7z0epnah9jsvf05s6mrfylkjf8mx9csfeprhagj749ldhsld924y0laalfeswk2gzfwllaq"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qprtfaz3vu2tvkkjrq0f7urug02f5lcsgx33wvsshpf9kcx5hxgdspyukf3"
+authorization = "signam1qq5rvlt5yserygdy8c0uqh835sf9qgdjwxyduzfpgdl0nmtdj9yuu99ny60k734hdlct9nrdn880zq57uq8m86xsps3s5dksm7e49pgpqkl5an"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyppcfyjz4lvlm08djycwhu82kuqzdcqq535pjsxxeal7355lp86nmcv6xhtf"
+authorization = "signam1q8x56zp7wyaf2vj5e5cmft74t65nwpwmzjcycsw9qtsn79qqmlz2yukmvmtj4j3kd6s220cfa0vhj4mfs7ayvgnggsffl0ey6y2y9ujeqqv09ffs"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypz7yxx9df89wzex4hadvdjam0sl2pm3602ra5mftmtc8669n56lcc7p032t"
+authorization = "signam1qxhz2eytx4sdcgrrn90tyt5aja0vmyh92j0ncunfkszv09hq7t4ngnm9mtguu9hfkg76ssay20jd52hlt9cuv2zxcfge8qrx78mn0luaqya5tq3j"
+
+[validator_account.metadata]
+email = "admin@nodeify.net"
+description = "Strengthening Networks, Securing Futures."
+website = "https://nodeify.net"
+discord_handle = "kw1k"
+avatar = "https://ipfs.filebase.io/ipfs/QmWs2W7dpw6AQpywNJbLgAKeG5KQWFnHocGQLLNKUEnBYL"
+
+[validator_account.signatures]
+tpknam1qpfzaplgj6k00kw3ly4p7x9lxsvdeqy0wfu847xez085kwfmm650jge6dt8 = "signam1qq5lvx4ta4egqa2728yn0sq0hqe96telzhd68dqse6tyhmpk62d8mxtjx3x5z7v0da0jvhre2pph3dadt4g97adzzflwfxg2c4k7uncdf9mpdz"
+
+[[bond]]
+source = "tnam1qyvwsx5aj96szaxdydfx556pf7v72cutuy6j663v"
+validator = "tnam1qyvwsx5aj96szaxdydfx556pf7v72cutuy6j663v"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qpfzaplgj6k00kw3ly4p7x9lxsvdeqy0wfu847xez085kwfmm650jge6dt8 = "signam1qrx8xsm0xtmzplhd4x40gcelqrypz8j3xhr4nfzzr566py0m97yz87lcry8mda7s2h2ra9hexaqu4smr8zy0wm72x779psx7s9c7jjg9kylq8y"
