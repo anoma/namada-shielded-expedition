@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr4w7fedk90wf4xne593jx72cpr72lfe9p7kjml0c7wu00y9qwykzk80fn5"]
+
+[[validator_account]]
+address = "tnam1q8kkdj7qhusxx7t4r3fs4ej6qpa5ffdwacrs3237"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "162.55.230.123:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzaj5tj3jrplyer6taw88v5ug4t2efjke0msj8juylqfzu9hqn4rvvv7df6"
+authorization = "signam1qpdxjdu5t5zax4930xdyn7ss06wzymgzyjm9w97sp6g8q4dluns29s02xyqn7l42fhheu6y4nu96gjku5kknu3dufcedy6nfcj4yuhqw7hsrhr"
+
+[validator_account.protocol_key]
+pk = "tpknam1qplvvwujnle0hty4c2xwh72474jgkgspn66fkuzcwmyckwv8ml5hw07fss3"
+authorization = "signam1qptyn64rpyctchhfnpd49qfke042neq8v0x4xsntp8ywk64458l4h7x522d50f4t5rchpahnagh26wp66snrm002x80q0spdkawuqrcyq8nrq5"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzaeaentpls0ulam5t6ylm96h6nxwxxfn452j6yrwnl3j96mna3zqkuycs2"
+authorization = "signam1qpjzzdpl6fsstey8efa7ht6zdpts3phr5ygzv68alm960t3zdn3kf948ekjcdcnck0d9tkq77vw7xd7xvd25n7nva43hfp25cjg205gzxte7q7"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp29lkyddjrtfukg5tph5cqj8dkhu4hanc68zkkze4ltzs4ruq7tqss8gq6t"
+authorization = "signam1qxfrkg5regcmls3x5zs22qucptrz6ucal2hxqldet85ldy7pjcvswsw7mj3n4zxaxw2kkxnvzvn60t6ejqwcp6qdf2de0hxrd6nzevwgqqe06dye"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp5whpwde9ht5yu6mf4dmlj0nxyjztzn89aufr0vhldnsdf820a0tg7zrj82"
+authorization = "signam1qxleju2sma2tdp0s7panm9xdrvks6rcacje22q95t64e6gwutxs0qvn387j7c8yd5sqh87cskamqluyufp4rll7cntmm0m3mt8hrene4qq2cj276"
+
+[validator_account.metadata]
+email = "suggeedo@gmail.com"
+description = "Independent_Validator_And_Ambassador"
+website = "https://goto5k.com"
+discord_handle = "goto5k"
+avatar = "https://raw.githubusercontent.com/goto5k/avatar/main/logo.jpg"
+
+[validator_account.signatures]
+tpknam1qr4w7fedk90wf4xne593jx72cpr72lfe9p7kjml0c7wu00y9qwykzk80fn5 = "signam1qzt5tne9qret3r2nzmf04rssc3009fjme5mgg3rmk7w5w9q86qtx4w7ka4lvq9jjm9esewt3tzwtcqdnvt0wqlahg673xng3zsptxjgfpcsmtv"
+
+[[bond]]
+source = "tnam1q8kkdj7qhusxx7t4r3fs4ej6qpa5ffdwacrs3237"
+validator = "tnam1q8kkdj7qhusxx7t4r3fs4ej6qpa5ffdwacrs3237"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qr4w7fedk90wf4xne593jx72cpr72lfe9p7kjml0c7wu00y9qwykzk80fn5 = "signam1qqsvq92t8j5eq29qurs4r62h40kruggycsjfej0re2y7432lds7qv49v83q4uh882xtuglvuxja6l9f8gwf6fteqz2d5m3lthlvkpggz7kxaws"

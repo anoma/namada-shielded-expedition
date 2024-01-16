@@ -1,0 +1,46 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzrpa8ja8pzshx7d99xjngzwcxy9e3cyfp7n7pmugnh3tjkul73pj0eu26h"]
+
+[[validator_account]]
+address = "tnam1qxzcsf09pwrnz4p78wjunyxnfytas6qfs5p5wmta"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.03"
+net_address = "141.95.33.198:36656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qq9sklea7yxzm3555lrp2vjawe2w43kdpqhxeyw7d47rt5800cq85g0le3q"
+authorization = "signam1qzkhk7fcdwtzqcvgmx9zjueffp60hkpfmas3ywgxtf5tv8d0rx066nt6wwmuyetk0u6e7s8ervsfx0dc68ckc7ln0n29hwss3rgddcsfxke0cu"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp7x0jzjka3gvlafk8exwd762u9egz5jnx6ldqqq454vskaqus60ycuvhca"
+authorization = "signam1qpt2clg0f4v5xgzexzttrkc6h7s0f5a5l59z9rcredl43ly72w6cepdumwwxs237rjz9rvkf2np4nyn9heq5efgnxcc9528em0uddfqv5nk5j8"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qphx7ktgkjcjnm7a4tyux06dkzusn0pcedm7v9kcd9m3xpy4gyvys5jwxmt"
+authorization = "signam1qqv6c63rdspgw80rx2kdm2fvdwwnejg49j3fzudwqwrfe95ew598caxfjqqdrvefgwsvlwy98rgntwvadzjawre6ywjjg90fztah7fqf4vv9yd"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypwd3539y4zqt7wln8k0h8sfx2f2lwd4tylpryzk65pw707rzv0gkglcdjj6"
+authorization = "signam1qx93qv6vm5uw8hgaveh26ynay9uwh9p8w7p75ul04z4x88fsmj2fs9vxtms3zzplf0q2kgyw5q7zuza78g5sazdcuyz8ld9ckn2m0ctzqq6anhg3"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypggtzp9285f0yu6d0c4exngsy0gersueqlakqewk9e0xr2yz3y69cjafgy0"
+authorization = "signam1q8x0afqckdl84ytct55mkqxg5rhn0xuld6xnnsq2se67w9gpx2k6sgregf6z65nsw9fhkauy8q8d8yu0ct7v300jlvrvzpdx0xu38gyhqqdkymxf"
+
+[validator_account.metadata]
+email = "nikita@citadel.one"
+discord_handle = "krewedk0"
+
+[validator_account.signatures]
+tpknam1qzrpa8ja8pzshx7d99xjngzwcxy9e3cyfp7n7pmugnh3tjkul73pj0eu26h = "signam1qqfe9w98fr64ps0jn7y6ghyzr526xcqm6mqnacm73hwjkxmq7mdwnym2hvns2kzfx9x3sm76fn4kcpzfxrxsl4zcn57xkrkwlf4qttqr0q6069"
+
+[[bond]]
+source = "tnam1qxzcsf09pwrnz4p78wjunyxnfytas6qfs5p5wmta"
+validator = "tnam1qxzcsf09pwrnz4p78wjunyxnfytas6qfs5p5wmta"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qzrpa8ja8pzshx7d99xjngzwcxy9e3cyfp7n7pmugnh3tjkul73pj0eu26h = "signam1qqyqvftd5yhzd55gspx42tdnpqumxu70r0qagaxf9urxd4awn7g2aths2tkhdy5z6ewyxpuzw0vawteda23xxytpavkj853zmf0dhdqpwye0az"
