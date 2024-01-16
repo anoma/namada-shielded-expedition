@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0"]
+
+[[validator_account]]
+address = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "45.33.86.221:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz9wcx5rfntga3yn7w95g579r4wnhsvcvyyn9d0hmsxm7g0la2xnydg773e"
+authorization = "signam1qzx33qhgdtat9nuea5t66slng2d5gz36uhmvnvjkwhc8kkyvzsry26e9ysmq40g8ndkw7xtm93edezamgt90dd8puf7a3tdgadnjffcyt7wnvs"
+
+[validator_account.protocol_key]
+pk = "tpknam1qptkyk030v4e4a7e36n70275qpp9kjjg6h48zkjrk8tatyvjhvseq95ac43"
+authorization = "signam1qp8uv9cy793g6ur0ty749ke3mmd3hgt7ygch46vxxts2zr2ss2v5l7vrr5u6tqhww5clcz5h54thgcnpjqxwmah8cfpx6guzs236nncfnfjwks"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq4c0qaqvqc8p00lnxmprn3teqxtsk24xcgpfz97tmqrqp70wvy37ppsr0s"
+authorization = "signam1qqtgvgja6thqt7m8sadz65gasey33zcfpfyqt63e988kangwezft73g8nx6rtxr24mkgqhfutdygelam9ysdc5qyjgfsgv6hu0f40ggwtzshml"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypj6mvx6627w498f9kqzq95a9kqsv707pdxh8v3d6l4cfd2v7cnrssz0u9zd"
+authorization = "signam1qyzfwmchrqfq6ezacg745ntrktcp9klarge35pkef8hrxvskkh07ch27mmqyqe3lsk5wnct8qx32huaf3ct3l362fqcuugx89pj0zsvgqyshz73s"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyptu4nesw4kql4cstc9aylp3fx7j5zp4acak9lpr08xcj0p47j68rcygt94t"
+authorization = "signam1q8zhaae50zdr7eywyhlyv2wakrfec0msu2kfpsnluav9553zauz9yqg2am50fpyzypzmkuhjlyc27hmn4tcgtcq5yukr78m73lwcxa5rqqhk89gj"
+
+[validator_account.metadata]
+email = "zenon@provalidator.com"
+description = "Supporting-Blockchain-Infrastructure"
+website = "https://provalidator.com"
+discord_handle = "zenon_provalidator"
+
+[validator_account.signatures]
+tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0 = "signam1qqnz3yq7cqe4v2spx7mg4a4454wszd6ad4j8pcxgxes0xwc5qaqwlrk4vjtc9yqhr2f3ptnd6sv0txequk9w0w7az7gfl9fnpkysa9g2m06hph"
+
+[[bond]]
+source = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+validator = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0 = "signam1qzazzf3hkgt7zsvsv8e0f99lmmqpxe04erz2a02xumvpxp3rfh65vd8wucsdgn7gknhc60897x6yr0vj49rgkcyjmvdwmr8c8m8zmngx7wr4a0"
