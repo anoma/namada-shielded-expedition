@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp2wu42zqfecaf6utm8f3mf9emz287x2nygq097f94xk8m7s8p0l6k67ktm"]
+
+[[validator_account]]
+address = "tnam1q8jpmstfc07lkj9tu7un9c76h69kfsfsmyqs9clv"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "94.130.53.94:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrgsn0jws03kc33n0y33e77tvavjf60uve30n5yh2mad5zpvw3t4z8rhsew"
+authorization = "signam1qqlhlq89vy4pm73s8623803fhftwkxp8ncc3jhmtzqh9ay38hy3a50dmw7y3hwpsu0xnlhl9lcvrttd55ngmkxgrm754xyv9lh3mwzg949dc44"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp37rmcrzz5z6j949n9ltzag4570tdeglttq9mr9e0lt6jwkt65qj9r3hza"
+authorization = "signam1qrljjhahxm2z77p42e2h8n55qn708v6ggehk3yswdhjtgprwc89xdptw0lse49dnan4jm57729j45dqpqg05kfa6wmkug48gtrk0j9grx6sym0"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqc5yqpm8lu5h6epkvl9pl0lugv32h3y9msljrwptfql68cavfa6zx7jpl5"
+authorization = "signam1qzq0z6eztyyhckjek5zfpj8u2w8ypt4f6dzlktp7xljz5y430f5jrqhmxa5wsgu7mll76jf8602muruxt0fk6d8dfv655c0ehmnykhsrd33vf8"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypudyrnaq4ktmhfnz5x4np9rk3hcav8a0wwla5jppq5p8swhqa8xkg6zelt5"
+authorization = "signam1qy8hpl4sev6rttg0zst79vau00ta3stvqdh9c2n7z327xdtyln5jsqmpud4h8zr6ld4qp804c5dtvj7608v3rz48zpscj7vtj06pfnqdqqure0en"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypzk7fwpcsq7gu5t5tzn4rvsp5wmknwl4zg0stkj53tqhvydpe6y7qjv5333"
+authorization = "signam1q9rrh30w4y5vkhdvgrsjsfjudshmlk6nszmpzyd2pnwthtzdgs09g6kxepp99d3zwczxqvepv9hk2j4lggn4pjsmc739qqer080s4aj3qqxzthwm"
+
+[validator_account.metadata]
+email = "contact@ubik.capital"
+website = "https://ubik.capital/"
+discord_handle = "ubikcapital"
+
+[validator_account.signatures]
+tpknam1qp2wu42zqfecaf6utm8f3mf9emz287x2nygq097f94xk8m7s8p0l6k67ktm = "signam1qp2r59v4ypsv8fsh904e6cnh7yr0vyxpzltszwf86q3ced5p62p29vj9p7wwzag8lv8zn76zm3yzg0fh5fzymrxp46a9p7nm4kq96hqvl38cnp"
+
+[[bond]]
+source = "tnam1q8jpmstfc07lkj9tu7un9c76h69kfsfsmyqs9clv"
+validator = "tnam1q8jpmstfc07lkj9tu7un9c76h69kfsfsmyqs9clv"
+amount = "2500000"
+
+[bond.signatures]
+tpknam1qp2wu42zqfecaf6utm8f3mf9emz287x2nygq097f94xk8m7s8p0l6k67ktm = "signam1qqtcflvhgptw2laq6e26e4kwm6pyt7lm5jvnnj9chwt7mn4za4s54nrfrraysvf980vepwdp0dg33l3zcgm2zekudpg2ha657ckg4pqdvcqq86"
