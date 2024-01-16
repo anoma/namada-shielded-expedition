@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qz0xsmlf2rzylu870knrnul63tu5602nazf2n0cq0w4ljtzl7923cxvwh5d"]
+
+[[validator_account]]
+address = "tnam1qx2vhw6est5z6stfvjjfx4q9kry2w5k3yycjawjw"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "135.181.128.23:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp030qptp0292jfwu7jtu98w7xcswuffc5gumceywgen7pjpx8xnq6rpjsf"
+authorization = "signam1qpqrc7m96hk72a6vs4skrjrx574vhjn5sg29q4urf8r4l4y3ew8762k608a39ku2ztlkqk5a7p6e9lu7706gtx4tfw0mqcw5emkyucgq3tar3w"
+
+[validator_account.protocol_key]
+pk = "tpknam1qztx26n2ynhgadz4rm0hh92dpyuj624ftuz7xlwl7kf682sn076fkx6lsae"
+authorization = "signam1qr9xc7sh9fwqd52up6jls6tvx26epetnzc2xj527307pa7e7yjx2sj32d8cac7f2em5y6l0e2e7pkqd8hyj57496u8k8rlnawse4d8gq2jky5m"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzw7n48al2ljllcgu6g93rg2y2usemqklyvj9nrqw90y5hz3c34qz04d9gn"
+authorization = "signam1qpzrtpk22pl3kt8ztp626pcmlvyjqkydjhw7fljaleu74lykt2nwv5jztpkphzyr546q32dalcfe2g63zp0lhrlhce7ckgvuz4am2lq26u25w8"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypc6sezd79dkp28fkje6hevzyyax6vuvut7gak9lvr6vju780zw7wq5kys3y"
+authorization = "signam1qxg35a3z77uh8yrvsvhztnlph2mkcjmvcmwr7vv0apnphrmq6d5kg7dlcr4gn2u8e7fjd90fctxn4v3quh0sfq94s4fukhv5mmrdcpf0qyhv6uyl"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qype87kg4n06fk32a4fyqa0x6g9ls0phcnvyffeunm5w5seynwee5qcu2df24"
+authorization = "signam1qy0240e35zuhgs43z3zeyhju60yph52c0wkzy6jfymy6edksyyclzmwzxqxs4nkx7sg3jyxvzxk4a8wnp8xc3hfshsxd9cqfx7gxvqu3qq39y0g2"
+
+[validator_account.metadata]
+email = "bourdeaudhui.julien@gmail.com"
+description = "Stake And Be Part Of The Crypto Universe"
+discord_handle = "cryptodruide"
+avatar = "https://raw.githubusercontent.com/Crypto-Druide/Crypto_Universe/main/crypto_universe-ok.png"
+
+[validator_account.signatures]
+tpknam1qz0xsmlf2rzylu870knrnul63tu5602nazf2n0cq0w4ljtzl7923cxvwh5d = "signam1qq84pgmfklu79ey4darjf9zmpekuc6zzk25pdpwcn6wwwzvdztd5v35el53wqhdavxvd25dnveg0jjwep88p26ktvkk0k6jcytqjsxgrdylcqq"
+
+[[bond]]
+source = "tnam1qx2vhw6est5z6stfvjjfx4q9kry2w5k3yycjawjw"
+validator = "tnam1qx2vhw6est5z6stfvjjfx4q9kry2w5k3yycjawjw"
+amount = "2631049.707602"
+
+[bond.signatures]
+tpknam1qz0xsmlf2rzylu870knrnul63tu5602nazf2n0cq0w4ljtzl7923cxvwh5d = "signam1qqkydhx4fjdt5mm567eptzsyds4m7qnakurfgx7srynrr7e7g9mr2g8kehmu4w6xg4d49py7vuj8sg985qhkd5l4fjp5vf7uxynvkysfgruete"
