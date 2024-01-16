@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzler7ux30dmv6p0shrs6eutfmc2yr30uvceqtwjwf7h9wtgaycw62vez6x"]
+
+[[validator_account]]
+address = "tnam1q9n5lux9msqq6v2dpqhs679zd8muae3xmvu2qpas"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.101.62:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qr8w4sj39ztazrnhfl72esjstu6t8jf85qhtfglvh5hdar2ep6x0zzlcwyv"
+authorization = "signam1qqqc8neypulk3e4xqhse4qz74a3yqgg404vpsypdnntelt04txpsdswg4aujy2zhzm52sl9pjtwmx266em96aaf2csa0avcczn34wtc952pey9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrgzsjg7rtrlgzjc94dzqhxg7hrsfjzx79m080q59fvvscd5sdl7q6x26hu"
+authorization = "signam1qprxnlaq66hzh409vhj62g9t2ga244vjkuw8awhuy68nqryeh4wchph5hl23vlaccwh7xewd8jl79ahjpwy886prsqlsn205r6p0whgwzs5kgu"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrqfm0u7sdt2mkyzmvgg09htkv8ghkelrzv0xu3chvhzz3c2gqaculu66kn"
+authorization = "signam1qrt202uggt492q0glw5mdpnwlctn5lu0wqncph794y5a4q72txvuhmcsugev5f57a7sy98evz7xwgr4225qfyrxfdf5932jkjc7s7zqr05qn8f"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypq3qud9e552f37fcmn58w8zz6nttcsl2jgkuuv3vhyllhk3j5h3zsn8z63u"
+authorization = "signam1qxyzxq8224ztrsgs3zl6xdp7wde6na4e0dnypu83v6yle4n6hkps2ceq7dxnyph0z8v9tmzvawksn908j639a7awam5mes2jh08cejusqy4e0dtq"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp4r2pmmrz3ek6cnfc6q468rn6j9s0z6g73ajgsnxxt628rh2fqc6cxv0pnp"
+authorization = "signam1qxlrmvc9alhtedzl8d5dmr0p5yyleckdw2p096vfvzg0q2cufax5sh7fmkvepxyh04dutwy0whfe6eye4xwn7c4m5vnaj5gnlfyrm799qqdp4v9j"
+
+[validator_account.metadata]
+email = "brad@originstake.com"
+description = "OriginStake is a trusted Proof-of-Stake infrastructure provider and validator to comfortably stake your coins and earn rewards with Namada."
+website = "https://originstake.com"
+discord_handle = "mrspir"
+avatar = "https://raw.githubusercontent.com/tungdh1/originstake-media/main/logo/originstake-logo-1-128.png"
+
+[validator_account.signatures]
+tpknam1qzler7ux30dmv6p0shrs6eutfmc2yr30uvceqtwjwf7h9wtgaycw62vez6x = "signam1qqtxeul7seqa7p5x0pgkv9c0xpqvyp89lnvfwmwchrcapmfde8y0tp0tpyx65ddtvf4dv7ymts6dh6zpjxazmycfafw6jcvcq73650gqzm0mnr"
+
+[[bond]]
+source = "tnam1q9n5lux9msqq6v2dpqhs679zd8muae3xmvu2qpas"
+validator = "tnam1q9n5lux9msqq6v2dpqhs679zd8muae3xmvu2qpas"
+amount = "2631505"
+
+[bond.signatures]
+tpknam1qzler7ux30dmv6p0shrs6eutfmc2yr30uvceqtwjwf7h9wtgaycw62vez6x = "signam1qp23lzj5ghltj3m0u0ntensmmlj6l42qem2wguefqy6h78ku6gl2s6ej4rmxhz678jqg75368dzfx26vfn4gwh53z0vs78jfawgdgfqqku9yey"
