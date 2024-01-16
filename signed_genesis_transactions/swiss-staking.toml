@@ -1,0 +1,46 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr8ppul2enz4g3w5tg7nr6kp4ngu33468pxj3e4xgzx2l8ru5y86x6w6r4c"]
+
+[[validator_account]]
+address = "tnam1q9sdarpylwxd5vv3e8u6wstrpz052jhls5g4a3wg"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "173.212.223.233:36656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qr5s8ltthxyy3ngfwjtvvdvmgw4w9utlqhc5h3xr3hlh298s6emr2csaef4"
+authorization = "signam1qzxw5d022ucfskqzl26k0y8farjakl9ssqhpfj6wnq2azsuddmnmy5x9mepn5kczyexpsxtee0ape79v7yxrq3n9km5hd23shx5er0gxkxzfpg"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzmysn2t6xr3e20s2jqfmgx6xszf58mrwqvfne9nrlfhl708ywkgvkurj0j"
+authorization = "signam1qqqryrug08jv7a0wenppferqmmxczruyy9cw2vt9pjwxpaacwzgm29e4jwqjl4vvap274lrrgw43f3jmgfdp7ns87qmjylhphqvvudqgjgssqa"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzjzju767rgl5uvc7a5l49mgly6gkmjl4lp7hppmg8nhm988k6hguhtr9vz"
+authorization = "signam1qqnmc8ujl0x3qqd7cm9dend5ld9a6v6elus8374u23txe24n8gq6plwhwkmza2ux3q75tuezpmr34gmk3f7ajhv7d5sq2wlwgntnppswh2mrcd"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypnwrw8a5q3da8tyyy4uf0uqcyjaqe6vmyhmwg8gh3sh5hzmj5e06q73h87f"
+authorization = "signam1q9s5cr4q0pvd4l5zxa0ehlqf7qjlr9l0pqku62m4elcju7t65f7m2r2pc8gl89j8j8ev9rn5d3lyrqclezmgalaygyhcxvpk9rjxdfk3qy5tux72"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp7awdggk0epvkmxz3dmmwv6epka48cct4e0c6vwdcr4mlfs58zv8cek2vky"
+authorization = "signam1qyml0hcg6j9xqes9w874w85yrhkzve26qjmlk2luedul76l0ky5q7qe5fzma9u669y4a9rzq98hz4are0kdcwmj47l0x0mh7qat9utz2qq2g25cu"
+
+[validator_account.metadata]
+email = "info@swiss-staking.ch"
+discord_handle = "creeea"
+
+[validator_account.signatures]
+tpknam1qr8ppul2enz4g3w5tg7nr6kp4ngu33468pxj3e4xgzx2l8ru5y86x6w6r4c = "signam1qpu3r8ysyj7qlkjkhtgyj8evl3e0xgyfdm7xxq7mx2rrnv2m44l5j5rq03gnwm83jswg0uqpa5f8cv3s4cff78qrf0vz5tn8mag7u8sdtywnhx"
+
+[[bond]]
+source = "tnam1q9sdarpylwxd5vv3e8u6wstrpz052jhls5g4a3wg"
+validator = "tnam1q9sdarpylwxd5vv3e8u6wstrpz052jhls5g4a3wg"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qr8ppul2enz4g3w5tg7nr6kp4ngu33468pxj3e4xgzx2l8ru5y86x6w6r4c = "signam1qqklfm94pftuj3mdmtzq5zuasckxza5smrqsdnhry7wu83zlhd6rdyvdk7vvfz2c74yt2hwd0ze4e7w43gwx6kqyu52z53zr0ytd34sq2cvzqu"
