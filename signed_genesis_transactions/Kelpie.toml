@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qphhlk0g5lc2ec8jz05fpdu66ydf4saaa8zpdxkhgfjyhu56w6a72ezwwqk"]
+
+[[validator_account]]
+address = "tnam1q9zefe5rmxtvnzc3m5ttw056ct969lmycs7geycn"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "144.91.87.99:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qq8ezx6ukgll7yxpmclcuw26y2elv3szm83n3rwpzzxsthyk76m4cvqkl6j"
+authorization = "signam1qqpl8nmujecaa2zmuxd48ghlrtkhwhp6eeskrpw45dp0jaq6drdrssejqr5wvjhxtqgphjqxfn648lff735tqt83qzyk7arkmwpvqhc2dtt2nk"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqwuj48ya9yqzegcfp7t5wfl8v8n6lqesr8hnsapnef2ld0p3h3ygpx9ga9"
+authorization = "signam1qqlj5xedy8qrj6ep2drflzrnamm68ee9ykhxqevakwy63kpwrrh2ed4zv0dmqvctkx8l5j07l0ty4adzmqaxlw52x6a8rr8fwem9uesd99laua"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq5th0f2n270qjeks00xcluz8hhrg7k67n7s6ad4336280kuuchh7dwfcze"
+authorization = "signam1qzlmv35vxvv9x629vyhcsnmyddwg0vukaumxwhgx38pnazme8xlcn5mk53f5y0n3jnm7zfusc78v0attxyr8n7q8t9pf3lxqur980wg2g8lgpl"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp3matfyva4xrmpmg7gna0ckn7cv69v0c8s39lrc7drx63swf53jmct5cuja"
+authorization = "signam1qxmdkrw9nu5wphhxduxmuhng5s08x3zfufwtmnlpvf894fnfpkjtz9nwxn0xms4fm4jqd6ssag8427mqtw2rk49p5psgwg0qz0e529ltqq5vvrej"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp9ynjqefeegssydjselmkkrl5dmkxysqfufmr3uygg5ya3hxw4g4qpd5xe2"
+authorization = "signam1q9sanr4rcxhzl7tsme65nucm9wxxfs8a3sqspyqtyv3s9p3areunj09s545j2gnyr365hypxljth5w55788prrxarldnspawsj68g0azqq8aelhq"
+
+[validator_account.metadata]
+email = "kelpie26rus@gmail.com"
+discord_handle = "ke1pie"
+telegram = "https://t.me/kelpiess"
+twitter = "https://twitter.com/kelpiees"
+
+[validator_account.signatures]
+tpknam1qphhlk0g5lc2ec8jz05fpdu66ydf4saaa8zpdxkhgfjyhu56w6a72ezwwqk = "signam1qqrm6zrr5r6lzzpsskh48n444d67gvzeqqh9suym896uwgajkansged6d457ckh7d4fsdd2facha0ldavefyq2euxchseq8dr3uu59gyhmqdar"
+
+[[bond]]
+source = "tnam1q9zefe5rmxtvnzc3m5ttw056ct969lmycs7geycn"
+validator = "tnam1q9zefe5rmxtvnzc3m5ttw056ct969lmycs7geycn"
+amount = "2600000"
+
+[bond.signatures]
+tpknam1qphhlk0g5lc2ec8jz05fpdu66ydf4saaa8zpdxkhgfjyhu56w6a72ezwwqk = "signam1qrmkyjk7ecags78vp83hprepe9c8px2ryfzuhx95aec3lg4q0fgsjhykawjuxedzr0ye5xtcc9f3x7zpfnjpygqyz3ql22t3ms5rgfgdkzszqs"
