@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqy3twsrcrjes452ws0xl07w0e3zt8dmwhnkmnfg0u2xeuwymaw0v5l5sz2"]
+
+[[validator_account]]
+address = "tnam1qxzmkvh9d8guftam56qznfxenxwsgp56xc980ggm"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "15.235.214.56:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzs63cqkf8ezf5fhnryjzv7kfulxzh2ayl0jfjvzs8n3nsmuhayrs2c9xhw"
+authorization = "signam1qqcd7cn49tvtuest77q7u9rzsem59n08xe9e49xqmydvwhejajgqqlg27cy7xc7npcwqcldsgtqx2ncetew89gesgc5p99r3pz4masqvj3psdh"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp3h3pez7u7zw0msd67sjnyqg9vkml8ksmk44g5r898akn35tp322zl3w3a"
+authorization = "signam1qr9kthhuhyfmkl2esu32h6p9w8zrg573nwhpfxpw0laqt2u7577fd95zrrhpnxtq46atymkgnnhu2ucj7lzrl02e9m4qvzaggekzq8g0tjhrue"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qr43pdcaugzaghgse8c2nx2a9sx2uqp08f47gdeshvg50fu3gjdpy4edeq5"
+authorization = "signam1qqj5k829y53wlnhg6w5xft87huvz4nhsyz6804qezq8cjcmzp6vf0fxl58vrvdpplhn5n3n4kaza8kxg6aajcez5hln204flr6s75qspsd6rs7"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp8ydpjmd6dwl9sgan0zx7namtc9klrwmy4w3yv8zq0uf33mxqs7ag0t2q9k"
+authorization = "signam1q8h9n3jllc8l5hmx0dwt3my60n8mr2jlflhh24xpcwvm7cgaw9udqsf352lres3duxr7s63zkdg8feq8h86q3u3ez33upcw5wyjrxc2xqqlfgpyy"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp3cad3ygtwc07f0kvz7jherh88mu4fl4z47r0tn3ncyw0m39tzq8g56av05"
+authorization = "signam1q98prxzmnwgrxrrkr48rpc7l4gc73rlcuwy6ptlcs6f9gk5dvgl7yvg2fqjuknhw92858sr4rnaug6u2dlk3ru8vndzvzecps203ev7gqy42v02s"
+
+[validator_account.metadata]
+email = "pongchai.t@contributiondao.com"
+website = "https://contributiondao.com"
+discord_handle = "pongchai"
+avatar = "https://raw.githubusercontent.com/Contribution-DAO/contributiondao/main/brand-assets/cdao_logo_128x128.png"
+
+[validator_account.signatures]
+tpknam1qqy3twsrcrjes452ws0xl07w0e3zt8dmwhnkmnfg0u2xeuwymaw0v5l5sz2 = "signam1qz3cdzyd3r6mzrggz4akw60efrktshnn24062vprq7qr33w9xjq230gsnz208npvzflkthufgf6aaswwqz8j3a8lgfdlwhw76zktv7ggfpmv0v"
+
+[[bond]]
+source = "tnam1qxzmkvh9d8guftam56qznfxenxwsgp56xc980ggm"
+validator = "tnam1qxzmkvh9d8guftam56qznfxenxwsgp56xc980ggm"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qqy3twsrcrjes452ws0xl07w0e3zt8dmwhnkmnfg0u2xeuwymaw0v5l5sz2 = "signam1qz43330j3lyz33jas69t67ckpkphwwmagal0y488yccens68ueyeh8m86k0esgm5834433xcu50294whrye8ylewsxvr49paz70pqccf65hhr0"
