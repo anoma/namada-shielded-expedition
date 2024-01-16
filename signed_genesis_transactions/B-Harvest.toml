@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzsqxp9gutkrgjlhzgy02v3f58kvjksv4hzkylece0r828kj9k9r6npu57d"]
+
+[[validator_account]]
+address = "tnam1q9zrv90vj2er6trph29hd4y9t5lhpllxyvtyp9v4"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "52.8.123.83:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp38n6k8qaw3zjmd2l0rt67xrvyaf22y63t7ej69zyw5zy7fauje2u6sh2y"
+authorization = "signam1qz82vmcw7r88jdgq0ehev05w5vel0zed4yv2upxvpetj2e2j8j2dw8g2zsd7tjn67nc6am3kf7q6n9q94flf9emr8c4cd7zr2lklckq8ct2dk4"
+
+[validator_account.protocol_key]
+pk = "tpknam1qr6wjrf08ehzmjalakvwzcrtt4j7herpqxlcufrwktfg860ss96eq8y373h"
+authorization = "signam1qzjd823knd2mqyundpgyeuzj3me9x49xd6ace2agkplljlufp4t2ee06exwydzg55r30t2jtkerntg84ucped3vkj0mzfzx7a8jxp4cg4snhuh"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qr9py2d4zeue02x02jc53m6dhvdvqscjrp4elyhkm2hx58vu09vcq76wglv"
+authorization = "signam1qrrgua470dmkkt77mxc4fajwnl40h0fqy9t8kg4hzdm762096h23wwaznh675z0kzc84w9tznuglmw5xf8vpg05eyurzlsqujduxmxgf0dld6j"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypl6a2d478ftn2ku02nc7t9kkekpspl4vca9en4nvg7v6pekv2vd7sywxknx"
+authorization = "signam1qy930yup5unpv8lt5zv37gadsxnwyemq78pyxp07ejq9aswuen4ljtcvn940q8ayh49cxgv2e6x0q33mex4glv3sxwz4kljagmx5g9mfqq4cd8jx"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypt8pgksznmxvvd7wvg4prlt2lsutgrw442ch9ltyvt708d6h6d3lgyt6lmh"
+authorization = "signam1qy24wt4jnlh2quj38jk9cwfjd7l4zhdnshldpxwzdtjpg7cfdpjz5xjtk0y2szjax3y4dejsdwtsga3cy2z07pv5nc9zvw355jkcch59qqmwg6qv"
+
+[validator_account.metadata]
+email = "lucas.ku@bharvest.io"
+description = "Provides secure validation services for dPoS networks"
+avatar = "https://seoul-fileserver.s3.ap-northeast-2.amazonaws.com/bharvest-logo-x512.png"
+
+[validator_account.signatures]
+tpknam1qzsqxp9gutkrgjlhzgy02v3f58kvjksv4hzkylece0r828kj9k9r6npu57d = "signam1qpejur06z2p25ku5qnp2lh6cufn0qkxnp2q2lwpkv4xh0au6zevu4rln2vv7lh98ys5a3wqqenj55yatt96klzn73535c330lycp7cqrd3k4j2"
+
+[[bond]]
+source = "tnam1q9zrv90vj2er6trph29hd4y9t5lhpllxyvtyp9v4"
+validator = "tnam1q9zrv90vj2er6trph29hd4y9t5lhpllxyvtyp9v4"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qzsqxp9gutkrgjlhzgy02v3f58kvjksv4hzkylece0r828kj9k9r6npu57d = "signam1qq8s54235e8dmkazvlptkptj5c025e9y85y35puzf9yefqhcxxthvqensau4ysz738tsx0pwvj8wkavgx64fr4kv84zzyfp235t0v0czukz4rt"
