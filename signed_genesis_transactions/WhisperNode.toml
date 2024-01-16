@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrmde98m5n2ra4232glvl3xgc2z52y9u9x0wp0y4w65rmx2sv09qzth4h39"]
+
+[[validator_account]]
+address = "tnam1q8z0zfx4yzy373skjt2c744p6jsfpdca7upw9rcu"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "162.55.94.142:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqh7kvx9kpmx6ffneygc6c6d7hk2c0y9qmq4vvycmewhml7z7cfqg6ecute"
+authorization = "signam1qp6t3vmzkq89aec5nlqwks84yh4v0txj8frcqzwurf3ukn3f85amgrf0f5akqrurnnjv6agkl0yhplj067exe0vcmylrq4tweum2f5sf90d0s2"
+
+[validator_account.protocol_key]
+pk = "tpknam1qr5kc7gkaxaetuys8kx30x49sn2zk3efukljn0mydk77u37fnr3gx5jm79s"
+authorization = "signam1qr89kg5nsqnfr6vgmvaw98snrln85dfwv9n02xdr5wahl25fkjcxv6z9jvjzcg2ru7r06sw9e7wclz2u7fvadf324ygvg4d6948hrxgd6akwm3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqct8jpqnedszjrx8e0k030lp0dxrzxrl59c8qucc8hnkzf0nwas7yd3gf5"
+authorization = "signam1qrzch9wuschegdu2xnap92py84e0zmmse3mgu94h0gxsvjye24h2cwzanjggsesveuxz0dzptk9x5vaqv3xt4p3pa8uw8s95ny40uygdp4drss"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyplc4ufq9wauzlr3hmvmyfl9a9kt99cu0tuvkymp53e7gcdexw3s7s6atakt"
+authorization = "signam1qxkwstjagwam5jlhusa9vqjna6klsv3nhylxrnxzrk9u7hzmrdrqg3n97y6kc2wn7yzv8guq543zyuh9x4tt7jv4lf0syj5e23psweenqqftaezw"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypcgv4ag6pwrwslh8gxpjv4sf8pr52eezl3wkh4j2q8qv0z74cp98g7ajdxg"
+authorization = "signam1q8vwh4pq2re8yk6qfhlgszhr90luavm2xzqfrzfdnxna2tud9rgzzwvzm5e65zjhc9cr5wfstgwert42da4mvpzs5qhfd6us335nyed0qqttr5y3"
+
+[validator_account.metadata]
+email = "brendan@whispernode.com"
+description = "WhisperNode operates robust, high up-time validators across the Cosmos ecosystem. Auto-compound your rewards with our REStake app. Join our Discord: https://discord.gg/4E5KZsRtjE / tweet @ https://twitter.com/WhisperNode 🐦"
+website = "https://whispernode.com"
+discord_handle = "whispernode"
+avatar = "https://brandfetch.com/brandspace/idaNUZdaHv\\?view\\=library\\&library\\=default\\&collection\\=logos\\&asset\\=idA7izWfSY"
+
+[validator_account.signatures]
+tpknam1qrmde98m5n2ra4232glvl3xgc2z52y9u9x0wp0y4w65rmx2sv09qzth4h39 = "signam1qzf3kqhr6l4c27ym5ragjx5he572v70qa0umskdaxeqhaa6c3gd7y5xd0pgrjvw8rwy7wthth0llfxvce942cmtkmgxltl4vl5sszycvrv4hgk"
+
+[[bond]]
+source = "tnam1q8z0zfx4yzy373skjt2c744p6jsfpdca7upw9rcu"
+validator = "tnam1q8z0zfx4yzy373skjt2c744p6jsfpdca7upw9rcu"
+amount = "2631548"
+
+[bond.signatures]
+tpknam1qrmde98m5n2ra4232glvl3xgc2z52y9u9x0wp0y4w65rmx2sv09qzth4h39 = "signam1qq3duz30zuk58t8hwkm5uzwd69yfu0tewum9knwtl9kty4565qzxnmzwyd57snsdc3ney23ea82x64a94fmdsfvwntfvx5u5tmnh9ms2z5lqrc"
