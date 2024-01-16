@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrd28tqq5z77z7dt6fn3lj3n54fv7eqy9yv2mh84z067sd7ttmcyzuq5mhe"]
+
+[[validator_account]]
+address = "tnam1qyputcfm8xuw9u5fgdqqe97gy09v97czvg855kes"
+vp = "vp_user"
+commission_rate = "0.1"
+max_commission_rate_change = "0.02"
+net_address = "51.77.226.129:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qq6s3n23j8ak7tsnf6gp04t36lkwt6ttqjgl5c9vu7r9zqsa25eyzknlxv5"
+authorization = "signam1qrpjs63sxyrza79ktpn2rhnvud3txchkmdhuuvtg57jxam66hprlhyju3md67qw2sp3mhag8z4x0ef828x9wy7dxwhvg59xtlk9ratqrzmguza"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpd7hstpem8g8m7mv0ejmfsy4aecru2qr07e7r4tjaa8e63u8f6njea4edn"
+authorization = "signam1qpqwky3wqrjvcejn3xanqhnm5mlcdtvp3kr2wk456963jq3nsssn4jah43ajntczz7e08gm0wdah5qk6r9x0k87ctgg9gmnly7mrdqc2yldxn4"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqz3qhlmu4cggtfp4zp3qk7sqwkfuncwn9qwvlq5nup7rpmx43mlwvvw4fd"
+authorization = "signam1qrdqar40nazut2sfg2rma92rvf44aptqnmw0gv33t7afvc79geyn9f38m8f8hk0kuquy48y3rfhpau04dx96uxk870lyhqx59nf4rusxxuj6qy"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp8908v74sz57q2t2cwdsv6yf2zmw0t37ud2pl9kx0hfk7ukzyvw4cnctj37"
+authorization = "signam1q94hpf7tfzuy4t0sgsmyeemum2teu0skagdlqmm5ktvrt7lddswlx9886tsw0rdyfasd29r2d4r8f3m8q3uj3ems9klxuqx532txgl9nqqcmsy5h"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypnz6jk9gxfq50758d6p3vnc347985netk38ztpq0sf7arm93wjn2chnx66k"
+authorization = "signam1qy832gv43mdp8ya9656pmm9rsmugyauyvn9a455xglmkphj5nuqyq2mpcthata87hgk4lzwq5ma9nr7jdr6dpghaa470a52m0zskws87qq65yvs4"
+
+[validator_account.metadata]
+email = "devops@luganodes.com"
+description = "Swiss-Operated Institutional Grade Staking Provider"
+website = "https://www.luganodes.com/"
+discord_handle = "hakai0625"
+
+[validator_account.signatures]
+tpknam1qrd28tqq5z77z7dt6fn3lj3n54fv7eqy9yv2mh84z067sd7ttmcyzuq5mhe = "signam1qrscz8fepj78azxjjklayx2xzw6mmfkca0zz3t0jyn3jc6s8zvtevru86nwcnl78p00z49raanaesesqy3e0g87k6hye8j687t25x3gtnt72w0"
+
+[[bond]]
+source = "tnam1qyputcfm8xuw9u5fgdqqe97gy09v97czvg855kes"
+validator = "tnam1qyputcfm8xuw9u5fgdqqe97gy09v97czvg855kes"
+amount = "2631539"
+
+[bond.signatures]
+tpknam1qrd28tqq5z77z7dt6fn3lj3n54fv7eqy9yv2mh84z067sd7ttmcyzuq5mhe = "signam1qzxl8s5h9g6gf9tgh0xkwhcfpfeexa3hsn47e5037atnjgfc6dx6sy9nqtfa0rmgq9m638p02vl7rzw5h8zc8767q7dr7apzmr7v9gsvctnn0k"
