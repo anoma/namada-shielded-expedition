@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp0m7lrsdry2tdhqyka3u9jpex2e7xc82kjvf69v9chysaq95w5eg903f8s"]
+
+[[validator_account]]
+address = "tnam1qx6u8kz57nvnev89w3er9khr7c4ya76jgckp2rm5"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "51.91.118.45:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqcnlfmm7ggxfdcsf56ncqkz9kdghxat58hz6rsvjv872frx0tv67aq5vac"
+authorization = "signam1qrprs3xumfsl4ejcxjketgxtwsffnwzzqf0jkautzdukkcp7r4eh24gpafce8za2g3g8397mldgvatdevhnxnl5dv3jusu59apdcswsdmhyruw"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqfa7shm7mgsq5uqeu7q0vgnnwga7ralwkfx768ql5dd8lsmmh6xq06x378"
+authorization = "signam1qrvhdlw4ljr68myu98lgkmqhn8f0n8zqd9t6pp469tmz36qkdjcj9tr4c62lfv9c5fhapx0men96l4t22ryzaqtn4mmnvwymmw2f3eq2yupqz3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp352q3netun7j7tj8sqajndnhjtxxwzxt2egw60s79ng9lps3qlcgsteeq"
+authorization = "signam1qrps6qgm6wrf288us07s92hc0g4q5jkmd6g3m6jcygs7nt8dctw7gxrmmx330pwn65h585sgh7nv4fs3cj3y2z27agum5jleyj3ujnq2rqlcp9"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypwrgrgzsudgk85thvfh52k0whv0v3k90q0r9rezqaych3fz0q2svczjaha8"
+authorization = "signam1qxhxdd7dtnksg68qr0mkarcf0kqsz9m6nh99xs8dz2l8qac9ucf2u7vl99u3gk3zzt0l8qy9dr0z48ehdj56pt8lkfq36qalaxtduxzqqq74mulg"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypywn4g78fpspm6y8heqmfyvynvk2t95qadhyp7nvcquupjpedwy3clpva32"
+authorization = "signam1q88s92fjkx6fzvxvd5ldjty77jnfss4jcf82djjvf66vetx6jg022fuky3x587pnzdg3f923m7rf64yz6a4esk9y85e752gdju9sglqdqqhtahu7"
+
+[validator_account.metadata]
+email = "validator@neuler.xyz"
+description = "Accelerating decentralization"
+website = "https://www.neuler.xyz/"
+discord_handle = "neulerfzco"
+avatar = "https://www.neuler.xyz/img/Neuler_icon.png"
+
+[validator_account.signatures]
+tpknam1qp0m7lrsdry2tdhqyka3u9jpex2e7xc82kjvf69v9chysaq95w5eg903f8s = "signam1qp6nf8w8uxh4qxsxd7a6ywpna4lhsp47teka6jm5ldj30ep93lrkcf2vxhy30zxnrlhcet55tnsgkhsnt470fpwxwt8vvee3z4y2jmcyqjmdnt"
+
+[[bond]]
+source = "tnam1qx6u8kz57nvnev89w3er9khr7c4ya76jgckp2rm5"
+validator = "tnam1qx6u8kz57nvnev89w3er9khr7c4ya76jgckp2rm5"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qp0m7lrsdry2tdhqyka3u9jpex2e7xc82kjvf69v9chysaq95w5eg903f8s = "signam1qp0k0wf03ktpunu9pkd0t06y97d0eyyrtreu65qcln2h529cvugdu60a3j3at9dkjs5cyytcre6qfj9nledlfvq85afg8kdxehkjuucdjpuvc5"
