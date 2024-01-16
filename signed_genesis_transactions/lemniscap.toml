@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr8ftjdhnsj90a2e6s5njjl6pvgfj4xtqc4hj86avpr2r79j8xnekwc2fv9"]
+
+[[validator_account]]
+address = "tnam1q8xqpalc2rlkdr6z4vgs9u0yhd8a908gdckqfjew"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.21.163.230:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqmefqhqmg3fjptrzslhnnhtaw6yy99sfd6p2lqaewv468vujqfa7c6hv56"
+authorization = "signam1qpa5e74qeddjx79dufd2anspfqec4kla8vamn3xuswlxzgfl4g52c5m4c0tvwzylw8ek85swya60j7a47f7u3m6hnt43nwk4fp62wyczehw50d"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpaqc2vecnfvl6xxessrrxu5equft9qpklwgztyrsfnuj9g997txx3mr77r"
+authorization = "signam1qr89xpnll9wcw4x4ln79hrdchdqgzwatpxzgyrrmv4557cdjnjm4r3lc6pp4fqp74l0kmld6aw099exjuqrqsqh248sa66e63x88hlcf8ylfhs"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qptwtm92zxvsx8g2eqsuf647t5fuy27ujr9t5taf0ts92v6hu787kqm7mae"
+authorization = "signam1qq9459g8w7awflmf9etpq9sj4acvklqwy4kkq2qzves3g4dakdcw7e6jzzfhdq6hzl4tjktcavdvgv5zutzg83jtma3n78crkrmm77q0cvpgcn"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypv7sxeqx2syt64qlf47e5dswq724c8ehld3qekt55ug56gwhqnw4cgm5f2n"
+authorization = "signam1qx7m5c5w6wzw7e5m9mfvuaa7xe0xvsx8r0phztc5r8p9ngy5alamv4xjh2sa7ljjz2fqtl993aeyralzu77mwcpgd2g9l26pkszsjjnlqyxp0a0u"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypq67rd9vh9fgvzvlhjryddghyf3xq89mv00ms28a6xfzhxslwzxqslemv8z"
+authorization = "signam1qxah4saxtuc77gpnwhhd6n4ecnnsgf7vthlpkwyk457kyylrq2auzece8mta03arslmj43wkwspfw5u3ux06gj20yjmtht8slxxqu3lnqqxjmsxr"
+
+[validator_account.metadata]
+email = "sjors@lemniscap.vc"
+description = "Lemniscap is an investment firm specialising in investments in emerging cryptoassets and blockchain startups."
+website = "https://lemniscap.com"
+discord_handle = "sjors_lemniscap"
+avatar = "https://lemniscap.com/lc_avatar_128.png"
+
+[validator_account.signatures]
+tpknam1qr8ftjdhnsj90a2e6s5njjl6pvgfj4xtqc4hj86avpr2r79j8xnekwc2fv9 = "signam1qr0eskwknmyu2ll5j92r5dfplenz6z4g6qrdltszl8yfn92ytdcty52dzlwrj37t68lxnelu9gu99fgqenglt46jd3ytpqylkzjzsxq989mkdp"
+
+[[bond]]
+source = "tnam1q8xqpalc2rlkdr6z4vgs9u0yhd8a908gdckqfjew"
+validator = "tnam1q8xqpalc2rlkdr6z4vgs9u0yhd8a908gdckqfjew"
+amount = "2631549.707602"
+
+[bond.signatures]
+tpknam1qr8ftjdhnsj90a2e6s5njjl6pvgfj4xtqc4hj86avpr2r79j8xnekwc2fv9 = "signam1qp0ad20fhku3z0q94pshkh9ywwyzyp5yjypyf9r4epfatyct3hx82vagfgp03qdw65pnlc6qss30xxwgttrddf7evy67k5lwgznf22qr5pr668"
