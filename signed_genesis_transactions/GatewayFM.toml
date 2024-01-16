@@ -33,6 +33,9 @@ authorization = "signam1q8p89pkwlnjnsv3ldqujfqd9h0gm3hup57juzgpvtg2zav3ytnmpg8du
 [validator_account.metadata]
 email = "infrastructure_team@gateway.fm"
 discord_handle = "zheli"
+description = "Gateway.FM is a leading decentralized blockchain infrastructure provider."
+website = "https://gateway.fm"
+avatar = "https://20572069.fs1.hubspotusercontent-eu1.net/hubfs/20572069/SPN%20Logos/gatewayfm-logo.png"
 
 [validator_account.signatures]
 tpknam1qppnlry2a00cje3ntss00dym0rvc6f3kw6jvfpzruqzddvrqmwrvzh94u9y = "signam1qrhz7k2qur0mkrptfh02vtcjmwg895mdujn76qsns0ma20xlqeel4y8lz58zr8jnm3ex2smx5pg7z2nnlg36zlrdtgxalk4hptdfecsd2m3mge"
