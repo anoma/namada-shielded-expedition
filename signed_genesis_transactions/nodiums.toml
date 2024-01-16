@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq094nrljq3gl4fnjr9h52klx8x5engaqlxvje7g7chnkzzrxez5js7rdu9"]
+
+[[validator_account]]
+address = "tnam1qyueg5eyjv2lxujzy064g29drrl38nydzq54u4ah"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.8.251:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qq2a4a6xtaqplks45pc008mc3vujtrpxs8y9vku2muz3u4a2qmzpz0kprum"
+authorization = "signam1qp0rhwnfeek8yhk93grkplvpfk2fepg4s5ydgn6th0n25zz0u4wr84q0l87tmgw8l86xtaey2z0hgp7mc9l39sctmmzmwz86hsz860sw4q68rv"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp3v8ar4tvsq3yqek20kpyy3mrk3agan27zpf40p438rxst9jut2upy9h9m"
+authorization = "signam1qzcul4w5vngr5k2z7lzxlqsxjvtvukw9mkwk9sn7klj44k5xf9809npphl8633wac7q0d57659yf9r2qsae6xhlh25zdlhz432wy3ngv8jamtl"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrcpupx62zqkv98rtngqsg8sny2knvgheel8zvc6wnpskxfa5p7vkzarn84"
+authorization = "signam1qrg3ansc0zsd9498q6gjr5tg3yxfea3q8yy2a767udfj4e04sw88nxu5gj7elayklqw2vevtnh39xkkrp20n04arckvnq7fh8g84wgcz4dkgl8"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypjddgrq82v0ad8mrgvx98szvjemcxjxmhnvvcn2n5p6drncuafc3qytt6c9"
+authorization = "signam1qx02sh5s2cfr86slqdskkdaw0tv65atuatx270kuddklfxnm3ywugjch8fcfej3a0rzxukh8nunshr0qvn4csuamrahzf7v54fqv2cumqyna6efa"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypce793kyzap8yx9ctg9tdpmjvtudt4t3qja9mc65590m6a8su37uqlmzt0y"
+authorization = "signam1q87fx52jx8mcqjj93uxrxu9pun9mkmsdnu58p0mk4l8ngnr05vdx660pp5qq9afn5rdapgd0e0jqdv2h5rzawc49agjha2uy7w2s4zp2qqchwhj8"
+
+[validator_account.metadata]
+email = "nodiums@gmail.com"
+description = "Nodiums — professional validator. Slash protection."
+website = "https://nodiums.com"
+avatar = "https://nodiums.com/wp-content/uploads/2024/01/logo-11-1-e1705330590370.png"
+
+[validator_account.signatures]
+tpknam1qq094nrljq3gl4fnjr9h52klx8x5engaqlxvje7g7chnkzzrxez5js7rdu9 = "signam1qzz28dpgpr6uphzs2yxw4q5twzxdw230wmjljneg49ec0uyykzpum9w783phlu9gagh2ek2898pv2xkzjhnagf3kt9jay4q9r0unt8qrfw4j68"
+
+[[bond]]
+source = "tnam1qyueg5eyjv2lxujzy064g29drrl38nydzq54u4ah"
+validator = "tnam1qyueg5eyjv2lxujzy064g29drrl38nydzq54u4ah"
+amount = "2631548"
+
+[bond.signatures]
+tpknam1qq094nrljq3gl4fnjr9h52klx8x5engaqlxvje7g7chnkzzrxez5js7rdu9 = "signam1qrnfjchyva03c0pcpg4npvvp6e4cs9ukfucxdk4rqrzemplucflpyrlqttkpsxjgazsae0r4f90xnpg6sg5qvas6a2ajw8sp7a7xweqtqxkxhw"
