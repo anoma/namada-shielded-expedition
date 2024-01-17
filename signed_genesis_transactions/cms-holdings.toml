@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qztuz3jtat7jtyhac796p5ls5hvuwcru6y8gdsy6fuhg8pdxu9rduxcayly"]
+
+[[validator_account]]
+address = "tnam1qykx0c3a0v4e2hcza6wphursv8q4xsguzcgn7jg8"
+vp = "vp_user"
+commission_rate = "0.55"
+max_commission_rate_change = "1"
+net_address = "185.172.191.9:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz4q2t3tf9wvcyr09wksre5j47ktxrl9ygwy3zfl73cj3fayj02c58dprxc"
+authorization = "signam1qzlx5l7xw85h43sv7u09v5nd8a3q07mpygggjhxvqfzccuzzhej94vhgfjajanea56quy0jtz8j6x34yr36639h7zkkwzvkdjk5wdjgt5gw0dk"
+
+[validator_account.protocol_key]
+pk = "tpknam1qz9tr8n299jlx2r6akjm7355vdgd94r2tud5hygamg8nwqu46279jukaekx"
+authorization = "signam1qqfquw4hjz8j49ft8l6h823x35qzaff24m7dlr5q89spu74fdx2t9ru66v5kv9cf0yvraru4ldv2remx62k5v8uthdls8q99t4ahyrgxzmwjlq"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qz32kvk60g0068zgssapym8c7xzelscxu8p6she5hd5sn9pr6qfszx2j7t3"
+authorization = "signam1qrvzqdnvz0t83cze7phyvc4l8kjgh3tl3v7g9s5emn285dags2yav5phn4hqszcp32hpv9vxtdcx6nse2s8kdttru8vaevmdpn90gxq0k35w6y"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp7ywhr86wmgprqkgvmfe4fl63h82ra7lflmkvfvcasxn48wzczkfce330yu"
+authorization = "signam1q957zk2jr526rwklvn4s6vvsuryyft4w4syuvpha2s2t28xl8p6jkwk49ud2jegxp7ajyca7anj48kh94tlu4ytwvzet5ya7nvzv4f2kqqy9sspe"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypkktjggj84wwe358jxuktvwrax9hyuz36snxjfjjvxtvnxaxm9krczvyud4"
+authorization = "signam1q9aumwrk7k0km043uhshflyw2ktk3lft746sxg7vma0j8mwzt2qpydp9s676cfcr3eta5qwyysxj9wh2zs7kgafxd7exy777cn09lzmpqq6cnjr0"
+
+[validator_account.metadata]
+email = "dave@cmsholdings.io"
+description = "CMS Holdings"
+website = "http://cmsholdings.io"
+discord_handle = "DaveWK"
+avatar = "https://raw.githubusercontent.com/DaveWK/general_repo/main/cms-logo-only.png"
+
+[validator_account.signatures]
+tpknam1qztuz3jtat7jtyhac796p5ls5hvuwcru6y8gdsy6fuhg8pdxu9rduxcayly = "signam1qz9qtv66l6n6g0ffltu0ayu59zjy4y2kx5drnp2vhyrqlt9ju5a8r9ty085hsm3znlcjht3hksk8t7aqsjpk27096mtu7u6qldprjpcyjtdlml"
+
+[[bond]]
+source = "tnam1qykx0c3a0v4e2hcza6wphursv8q4xsguzcgn7jg8"
+validator = "tnam1qykx0c3a0v4e2hcza6wphursv8q4xsguzcgn7jg8"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qztuz3jtat7jtyhac796p5ls5hvuwcru6y8gdsy6fuhg8pdxu9rduxcayly = "signam1qp6r5nz6tkdlfch6necazt0svg45c5l7rm8xnfm90zl0u0cfpgce9wx3dxcua95tw0n0zk3dhv572d6keqhxaxz7eu987n2x5t7lf2gr4u4te2"
