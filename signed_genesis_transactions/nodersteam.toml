@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrp48egd0faad2jymmvmdz97p9xdnhep3g62sqdrc8ru8z63zvue557msn5"]
+
+[[validator_account]]
+address = "tnam1qxegpxyj8jnr7lvpnatjhamnzq2v33cg3v4nw3yf"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.21.95.160:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzd633tl0mj9jrmzpqjvu088rce705sjmt5sjdlsr6k8fj4vcpu357njaqm"
+authorization = "signam1qz35hdsvalslwa08dhhk4eajv69cllmhewp2wwrccq35gpuvw6wdqs3aprl8xl5rmh0ks8zwxnvlh6r4h344xckkky98vn3fp9kdm2s8xggdqr"
+
+[validator_account.protocol_key]
+pk = "tpknam1qquerp95cu8s3nrjgcugfe38hztepzk8wn7w3ed0w2sncelm83nz5c4rz2s"
+authorization = "signam1qrkahv64m9tdrafhnuuxdz6w276v0je7406nv9r4hd7vuqrp8u6paz9098ea8fvgcmzx52aptfwz2h98akvv7plm25uj0djrrtt34gq8l3rqe3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzq8z0jtec9865ztv9n6gdv5ghaqwxu0emh9e4tf6nw7v90zq2x55h42aze"
+authorization = "signam1qqlxn6jah29h0tgwawnq3s0gntnjslyxcw05y55phdq8gwmthwpw4jqzwzm6lt02pdt8dx2ckm0dpq452hejyqnnqe8ae0extdjw3sc99uy77t"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp808xnuw90tjugpff9c93cvx95a4f6njlaz8smcfpyv8xpcvt5smqkgplz5"
+authorization = "signam1qye37vtp0e2dd9vwukna7kqq44gqsyqedwh0k6n8xj86pj6xdz8w50p8efj8hudr0x2z44cpzg2lajgz4ncnucqp7xmrd5fpj330s0luqym76dj5"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypln0udswye7pf4sf3u394y43e2avrdnm7je33m9ksr3287sa9pm4q4xtrvc"
+authorization = "signam1qyhwsrr8avgfzhftp3uh8h7f49wxh37nwr8rlq9xjphrtsh7c5auwxwvw995crfqmdkz82j7nvufwj0pl2kc2v250l6sysc6ea6s4d5xqy27j476"
+
+[validator_account.metadata]
+email = "office@noders.team"
+description = "Trusted blockchain validator and web3 developer team"
+website = "nodersteam.com"
+discord_handle = "nodersseptima"
+avatar = "https://raw.githubusercontent.com/nodersteam/picture/main/noders_logo.jpg"
+
+[validator_account.signatures]
+tpknam1qrp48egd0faad2jymmvmdz97p9xdnhep3g62sqdrc8ru8z63zvue557msn5 = "signam1qpkcc4k4drtswdq7z3e4qspgv8962pmakccy3whp80kllyum54vlkg0kylk9z9yul3amry78rvzy3xqz03624xst45se0dphnd59dlczlzpdsv"
+
+[[bond]]
+source = "tnam1qxegpxyj8jnr7lvpnatjhamnzq2v33cg3v4nw3yf"
+validator = "tnam1qxegpxyj8jnr7lvpnatjhamnzq2v33cg3v4nw3yf"
+amount = "2600000"
+
+[bond.signatures]
+tpknam1qrp48egd0faad2jymmvmdz97p9xdnhep3g62sqdrc8ru8z63zvue557msn5 = "signam1qzuddc22t3zp2aflqw7xxdtwwzn6uyqdxlegqfje2lc97cfup8uqp8spscre65ld525h35qq33jm00l9dev8m2fzesj7wcp8tgkyf9gwajf0l7"
