@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqayhk7yx0mmyut4hge7jyk93m2djmk7pkeh0u4apvzzwsuc5qe0x6ktq3z"]
+
+[[validator_account]]
+address = "tnam1q8hu2fww5t6xqffux6uydq9v7m2jl0wsavpu7vv8"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.13.212:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpm5x3tm6t7ejuwyrxjwzxv9w3pf9g4hkar3nsuhxv0arsttaccywrw5ajh"
+authorization = "signam1qqgyml48arcqnkx2aktys33p7edftlt4tc8smhy047v5ny532jcpm0s2dvhx5ysmqps84haf3a2f8lak2xkygh80u2k5p49cjmkryasv2hu8pq"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrtl35lfcykekuhq5h8vv5cuj4jetqn2z5kslckkdkpe9zsd64rgvf8vewf"
+authorization = "signam1qq0lkgm6tj6eqlk7z2p5hndvjq57lmnqfg6sxraacm2el8t8vyf2gej4rfnp9q2p3e3prxuftzf0spqgyyhz8lgzksy6jy386lxwgaggjanhn2"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qptzn9u0mvltv5x67vzt5e0lqr9naagrvkxfug2u7slph336s7cqwx97g4s"
+authorization = "signam1qzgpe2auf0r603h9h9w0mchy89204l2xdse565pyaeg29m5c0w3q92rmf0kg4250hzukw2kckdvuykta0x6ak3chs8hr24djcp3xvhsthh8nv2"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyph5sklydv2pfcd6ua6jfnk9279yfq3jsuhhuj7qpelhhdvqcnpe9snuqdds"
+authorization = "signam1qymepzjn8aw5gs7307eyk68deevwfszu52zfsdytgk36gj4argm3uxh5y6h96tdnsfxu34wvm0fy86kyhj69xau7lm0hfquanx4ce7acqqk7l2eh"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypl406wdn6msxuz0z6qmwpj546rx443egqa3x98c6tyad37pjl8nuqwxjt4z"
+authorization = "signam1qy2vu6tds02yshgv6yxjlg6j6s0ldws52zevzmz423k30gca3gweqh4wqcw3m9982arwu899eun7wq2usfa5mge0v5ue9zc5kk39qc7xqqd9xxp5"
+
+[validator_account.metadata]
+email = "n75pro@protonmail.com"
+description = "Professional validator service"
+website = "node75.org"
+discord_handle = "shurinoff"
+avatar = "https://raw.githubusercontent.com/the-node75/about-us/main/resources/logo_128x128.png"
+
+[validator_account.signatures]
+tpknam1qqayhk7yx0mmyut4hge7jyk93m2djmk7pkeh0u4apvzzwsuc5qe0x6ktq3z = "signam1qps86mcl72yryz6drscgtazmh3falqqqvf9vxdzc8fplc8zd0m92hz8k7uugmxvrvflgtcfj2esg2ujv9803z07367xs0acv3a5z7usx5x6s04"
+
+[[bond]]
+source = "tnam1q8hu2fww5t6xqffux6uydq9v7m2jl0wsavpu7vv8"
+validator = "tnam1q8hu2fww5t6xqffux6uydq9v7m2jl0wsavpu7vv8"
+amount = "2630003"
+
+[bond.signatures]
+tpknam1qqayhk7yx0mmyut4hge7jyk93m2djmk7pkeh0u4apvzzwsuc5qe0x6ktq3z = "signam1qzul0npea5ygax35ftd674t2c6t8d9a00j542dg5pccpleqd5tkr64t6a4k5tm8jmvgck9ngypc9exrjkwk4j6nl6xxpfgfysmcyevswluqnsa"
