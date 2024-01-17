@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzscetsy54ma0x6amzamfuvrvx2lalsms6uz03uayccah7ryytgvv560v68"]
+
+[[validator_account]]
+address = "tnam1qx2xz8ggmzgfgkj5n33fzumq3lept6hf7yqxcrex"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "162.55.80.21:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpr27k4elx6tpl5q6fhvk7alexf7qhpy37yudmhqnn3t88dxjfyyqeq0sya"
+authorization = "signam1qr2a3l68mxs4kaggw2s9tmjavwj7zjjuhpgfm0y8uvkj5pjkmz5nl6ddns6mnr80ptedm8cmpq9f8t0fuxkdw5t47370xey8ggsyhfq84f2e5e"
+
+[validator_account.protocol_key]
+pk = "tpknam1qq4g8r7vksfr98jthqxv7xgtwxf8qgdddmqwzwrqfg2774exw9e4k9pdf7q"
+authorization = "signam1qqrs9mdvnnnzntl4gwpha5x6zv26mryt200zjnryehwuh79n6yxvu8rt63w84f4twwk24q6ch7u6rvns4lflvthqrsl3yj3g6mqc86gpn03w4v"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqa4pg04yfgj2t2gtvycg0kewah9f4c0aj2qtld83hjynelna67tspr00u5"
+authorization = "signam1qp38q2hxvaf8csr6z4q5lhnm4wyw5fefenr284k5znzf0rrjs87mu5rlxfu8mzm8tar29fm4hsk3m8r34u65zxlhryqg2wnxly6emjcy9qqf0j"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypae0lnwdq0s85chx4z4dqw9x0gfww7ut29qc32qwtw7f4wg90v4kgeks5nc"
+authorization = "signam1qyjzus5s66kp5f93uykrprpq5cmdnk9tr04d2hvfm08deha4mtzv7x5wxmzpku3frhrrh7tahzfc4n0ef02enqg4x5nwh5u2sj6pl6n0qya8tamt"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypk9wllgmvl0nxrmghmjcqkc69l296ttakzkctlwhxw47he86nachs06nk0n"
+authorization = "signam1q9jl44caagl9m8mpaa5jg2j9vmdv8em5yjvm6w4x58fxjal7j445yt02ylh43t8lfc5gugn7ecveeu6ucxq9r0kz6lypr3h65g6nss4uqyvcfaek"
+
+[validator_account.metadata]
+email = "denodes.core@gmail.com"
+description = "Blockchain Validator and Infrastructure Provider"
+website = "https://denodes.xyz"
+discord_handle = "bombermine"
+avatar = "https://api.denodes.xyz/logo.png"
+
+[validator_account.signatures]
+tpknam1qzscetsy54ma0x6amzamfuvrvx2lalsms6uz03uayccah7ryytgvv560v68 = "signam1qqkefyqn00t55lkesks5fmlsldw7f4g4s8lyvkh4sg5awwrxykvdqxfea9g2lv8qgxpe0vkk5twwm5ahfscqp83de5razupd8z0pmxgpt9l009"
+
+[[bond]]
+source = "tnam1qx2xz8ggmzgfgkj5n33fzumq3lept6hf7yqxcrex"
+validator = "tnam1qx2xz8ggmzgfgkj5n33fzumq3lept6hf7yqxcrex"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qzscetsy54ma0x6amzamfuvrvx2lalsms6uz03uayccah7ryytgvv560v68 = "signam1qztvpxc2uh968avyuxd3m6jnvn5kyl9gu9p02rae2z6hy7huwxt8xhwhs80q6a6kv5uy6guzgwfygvhrvldl43ayz02f496v4klygaqglm2a3s"
