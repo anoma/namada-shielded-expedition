@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr8tjq9vatkf92p3mmpwyrp93xdupdljpcusvq6lsexs0ven3jusj9433sn"]
+
+[[validator_account]]
+address = "tnam1qxzpknsjdadvapd9vu0xk3kgak6ndkgwvutsh2yp"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "167.71.55.25:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzmenqclegmezk6uj5j493qne00v3zus8w4gwdpju5zh54ngdwy82xryrwf"
+authorization = "signam1qqu658pn99uq5xjlrm0mtks5jd2aqjesqgt3mqadmhvtud78lyrdtc6r4qzxjrj3h662cupv75nrr3ytkr7a29u0ffd2e476zk5zylgvcg4l0r"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzvhtk7hk8qx8m84zgew4u97lvntyq6khtj7yusspzpcgapxl9fz25zfdkt"
+authorization = "signam1qz4sycj2r2xk3e70azzpftq8lfdzgectpdr9w7rk0lqphqmsacft0yxjf42cnzgev3gnzwy2el8tz9w0rz4a93y44gt5drlzh9lmhtgq2fdyuf"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp37r9szhtlgnxt0zqtc9ylqnk49qrp54zed8s2y8fs4r3y5mcakuplkd5g"
+authorization = "signam1qql28avpfq7x08k5vu4xdv7994gkumn4gyya6n6p75rw575gtq26lxe7khh6zlk88vvk3rya6zk5dypahz6axaxmzdm2p487jhwnhzcwx03wkd"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypv3q2xga6zrp98xrhmqfyemv3y9tkd8eujy6nffamwkdu3xf22gjs3k7me0"
+authorization = "signam1qyeq6v6s2ck5s0nhw4pp5v8paa965fwarerewn6lmuwryy3pw2xwyejymvmt9ujtthywc8974dyacc48z8lnw2r4nee0f237gy4fddk6qyqd574l"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypfpt3axnj8rjdf9wf9uwcctswvurc6psz4hr77x9amftrraljg05c2lp32q"
+authorization = "signam1qxg68qups3uxg0ckdyvsesy875w60dg27sqjeac0kthdjqqr93mkwylr3dwxlvdq7dy8whzdtngdl34d2dfp597ma9xmhcqqdxldgy8tqy0m8tmw"
+
+[validator_account.metadata]
+email = "validator@dsrvlabs.com"
+description = "DSRV is an integrated blockchain solutions company with the mission of enriching the crypto ecosystem via stronger connectivity. We strive to be your gateway to a suite of all-comprehensive blockchain services. Everything distributed, served complete."
+website = "https://dsrvlabs.com"
+discord_handle = "heeheejin"
+
+[validator_account.signatures]
+tpknam1qr8tjq9vatkf92p3mmpwyrp93xdupdljpcusvq6lsexs0ven3jusj9433sn = "signam1qqm33vgp76dc0hm0fepvx8qkf33pztpvw5tfnwn6f5qvuxl63dhkd7h4tmkhc73tmgjxzcjj3ws56jw6sms5kzuxdgmn0spxgka88xs066xgel"
+
+[[bond]]
+source = "tnam1qxzpknsjdadvapd9vu0xk3kgak6ndkgwvutsh2yp"
+validator = "tnam1qxzpknsjdadvapd9vu0xk3kgak6ndkgwvutsh2yp"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qr8tjq9vatkf92p3mmpwyrp93xdupdljpcusvq6lsexs0ven3jusj9433sn = "signam1qrsnu5hwcgy9vam8rrv4ktm7kup95g6tulnjdhg65pmphhhppf96dvcqlehsgumgrlfzcjhkz3nzcgluxkn2hg6e6csq78pq7uvmcpq96gda59"
