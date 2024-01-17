@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzpvgeutwn2ttrl4s3hfe3s8rt3xqw2j2zee2mwsux3p9r0ypg4c50dv0lz"]
+
+[[validator_account]]
+address = "tnam1q8knc8dzdmq7x9tk3x8hfs3rdvhwaa2fy5tkt0uf"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.2.45:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpjku8dmjpc6j4wcyrhhn6cwm96hvdy5l8t5ly3g53fwnvqjs9gqjk6s6zr"
+authorization = "signam1qr0prg82huwlzxaqv97v543jpl9j55sj2f79ers2rsva9t7mdh66fj30mkf2ftg4m3dlcj6j6rk993lk7r65wxhjfqlwxwjv8wp3gfgwa2dzzr"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrx6aqm0jwp4qfjvpn2z8hfpey4sq4gs4ugvunnvdxljctdvwuj9k3vn66w"
+authorization = "signam1qzu9jjdhgsdvkg4ejptn8jlsxuuc8tn6lrnysetlkmly6d3qgtn46mfe5zehqaw4g53evvywuhshchhzn5492ckfpl5am8td5jjhw9czqay0gq"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzqn0nl47skal7r06y3psp063fq64jnmplurngc72whk0nsg6h0nvj046vq"
+authorization = "signam1qpesem8wm6ra0q7a0f80lxs7qm7k6wzc3znmn598clt9sckfpjst3lee7qpzytndrzmt4snu2fkcq6ezdacgfem2sleysz38puatnwcvxfkvzp"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypx5m39kgeytkt2kqdxy7d2yxujf8zapy8cxu2rlytglrmms262qfgcun6z6"
+authorization = "signam1qyn6slcejtw3hmezvzta9fpevm5d565wsa3gtz46cjthl57z96hwqfm2jytc4jdt7zvyv4sdc4gx0hrxh4d4zzxcmsvlwrsudpmh5theqqensuxh"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp7rr5urkx7uefxvs4mqh4jn40h4fzfw44z76sst55z229k0uphfms90rxns"
+authorization = "signam1q9952xufrsf4ptkl90l4splke28ep9qpjeaw5e75muwspu89n43scq0sqvh0ppe64snqajym0rysmarca990uvrjscus9m72pqz8evs4qq6esgzk"
+
+[validator_account.metadata]
+email = "dskolota@gmail.com"
+description = "validating with love & care | secure and seamless staking experience | based in 🇳🇴"
+website = "https://4t2.capital"
+discord_handle = "skolota"
+avatar = "https://drive.google.com/file/d/1HPePEtCM1N9p84XNhTAEeXcVAO4-_0K_"
+
+[validator_account.signatures]
+tpknam1qzpvgeutwn2ttrl4s3hfe3s8rt3xqw2j2zee2mwsux3p9r0ypg4c50dv0lz = "signam1qq7x6rfuuf3dhd4j9pj29yxy858ru8retlqlcfuarf63xhn9ztfff7evah23fqnpz438gla9up7arm7899gst0wlpthljzasx9ud3mqfsngapj"
+
+[[bond]]
+source = "tnam1q8knc8dzdmq7x9tk3x8hfs3rdvhwaa2fy5tkt0uf"
+validator = "tnam1q8knc8dzdmq7x9tk3x8hfs3rdvhwaa2fy5tkt0uf"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qzpvgeutwn2ttrl4s3hfe3s8rt3xqw2j2zee2mwsux3p9r0ypg4c50dv0lz = "signam1qqlykgsk5kpmwzf09j4hcf8l6gu84mkqlkyqyamd6ens7z6zlrcpxtv28zvfn8vw69ws4tpynq2ecaautdknp3qeg02k0dr8msyep6cre0hdhn"
