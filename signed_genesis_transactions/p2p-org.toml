@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qztk3xek678p7h7l3yl4pe80xxusassg9wwnez3yme2m3xc8jjruushmsmf"]
+
+[[validator_account]]
+address = "tnam1q84tqxcm0l792cvtx8ufe6erx00fwwjtggv925l4"
+vp = "vp_user"
+commission_rate = "0.1"
+max_commission_rate_change = "0.05"
+net_address = "43.131.63.125:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzk65tjx92a4e8ru6nr75t37cjgn4nmmlsh7vhkcg24paja8xzl2zm3nwq0"
+authorization = "signam1qrsqrhx2mlz2642jpegvj09jaaqepdn9yxc36s3tadnp76ppjg70v5s83jz7r9gd9ungu8jcudlnezfp780kxmwrh4zmwzfqw5wce2q839eyxl"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpdrv69aql3ctx55vhlf0yvk4hajuy0j44rts9st5tyay53dqy68jent3e3"
+authorization = "signam1qq54ch2236jhqlxhga08257v7v5g98p4sz68990sr2ynpn5pehprwlan9rt8sux8pqzls5a3324eqz2c5y30hqyvn6f7m0placxj3hqp3sxdf7"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpegzkx5xunfusx67xlfhx7248guw6da4vaxaxx4nykzwuut5h2mjmwelqf"
+authorization = "signam1qpenpfcccsm227uv8alqkksyuq9z8gayxgm8ryzq897ndgvpwm4t5ntn7tw9403nuzsx044w47dzy3d4g8rtcj8qlea7m6na3haqg4qtxmsmh3"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp5c8rk4eetf4y9j5djtzyn5nf5np2y67us3c4u6mykj953rq5t4tg490sqj"
+authorization = "signam1q94yj6v26wfgwym3e3vn3xjcu4xx6y20rt2tmnfgsttvz00u3wg02zsa25jupn4ur98v5m4tqqrahauf8vmdn96nngfyegk8k5yv9lx2qypg5lqd"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyparp9hv0nzq4rejjd05nnxuurlas4qtkcjn0tsw77j3dc3wd0mdfg6ecatr"
+authorization = "signam1qxhrclvw87etf98cxm7ar2ezvzuh4stj3jfqeuj47a0cxp8sz52dzce5y9m3fx28pjdmyz3tz0m9hugprkjqlusuyrxptttxguqcd67fqqg7wrxe"
+
+[validator_account.metadata]
+email = "cosmos-security@p2p.org"
+description = "P2P.ORG Validator (P2P.org) - an early contributor & long-time Cosmos Ecosystem participant. Stake with us for a secure, reliable and simple service"
+website = "https://p2p.org/"
+discord_handle = "frodo_p2p"
+
+[validator_account.signatures]
+tpknam1qztk3xek678p7h7l3yl4pe80xxusassg9wwnez3yme2m3xc8jjruushmsmf = "signam1qr2e7km58ccdd0hp8ndar6qug96e2trf5pfxh7a0kkul56lzxfarmn9tlxcwj8xvx804u2d0sgpzsl8n6c7rc2crxfnheg9k7fz4yjqzq9phrf"
+
+[[bond]]
+source = "tnam1q84tqxcm0l792cvtx8ufe6erx00fwwjtggv925l4"
+validator = "tnam1q84tqxcm0l792cvtx8ufe6erx00fwwjtggv925l4"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qztk3xek678p7h7l3yl4pe80xxusassg9wwnez3yme2m3xc8jjruushmsmf = "signam1qqrtrlq63uvpdrd7uee3dvuje7kr3erqyzf5wxjge5vcgjqsg34u57pmxjgf0s207slkmuwrkn7ygv3lussjeze92d00tc7m8avjqcc9x0w890"
