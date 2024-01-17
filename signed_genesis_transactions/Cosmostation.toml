@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpaa6gkjjscy68dv39una68nl3347z0rxhrhqyax27g45yrvjwlgclzmpja"]
+
+[[validator_account]]
+address = "tnam1qxgnegx3se9htr05982atux3ytr797s8av39s5vy"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "95.217.231.107:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqcg8t0yc2q8s3eg87962ugq0hm6vjhkft70k26tlwgwnlnrtl4m23ywkk5"
+authorization = "signam1qzag2skclqtuh77p8kg8eefw0aadgnkn8jejvlesz2drx5zasxv2h9kh2zu8u55fjmgv23gp2yn8kf799ejs34l8teeeh70zg2g3n5qdt2s04t"
+
+[validator_account.protocol_key]
+pk = "tpknam1qz30z2em6xmggw0r7jm29tvuy78fkluf02avengg9r6kv0awwa8g7h4zvxe"
+authorization = "signam1qz8t8df5cadtvtnpw5fsl23508zqyjsnf6dn8uzhg84zw48p3f4fzkx72pr9sjyrq6l33pwwj6l4k4kdzayjr6w8ea4qqndxw3ypurqp6hz7gu"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrq3tpgeqjmlqjpqvfkmusnm0ua793kg045qegngppkenn2uadlpwf4v5fv"
+authorization = "signam1qzpgv8vd5lcdrwp3jkxf35408uqmupw00gdtxqwu5xc5f596m2hqh8zjh0ntk64n3qwqkkxglr4thrd4u7a0hy7ac4xzz30qalhmt5cfc02u84"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp6qppr055vt7qh972g80xw3ku5prfycv0vmdwh59c458flhav5jlc6jcvqu"
+authorization = "signam1qxusc43q8pdtwdm4y4nynfm4gmz7wavrp87jq2p3vaz0wh0skzm86e8pwyufds4v2s9t4mdna7rsrtcg3gwnp6x8szs8h8nauec9gut9qy8s97ha"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypzmpylf9427vs58ml8l5lsftcnlhgf3ruh9upcfx73t5wmzxtdkagvp6q54"
+authorization = "signam1qxg3jt0zkj4m2jpyn7ypwfv8unjhgxkknsp49fuywz2t5n9nyn2l5ag8r6qwdgvpuxqhczj6dz0fnwhc4yp6wmfs8wd4yxcc8jtn2phqqy8x72hw"
+
+[validator_account.metadata]
+email = "node@stamper.network"
+discord_handle = "jeongseup"
+avatar = "https://raw.githubusercontent.com/cosmostation/chainlist/main/resource/cosmostation/cosmostation_black_bg(128x128).png"
+
+[validator_account.signatures]
+tpknam1qpaa6gkjjscy68dv39una68nl3347z0rxhrhqyax27g45yrvjwlgclzmpja = "signam1qqynl782rygwypq47l5l5zh9f857pkffx8ghdshc2sslckm9sers7mq2k9n9yll57glx7zqf0ltdx2nrss83kehsazwnkqrl5ec9rpggk2qath"
+
+[[bond]]
+source = "tnam1qxgnegx3se9htr05982atux3ytr797s8av39s5vy"
+validator = "tnam1qxgnegx3se9htr05982atux3ytr797s8av39s5vy"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qpaa6gkjjscy68dv39una68nl3347z0rxhrhqyax27g45yrvjwlgclzmpja = "signam1qqjyg76gts4qtlf4jgam44859zfadc3fuz3h9errxlv5gv2nkqwtyzsxqwjk3x5qt5xtdl2nug3hu7kyxtu2sha02gdpaalk9w4s4lsgm6ehyk"
