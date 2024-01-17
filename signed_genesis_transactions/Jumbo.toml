@@ -1,0 +1,45 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqns6u9zgnt06a29ylnmw6sckt8k8emjfrc9f6sycrq0ftp6s3ryy98dl75"]
+
+[[validator_account]]
+address = "tnam1qyw2u3geeet0vn43x8md5ralthz0ydfz2gcyk0p6"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "135.181.134.151:36656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqkykdxnmhkdm98xfx7grjz320u8lud86c96me45z2ruarxnugdd6vnhj7y"
+authorization = "signam1qqjlgthvyxrnvr64dwa27rhcjavqusrfh44j6mgh95nn35hg0psc4etxxyy59jdgkvxx0x5flcsdq2xzdcz7y54n9979u8ny0g0uzpqdrpg0ys"
+
+[validator_account.protocol_key]
+pk = "tpknam1qr08lpt0d9asu8aqzr5da7nuz4h7skruds7cy0d7xmu85ucqs4yyzxkwvcg"
+authorization = "signam1qr75nkkrc8dm9ygj63qarypar9xjxhtw04jdaejll74gd46ww94lxtcsmwq57rwnu6jwg2szu03ekmvdzshen2zc80xxg8sg6s8pwes9ykatsr"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qparxqgcw5rcgukjrfsqgervxx44g2yht5yn204xwv4wyu86dsk0u426wa0"
+authorization = "signam1qrq4fggpcsmqnzxrnn0gc6ug4l3jytuq7xhm5vd8w08kpt4p8qmdln5s4mms0caqdwr67axv60ay85hzxp5q3x6n63yf8wm0dsrenlc2hv360k"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp2ra2hslmhktxqxr5tctznz5sad6tm3twnqvmm4x7lv9pxvpsqzuscvmd6j"
+authorization = "signam1q8yhmu07hchh44zu6l2kv246szvcwyaj4vzrnxwpsg9xlf5sfmrv2rwcvrts5ekcukjaz38sqnwkxa0qf6far79cay2n9vdx7jxg5wnaqy29xpcw"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp2qlr5gukz5x4un9jsvj5rwu9k7cr4hrtpcc7qecd9eqpt5p2wyxss3u0m9"
+authorization = "signam1q9qk739xea36m78vss0prmwctlyzmepnufyzcvzrxww9u7vzcw8mw8c7jq37xnmprk999fss73z92meuka6jgzgc57m3zz9yj0dvrwrrqylq86fh"
+
+[validator_account.metadata]
+email = "james@figmentcapital.io"
+
+[validator_account.signatures]
+tpknam1qqns6u9zgnt06a29ylnmw6sckt8k8emjfrc9f6sycrq0ftp6s3ryy98dl75 = "signam1qrhakagy889zzys9dp3xp9tk0kyptncsrzcegwhdpq7dvz0wu5s4rq7j5mtxwjsnthpv3p995950ma38w0ycp95cpq65hj5gj2e55wgqljqkqk"
+
+[[bond]]
+source = "tnam1qyw2u3geeet0vn43x8md5ralthz0ydfz2gcyk0p6"
+validator = "tnam1qyw2u3geeet0vn43x8md5ralthz0ydfz2gcyk0p6"
+amount = "2631000.0"
+
+[bond.signatures]
+tpknam1qqns6u9zgnt06a29ylnmw6sckt8k8emjfrc9f6sycrq0ftp6s3ryy98dl75 = "signam1qqd73dej8gt4h6tfgadgd3wtep9yw3q7uh7905s80k0qujjap4h89j550evkhhaxwlvznx3lgtuy4dkeadukcr32n3jgecf3p00dp3c2mq8hn9"
