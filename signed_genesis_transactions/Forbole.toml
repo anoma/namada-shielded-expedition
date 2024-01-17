@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpfjlg9zywuuhg85kw66zxsh5ra9uge2u4xn4gcyxq86lgtaw4ysu9sxwly"]
+
+[[validator_account]]
+address = "tnam1qy9qcc094fq6st3s22v6lkemjdycdyrl2529d9ku"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "154.91.1.69:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpke7nssxvweflkrpp0gdgf6mvdjl9eggu8fs47lzvfpl2733clxqvze43m"
+authorization = "signam1qpnd0ecng9vf6x4mkzcncsj22u8ykmk63rm2clg7w5f6yz3yj0ak248skw32qwqcp9p2njq0jnqmrcvy2f927gvsu33sfkq5802zalgv9cz96r"
+
+[validator_account.protocol_key]
+pk = "tpknam1qznngw2252mscmjcp3aauju3fw9m75mssmp6630qf87tywfr3vnh26lxq2t"
+authorization = "signam1qp4hwg5x7mkdlxqhj9qq6386vwh5vxdryazhs46hq7w4k8uwly2dmchtaggp60hsrqyw4lx9kasajuy59daz0wqdvzft7uda6a59phcyayh5va"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq2angy7xjk8m3nlx8man97thp4rskpwq4w779mm3cpxpxes7tk6sq4rj5m"
+authorization = "signam1qzxt9a7wxxj9ejhumpgna36wve8dq4r0tywkzksgh8e7j8kygk7g9k8v4zfkxvn0e4xdrmn2dynfm5jttd55aveyqd4g95ftgm9c80q0hehujv"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypve269x5v6up2mvc2rp2xzvsgmmfuzs5rwwqdnrjez2s4j5m73lvgzyzz2e"
+authorization = "signam1qy8hkkzpkar6an8sm5dvaqtlxfrnv4lxhnetq3ae023fn0wg3d0vuvkaqeaglxfaa92gmcveyt2xsqkjv6a3j3f0gnv49cw3n7j87uswqy6hrf89"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypu8xc4prfc5dthkm4uyyx2kveevthkm6095ecqv4eg9020pvekqtc7zgxjd"
+authorization = "signam1q9jzxjfwgjehd7388tvn8n0uvu7xxrwg25q9fyz3rp7raxa8mv8yqhs5xfurk593vzq60l0wf66rdct0f2vxw0fawhwygpdattmead4xqq03utlc"
+
+[validator_account.metadata]
+email = "validator@forbole.com"
+description = "Forbole is an experienced professional node operator established in 2017, currently operating on ~80 networks and providing staking service for over 60 crypto assets."
+website = "https://forbole.com"
+avatar = "https://forbole-val.s3.ap-east-1.amazonaws.com/profile/forbole-logo-128x128.png"
+
+[validator_account.signatures]
+tpknam1qpfjlg9zywuuhg85kw66zxsh5ra9uge2u4xn4gcyxq86lgtaw4ysu9sxwly = "signam1qpmttw5ya4jkrznez58v5pg4f2ncw4sfz36jtwdgq44qd65250z6gklv6c2mf9ftrq4ksuvycjy79eshkp9v4t92qqvutk27ct942kcwpz8xuf"
+
+[[bond]]
+source = "tnam1qy9qcc094fq6st3s22v6lkemjdycdyrl2529d9ku"
+validator = "tnam1qy9qcc094fq6st3s22v6lkemjdycdyrl2529d9ku"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qpfjlg9zywuuhg85kw66zxsh5ra9uge2u4xn4gcyxq86lgtaw4ysu9sxwly = "signam1qzcgj88x24ucre6dknyny73h3cgjzeqjumz7kppds5ep00vj5kszeaq8cvfzkcyecuunqjj98zgtfzkt22e5edpv552wtudljtg0t7svf6sn4t"
