@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp2ypn3tsg69ql5cv29358grnwjda3f6vuc7gwzn2jzmp3gapssesrw2et5"]
+
+[[validator_account]]
+address = "tnam1qyk2uatr79tuxlspywcfytd3mmuhr369ecgwte36"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "213.239.207.175:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrg6756w8jurm2t3jkj5rdg2sl9y3jwg3fpjfu7yrllhksgzjnsas3hq4df"
+authorization = "signam1qqdsacvlf0x53497w7vzdq3x98l82gjw9mvll99lgtcptnqhwe5ycdhxe7gp8swn026c585pnjc9detymgflhrg4p966ywelxmjvydcv60u0d4"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp47jmcyw88r74j5zwlvnlnjv588jzg566jaq92aq0z42je93n367zpxkeq"
+authorization = "signam1qzqvzq4uj48dld0p8au2987vucrf5j4vhyq09unc9p8pgph5m2f9sju8zv2w0ny86758lf4fhu6atuzkm0mvtmmnnvdp0kejjw7w2ecp6ahz62"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qze2m5chv3d8mrtv6yyjhj66v26ce6m0ewp40srmu2vfdh53aa4vkjf3g5n"
+authorization = "signam1qqmrvc4alv9qpwg977jwnncs3ffnszcl3aajxs2u04j7s7veqsauruy7q7vs4n38xkd7lnzl3wxcv5mq5nzcyvlewu08m9rkcxnhkqs2f3er86"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypek7tmgy3pym5mwugzhr9emxnwzcz95g7q90wjhsj0nt0q09xqqjq4k8m99"
+authorization = "signam1qxl2p638ufd8pc3derpd7rj9k4njjh6kahrawsyt5f3k4xj0vy8ax0uwr2fuvy0x7yx2t46ye4z4nn9phdv9mjtgj79x4h26uj5t45p9qypfl8aa"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypnjflh9800ewl6g0qn5nhvt404856wemegdg8wvuu95dcek2vlthc5vev8a"
+authorization = "signam1q8ky7mur74t48gnum5tk3udelmax5yw48m94gzshvdyhj362lh5cyhr8c5aa0uve6e0q3rudrkc0khv25pd27w3l0v56ymgtcuta9pm5qqzlj2s3"
+
+[validator_account.metadata]
+email = "info@stakeup.tech"
+description = "Non-custodial staking provider. High service, good support."
+website = "https://stakeup.tech"
+discord_handle = "landeros"
+
+[validator_account.signatures]
+tpknam1qp2ypn3tsg69ql5cv29358grnwjda3f6vuc7gwzn2jzmp3gapssesrw2et5 = "signam1qrgpqfg42qrd0qcczs566kf6eys38nyz9jzf3r4pvrujlavy4vyunp9jmq8uywe73s455l98rupnd4pth4s5rpdgpezzmluf5ax0nqgd74edl0"
+
+[[bond]]
+source = "tnam1qyk2uatr79tuxlspywcfytd3mmuhr369ecgwte36"
+validator = "tnam1qyk2uatr79tuxlspywcfytd3mmuhr369ecgwte36"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qp2ypn3tsg69ql5cv29358grnwjda3f6vuc7gwzn2jzmp3gapssesrw2et5 = "signam1qza676hp8wjshemtcxtszf30hnx0t80vzzyrkj5884uwxa2a86d8xrzc2q7agx40umqusw64a92e056tek22xkwq03pn47m89chg0qqx9jetfu"
