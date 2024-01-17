@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr7uzawmz5qp7yxs56dz2xvmnwgzhan394pw69p8jpvx0f3kplvjqenn0k0"]
+
+[[validator_account]]
+address = "tnam1qylanx3646tlrenvchmcscr5fecewg8t05hz4wcd"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.109.85.242:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzkuxy997838jxnjhduns5a5h7p925388zv7kpzf5986rvsmgm74g5rade4"
+authorization = "signam1qpj93a4dgx3lslm7jdlg0akj6day4c9vm3ydz6cvetn0trnjfxhjg82wdn3xnzxxv77dcjn2pycwav6682shy8aun208ngnzv9g93jqtw2mewh"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqts57pcyjxh28436l40wke6e5vg7j5ll48uus5up0zrnp7h2trlcv0x6ps"
+authorization = "signam1qq3qm9j49y2tnxvrwhvjyvfqa7g9j6f0kg0r95489sr6vpvpzd7nem06mpmtmzqluwhqshlgwkht5tdp0cf4cu0ts4qyzhyrn74wrcs83853l8"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp2p07n9nrj337cmlj9ls05mv7emlccpd05zc0f80a5lygqp4yka58tp9pf"
+authorization = "signam1qpxlvalmthleeay3hls48t0yy0h6f79llzjrqsqmkweex4djzt0rymg44wmc02hn26t8ysjng5z2n3rmrdksqj3mdgkq7x7ldl8xnjcxece493"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp7qh60vz34s3dljj0n062vdx622em4wtjmm46ve8gf9d72t3rjqqqycc2ks"
+authorization = "signam1q8fe9ckgpjf75lrdagqjsnrhuhlf4cvshtwsckrc330s9pkkrk7p5swf4gcg5a0600p658hdxe774tdqg5jqk6et93lyxnjlrynt0ks0qy5wdjva"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp4tzkdza2z6egykguqlltep3pntp53yj8hgdttv3zhjm8qk0rruwcm8gxj6"
+authorization = "signam1qyk969d6xr5fjas00hhjk4tsykrg04t63vtcn79wxfjac4cn3ft02fskdxdvcyexeqjkqusuhd58wm2wrthm5y2dkgx58u70wexv6xgqqqgfhm9h"
+
+[validator_account.metadata]
+email = "ops@blockhunters.org"
+description = "Hunting for the best stake since 2020"
+website = "https://blockhunters.org"
+discord_handle = "blockhunters"
+avatar = "https://blockhunters.org/img/avatar.png"
+
+[validator_account.signatures]
+tpknam1qr7uzawmz5qp7yxs56dz2xvmnwgzhan394pw69p8jpvx0f3kplvjqenn0k0 = "signam1qrpxyh8yp27q3erxwcyfd8pnuyczqum96x2eduu9t93sz6wqg2yk696wrmf9092jrecqh3xqgq7qtdypmzrxuldk78ym6v7wwug87rgp7mx5zy"
+
+[[bond]]
+source = "tnam1qylanx3646tlrenvchmcscr5fecewg8t05hz4wcd"
+validator = "tnam1qylanx3646tlrenvchmcscr5fecewg8t05hz4wcd"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qr7uzawmz5qp7yxs56dz2xvmnwgzhan394pw69p8jpvx0f3kplvjqenn0k0 = "signam1qq577v803wn3jl0x6u432j6z4nsmyg2z42gh00f3xac425a5phjc4zra9arjnzsu9crslm8nfgfmzre2y2lqf8waqg2usgts56y8uhgtx4qty5"
