@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq8t3gx4uex4ctjjm7cx6p0m97t22pfjtusrd8d5jxuyyzp7flrtq09rfp6"]
+
+[[validator_account]]
+address = "tnam1q9txhjcwdl6jzqwfhf2ny73ducj6tv9s3qwr2z4q"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "89.38.98.251:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrut0eqqqzwu6asq6krrnajt2kwcgzlhdz5lu0kkqcndlnfx0ef5gwjr6qn"
+authorization = "signam1qzms8jr56qyh44uagydzekw9ax5cg784jfy9wyvjs6rzga8ps0rxt59nsykrf5c4h0xxyezhapxytspc4qrqjrc75asjrfex07r5tqc2drp2s2"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqhzqplk237snemx62nw6y8cha8vavkxnv7etdv3qg9eadd6gwmmqmjcs8y"
+authorization = "signam1qrkhz7fr5wh0v66jnmx5r9vukphleh849x53ykakvgxxxvfm84hj5prjselp8aqvrt4jva4awtcfp6u6qmf6lsh0wyf6vlhwxzymmrqpfqed2h"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qz57mjumrc5lqtztfrnex6ldf5rdfs3fl5n4kz6ka45nvw0kdl7vzqezjae"
+authorization = "signam1qrr7wugrdwkpxzny40vnkuew6rx68mcx8lrtaekkm34ta3vrw8qwkwrp8rjrdvtt04kzh7tdy72zszgwevgqqrktjmpdql5v2aaujjsrp7nvwz"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyphvhvwpmw2gq0auk5jza7zzldj7s60m3e3yat0ad677u4thss6e0gp6tarn"
+authorization = "signam1q95md0h3n7h9svhvg9n7ynk0rdv64uy8s69g336m2v7h7uj9epld28aj03aa6t2kuu0ps8cnug6eteh8pkl62248ua65t3ap0rvytwkfqy38qtjy"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyph8tmggmqkmnxwks5ws0dqnpv56w3hrzhxk52k8knk89c8fncgm4cxe8p6w"
+authorization = "signam1qyef7dfpvqcnmzkzealyh2qrzm8c94sjnsew8twz5rgg73qv72gukzw9gzpupjvlydtlya0ga3wn997udgtwdspk34hqz66w2acadp87qqr6eg8j"
+
+[validator_account.metadata]
+email = "lukas@nocturnallabs.org"
+description = "Building bespoke private, immutable and decentralized validator infrastructure across the most critical blockchain networks"
+website = "https://nocturnallabs.org"
+discord_handle = ".nickname"
+
+[validator_account.signatures]
+tpknam1qq8t3gx4uex4ctjjm7cx6p0m97t22pfjtusrd8d5jxuyyzp7flrtq09rfp6 = "signam1qznk2qv6avnm5t0v5v7zgfg7acw4yl8p20f67kgfnczzxt9cpja3rqzrx4d2ymr6uk3tf6j3zst3w9se9rptz4jdpa33ecehp4pdrfs9vtyc5x"
+
+[[bond]]
+source = "tnam1q9txhjcwdl6jzqwfhf2ny73ducj6tv9s3qwr2z4q"
+validator = "tnam1q9txhjcwdl6jzqwfhf2ny73ducj6tv9s3qwr2z4q"
+amount = "1000000"
+
+[bond.signatures]
+tpknam1qq8t3gx4uex4ctjjm7cx6p0m97t22pfjtusrd8d5jxuyyzp7flrtq09rfp6 = "signam1qplyt6dxmemltdunlnmqfchp9u44nux0jc5qg7338yp2qts6tmznv74cjs4w9kj7yrrftdtef9luf8qlqygt43ct356lg6j3rzstxaqxrdp7ll"
