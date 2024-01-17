@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqj7ya7ltdujrfx8uma3n0c74g5g45l8ddny0hyee359fdvuqcrgj9rvhd0"]
+
+[[validator_account]]
+address = "tnam1q8f6lsql03dnvckpqx5ydxtl48k3ntcs8vm8dak7"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "218.155.161.169:30600"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpe849rnvn65r3gyxgkgj9ejcznv356nk07c70v0xmz0d5uhpz58ym3xlgl"
+authorization = "signam1qqah9zzv3x8lwk87j2rnjv8y50al40emtqkxd552hdju88eqrgs9v82mjr34xljs0anrxgcp4y67yqcmk6t9dch98w78372ram0chsswesgpkl"
+
+[validator_account.protocol_key]
+pk = "tpknam1qplxgfqdttdxw0lzzfpzek6q96n37wup7app7e3vqk0edr2tkw5kck8vsyh"
+authorization = "signam1qz9jg0ftejy4scl9takum56wwgcd7k2wuj6gn8syf9d06xk35stv3wz9cwr863064ncldsqzs4lun9tuna9flhfvur9wrk0wskrwslsxadgsdm"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqzuwxe4lyqld5nss8c85w89ggcr5ngaprpyngsyfg5ym3y5feguc47p99g"
+authorization = "signam1qpx4gecgzuclxn8nuqutdeltlvtd40n4kz7gdu43mz4df0l609thdhkc89q5jl9wzd2l0zmmuk4llu0y2vgr5falmea4elzfwwthhgqyaq3ee4"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qype5ak7mtjxpfhxcj0pkwjh5avh9fw25e5semdm0c6c7efyfe8mlcc4z7ka8"
+authorization = "signam1q8v04jnd0vltuurv3auspqpljlhvccuf0jp8s6dr2nn3vdjcrn23x5wuqjt5e7ctlf49z7f7vt8rhk8k7n9jmwkg3hpp2xv7y0vxky26qyy9nspu"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypk0j3lywvr542yfvnamsfuet9cujc79xjd334ua2uefx7n85lprhs0w0kga"
+authorization = "signam1qylqfhgf40shtr3yrqwmgg9e4mt6a7mmgrc2lvkmcpkjduyhnl80uetzyunh2q99z3tpcdlldr7st9armnjlrtfmd7a6zcnxrfx47kw7qyywksgl"
+
+[validator_account.metadata]
+email = "0@0base.vc"
+description = "0base.vc is a validator who doesn't trust any blockchain; we validate it ourselves."
+website = "https://0base.vc"
+discord_handle = "jjangg96"
+avatar = "https://s3.amazonaws.com/keybase_processed_uploads/c96cf0ee2dc8f102b6c3eaf1fbdf4c05_360_360.jpg"
+
+[validator_account.signatures]
+tpknam1qqj7ya7ltdujrfx8uma3n0c74g5g45l8ddny0hyee359fdvuqcrgj9rvhd0 = "signam1qptf548cekjngttvnq5axm032qpd6kulfxxq6hhyqpr8t5cywcxd0gty6cjl0kvkspdqxlsg2d5sgcy0gftkstvzpehcyktt2n82afst9q3hh5"
+
+[[bond]]
+source = "tnam1q8f6lsql03dnvckpqx5ydxtl48k3ntcs8vm8dak7"
+validator = "tnam1q8f6lsql03dnvckpqx5ydxtl48k3ntcs8vm8dak7"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qqj7ya7ltdujrfx8uma3n0c74g5g45l8ddny0hyee359fdvuqcrgj9rvhd0 = "signam1qpekv2u7jyhgyzc0v4dtr60llc50y82z9wjgldsqnwk9klfymnzgyza6m4n96jsrdz27z3xymteklcf9u2uhnpvxgnd8h30a0ler4mqrud3zhv"
