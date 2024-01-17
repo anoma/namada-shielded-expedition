@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpmfpse3acelyrkvzvptt9506f0qqkfe0valq3h6msuhc3rz74a45sdhr3r"]
+
+[[validator_account]]
+address = "tnam1qy24smlm8tdg8vawx8xh30fxa8kcwnudkvufz9zn"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "162.55.6.163:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpum6ela6y6q5t5j8sp265vxew5mkspmhd0lmpmsnh6xfwrdjdmfq524gkx"
+authorization = "signam1qp2xunc2zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6xa2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu2qd"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqzsgexkzjuk3z2rnaulk8yump8993eszmfzcj427fjem7ggd3tax7pt06m"
+authorization = "signam1qp5k043s7fllnl0mz9vjylt4w07a38stx788m5nlzhfrkg5588czuw824zh0h3h00uzxpj3lxynhvg36wys9lvl2xl0g37aw7qxpjeqftvj4g3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qplc35uzdsm9wtuhghsxeyesem6sjlesse4ztdz0yg608hty7msuvdclvqe"
+authorization = "signam1qq3q4uqynywfn7kc9ljwe2l48mx69j4ts8ejsct8skgnpmlua6p504frnwmcnhmadhxfmsetdztagy2cyzfcn2t2su4adrev74c6efg8hxhqcu"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypq8rlyx8yv04ueqksgru4gv8xk7pseg7sp0e0ynms6dqvfmw25m3sz88zhm"
+authorization = "signam1qykr046wtjhf5qh2galr3fxuntf055ak035j80pazalqgw7a4arr6xcz3jd9qv7vd35npymetmp86ptjvdn3zf36yw4lrf0tql95t7ufqq847qty"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp8grjtjyeny8d6dp47s4xran7tfuemvpldvl30yx6vcfred96lemq6lk7jr"
+authorization = "signam1qym3jwvr5k86xt0lpg2h9mep2tg5acx7egv7cm6phgvqemefqayr5qpa6apy6tw4gdst5a0n825fgdz3kew0nhwd8khga2kfg0fmekeqqqll8mdv"
+
+[validator_account.metadata]
+email = "89686697888@mail.ru"
+description = "Privacy ad a Default for everyone! Professional validator in crypto world"
+website = "https://tnso.io"
+discord_handle = "888tnso"
+avatar = "https://tnso.io/logo128.jpg"
+
+[validator_account.signatures]
+tpknam1qpmfpse3acelyrkvzvptt9506f0qqkfe0valq3h6msuhc3rz74a45sdhr3r = "signam1qzgpd5yqx4gzyqv2gv4jtwh8agtssmqupx77dgcn0dfj67e7f8vaan6r5h5ua6tzp8gh28r3lhfx5l4yqxnyuh5p5t5phlur3tp8gmcpjm9hq3"
+
+[[bond]]
+source = "tnam1qy24smlm8tdg8vawx8xh30fxa8kcwnudkvufz9zn"
+validator = "tnam1qy24smlm8tdg8vawx8xh30fxa8kcwnudkvufz9zn"
+amount = "2631548"
+
+[bond.signatures]
+tpknam1qpmfpse3acelyrkvzvptt9506f0qqkfe0valq3h6msuhc3rz74a45sdhr3r = "signam1qrxjym4dh5lyrc4t5lvcrsx4rk7ny55tj786n0fhmetxzwzmqr4wp6qc2svgauu3eep42nkyn0mzszr8dkrzy8cndkfzdne4pf3myectjhq39s"
