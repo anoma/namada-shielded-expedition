@@ -1,0 +1,27 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpkdy2uf2ux3l5a99agl4fk23d5g0v60qs9lu0cvk6uea739trd27desug0"]
+
+[[validator_account]]
+address = "tnam1qxx3sa05x54re66kwgxe4tksqj87fcprzcgvl4r5"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "142.132.209.236:20056"
+consensus_key = "tpknam1qqckayhvwy77ag3l99j5zszx5p6pkejlwqsckvau8tn8rdnepktrcxdrp87"
+protocol_key = "tpknam1qruqeyvq2lqf9sl23q47x7409lu0jymzt3zj4ystx3uullrcyxhmv227gnq"
+tendermint_node_key = "tpknam1qp4fgt49vektad32c6pstprrnx2vavpm49jlq45ufuyke3estw8p6lhludv"
+eth_hot_key = "tpknam1qyp9fghyvfsyg2d346pzscgxgclu3047yulsphzk32qlvry62vtf6asr37h94"
+eth_cold_key = "tpknam1qypq3klugd786fvwdrd4el2swstf745tf5ntwvxl9c20kzd9y5c2xncps7yvh"
+
+[validator_account.metadata]
+email = "hello@lavenderfive.com"
+website = "https://lavenderfive.com"
+discord_handle = "reversesigh"
+avatar = "https://raw.githubusercontent.com/reversesigh/images/main/logo125.png"
+
+[[bond]]
+source = "tnam1qxx3sa05x54re66kwgxe4tksqj87fcprzcgvl4r5"
+validator = "tnam1qxx3sa05x54re66kwgxe4tksqj87fcprzcgvl4r5"
+amount = "1000000"
