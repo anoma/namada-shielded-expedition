@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp6umw55umjy4radswxp822hg4dpmqzzh70937e8qslemr9rts335w53tjr"]
+
+[[validator_account]]
+address = "tnam1q8hkmve7y0spwvchsf24hqnpfemrfyyu85c9fqed"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "72.12.130.222:46656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp4th3rg3ttxqv9u74t7le9v3ddd4xmjmnumv0fsg7k23v8zzenvsl5s6g7"
+authorization = "signam1qperkn86u8wnykasrdpk7jr5jvagmauzmxc9gw7r9mr3g5rcnfgzdy9vf9zgcu46vwhawcnjg7d28myj2jf0v9lmj3rfvla09h4hlqsy2fgt7j"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpfg20esz9uzke0d2vhtsendhtk2xxryggg80cltyu0s0e7nwtg7qkyx8h7"
+authorization = "signam1qptkx32hre835wkdv84k5uq8wj0qh4dys0saczl3t78hg9nfnypu3n3hkk93djpewt58f7cfcu78368t5ggmx4n7azsnshy3vucr8mqdr2l3fe"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpvn60j7gw00d7uw75j54f56zga7pf794avuha4l3p9ums5p5p4rwp3ezj4"
+authorization = "signam1qz5vhj4m5t4sxk9h6wyetx5zg5xsxq6zg35zw73u0r0n5n4maqz53gw6k7vmuvlh8q6yyyaxcm033sukuasdzs2kf5zjudvzs829yxg80vk8p5"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp97lqzjwdwr39y6d5vx029fhnn94t6c8jsnedxplekmgpwjshq30q52pj3k"
+authorization = "signam1qyjv9wzlv4t7lghpewy42eh78659gz63r2ydk0fy80d5jlqflhep756p7xp97kcx0nadez7z4kd3smgsd8lpr47836hztm3h435g3ch8qyz0zj5j"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypmnfmd7fv9ut2jh3atus4l0egfd2dtjjneg7a5ssc6zdyps0emtqgdcj3yd"
+authorization = "signam1qxaf2yrwu7ztav4y93eqtfsesl99qytk9hfzx8frt855mur8pvf6zt8jkkwj30m8mpn49c5q8yvwex7ggnndl3fl497pf35w5xqf9mugqyufxa4w"
+
+[validator_account.metadata]
+email = "infra@knowable.vc"
+description = "Ecosystems, not monopolies."
+website = "https://knowable.vc"
+avatar = "https://avatars.githubusercontent.com/u/99352068"
+
+[validator_account.signatures]
+tpknam1qp6umw55umjy4radswxp822hg4dpmqzzh70937e8qslemr9rts335w53tjr = "signam1qp4hu3as7p2wznr98vrhsej4qa2drmj8nrg6st0532pryprwtnxsnkr5n87meg8yd6758ajxsyq08l4quy6fvuld70rdtd6240tnn9gq5h2cgn"
+
+[[bond]]
+source = "tnam1q8hkmve7y0spwvchsf24hqnpfemrfyyu85c9fqed"
+validator = "tnam1q8hkmve7y0spwvchsf24hqnpfemrfyyu85c9fqed"
+amount = "2631525"
+
+[bond.signatures]
+tpknam1qp6umw55umjy4radswxp822hg4dpmqzzh70937e8qslemr9rts335w53tjr = "signam1qq2s9tf55z8jvsttnd53s7ahhcz3uurn65qrhs3tgj0ctl8a0e8ds4mpur39mncwz6csq23f8fcrxwv4gsg4x0dusejrtrf3a84j7xcgq46atu"
