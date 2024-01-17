@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzaqs0jzdsfpjz5lgp6h97q9ppezgfc7zplyjs25tp8gewlr53sjucm3pqx"]
+
+[[validator_account]]
+address = "tnam1qyqs0erg46fnu5rlu34ek3nkkgv8fcmzku4m9uxa"
+vp = "vp_user"
+commission_rate = "0.1"
+max_commission_rate_change = "0.01"
+net_address = "80.79.4.132:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqhj7xmvlkknq3ywl3xm76r75cx3y09gsajjc9rt2z7actgd9fpu5nvxd9w"
+authorization = "signam1qpnxl4yp3szru54awsumyqvy37haa5q4yantjn2pzhtdw0as0d4gle4nchfvw8v4hnrpe9ts6w4vcenh7yvt4as4dfldrfdak5dp8acrsx28ea"
+
+[validator_account.protocol_key]
+pk = "tpknam1qq5um7rrrk450luj34sga0v6z40x8uqq8fwyen3d7l7uvqtz7y0tq5x0dfd"
+authorization = "signam1qz0wv5r2z7e4wksvfpse7rakmv0t8sla59h4spzez4fghlgc5xawantf5zy4t8s47ewum9sc2km7g2l80m489enjgjntptypnzcwgps2qm245c"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqa5tpxy0esrr52ktdh8l66ct7vjm0zc3lxcrj865t0j63wgu8hs2aveth7"
+authorization = "signam1qq7ey78aaq7mun0dzzgrxdy0xnwemn5rcpg54y8zhnf3c5llzh9uzvqg0m7yj3glt3pwutkj3llt3s3kllzvux2lr0e2k87smcn72fcvtz63q4"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp5tjfz6u49h3tpqpfmrfkckkjllumqsk7s7men0efvvfzq0gcdtfclzxf7j"
+authorization = "signam1q8rzcaet3lxagp2rrxxt7s5hzzx8kjnv572zr884kaq4njrlzjl26jqf7w3jhvjs5lhfqv93rc2qg8g0r06j5jzc7x79cpgmqswsg95aqqdf50zm"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypttzhp48mw8868hvkncehre5fc2pu48fntpn5ek699gernzvj7dhgxztr3j"
+authorization = "signam1qx9xqqnz3x9j0xq2wtp0e9qpwqyg5k6ns8y7uqasxnqwmussgfs6zsth8a50yh92yv94j5zrzg9ry643aajc47shdfpxttey8q5rne6nqy09hx6l"
+
+[validator_account.metadata]
+email = "devops@zkvalidator.com"
+description = "Zero Knowledge Validator: Stake & Support ZKP Research & Privacy Tech"
+website = "https://zkvalidator.com"
+discord_handle = "koenmtb1"
+
+[validator_account.signatures]
+tpknam1qzaqs0jzdsfpjz5lgp6h97q9ppezgfc7zplyjs25tp8gewlr53sjucm3pqx = "signam1qpugvseg84wu4dez0ew47wdj7gtrkj2z5ulj60uj266kulfhfqmluh4e09sudzv794yg0m2ckc6k83lnnkzyeuthnrv9q6lqf7j54ecveg46p8"
+
+[[bond]]
+source = "tnam1qyqs0erg46fnu5rlu34ek3nkkgv8fcmzku4m9uxa"
+validator = "tnam1qyqs0erg46fnu5rlu34ek3nkkgv8fcmzku4m9uxa"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qzaqs0jzdsfpjz5lgp6h97q9ppezgfc7zplyjs25tp8gewlr53sjucm3pqx = "signam1qp9tddwvawa9u8436vdfnuwvmvgg3u6v6swvtra67mwu3cqglv5zg4vazsanv8mp4nvxrc56jav7k4qnuhyhc42eyye58nd9jf0nl8sg68lmpc"
