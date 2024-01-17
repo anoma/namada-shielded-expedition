@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzj2yu5ya3rg44qpz9473m594cdacumgldgul7ed0qp98sh5kcw2v9p8e76"]
+
+[[validator_account]]
+address = "tnam1qy8da95gpqslvfn7fytmvny43j050wk84cjuslu6"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "95.216.247.54:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrqrlwr4r39enhtzhg223xs5980s63ml6pjr3ymzf56rmhsz7yf6qmxt3tf"
+authorization = "signam1qprhsx4kvrpt2znvuh2j09qst744896s06dlj45m9areunv8ylscmep2yarg486d0zvunx76ka24tj3m3fxhmxhdj7htn7fhnphme9gps7dm5w"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzrngp7as02l05qhxgd9nj5mz72vlwmqsygnekl5euwuq65udhs97ww9emv"
+authorization = "signam1qzjhvx0q05fudxmpj0m7kusntmgs27fpqfyxd20sfhzgph7sqqq429tj0zclwdh9xvacvqujynuey4a5jzmln2tzuq528p6jrxw6kwcxdaxrfl"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpvh5v2nzgjfgapu36484k5dp6h63xrqglcguaf6g58c27hvspx4xjup0ez"
+authorization = "signam1qqnxsgl6ud5qqwzkr398a5098j9kyc7xflzgpglwu3drzglj9j2kzsqk8lj5rmv2qqf5875kghz42nteugdw8gacncwzxyyjfklhyggvt9j3py"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyps4vyx5xurygrrhwg0cy8d6ls8cgz5uhwalnfk4g79q68n8szuydq2s36uv"
+authorization = "signam1q9cedndzu943t7jmtmapjq8jx8chw0ldjga8rnk2juc3cn6avz7f500yhdqp42dtjvme2ryvsj0ewj89lyekckepj80us0p5sm8ldxc6qq5pj8tm"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypnrtkhzcm2gmzds2ryl2ff6l0wkqgzn7hp9cyh0ylt2sjarmxvwssnglkk4"
+authorization = "signam1qymnxj0cqnwa02l6eekfplsadl4hsljwqvtfzk55694v3ts7l5uhqmm5d0j6wu46m3pdezm39rey8p56p63m59ys9l2agx5h6z2x4tvrqy8ujmfe"
+
+[validator_account.metadata]
+email = "citizenweb3@protonmail.com"
+description = "Citizen Web3: Embracing Decentralization, Empowering Communities. The Voice of Web3 & Non-custodial staking service"
+website = "https://www.citizenweb3.com/staking"
+discord_handle = "serejandmyself_citizenweb3"
+avatar = "https://github.com/citizenweb3/citizenweb3/blob/master/project/branding/_citizen-web-3-logo-128-128.png"
+
+[validator_account.signatures]
+tpknam1qzj2yu5ya3rg44qpz9473m594cdacumgldgul7ed0qp98sh5kcw2v9p8e76 = "signam1qrjlcz58jt7va9f0njqyx6968eat74cjurx0jlhq3ek4c7mpmdxgz5nwnyc4qljfqsxyv38w7p4h8j6jqtv6ke0896nzj5gm9664xxsqufl7af"
+
+[[bond]]
+source = "tnam1qy8da95gpqslvfn7fytmvny43j050wk84cjuslu6"
+validator = "tnam1qy8da95gpqslvfn7fytmvny43j050wk84cjuslu6"
+amount = "2500000"
+
+[bond.signatures]
+tpknam1qzj2yu5ya3rg44qpz9473m594cdacumgldgul7ed0qp98sh5kcw2v9p8e76 = "signam1qzcjz8zere3jnkgcqs2nude7nwsds7rguyjjwlvjwdvmjt2ryy0ndnuzd2ejvutcuhxzg8v9ag4wdk2dzn3u8vt8qdsecukdg3v8ltc9kcueyd"
