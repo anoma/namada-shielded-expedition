@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr4m5m2eu9zc24fzswe2vjwpywlysqewnn704rj6hlgtw948ah5269al0ls"]
+
+[[validator_account]]
+address = "tnam1q97748flqlna0m0kj4703xgmv7x8cl7amcekcc94"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.109.61.50:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqgl8uh87h3ajy55cd782tg6l35kzuwtew48dunr0q76k8675e3y6flymrq"
+authorization = "signam1qzx6nqc48kjzdxcxyld4xvd79gy4vwz6sn39yddfnlnv0say3fms5pzn294fnj9xntr55288j8tzm4z5zs72lu58te9sy4h746clgacx9drur9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqdd476pd8d07m03zkxzhmd9xzkxyh8cegg8sgdarer6ftxja8vhv0pgyk6"
+authorization = "signam1qzt60rsukk47n0qrklkx5569dm0emga3680n5y2xus0v45qqx9hsn6hcmfzjmd4mfunftt9qyh48u9r3s9xqnrymzrhfdrdhkdcsuwgqjnutxm"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qr8jpv602jzwqces62lr6qlv6hh8azc34yjww9zd86eel5w5grv3cr8gtdp"
+authorization = "signam1qzhq3k0uxqqpxfryt0j6kzc34tpgv3wnxeseux05rr6gqflqljkq9vfnluv753ux3zzxwx5850tuf4f2xjzppddapu8jnd6p4k5wahgv8h3x3x"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp7umvw4qd576rv9sj72ghfehrl7ywv33mlghkz926ldq2y6jw9svgqt04z3"
+authorization = "signam1qyhwv5lq3x9t9jlshvu3rwp0zfnqlgzztkyasxdxyfe9cw6q48qdgspr3a6cqgpw7dnsnned8mms46w8swwlah2s3y5kf2zcnkkd4dmgqy3nmgkr"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp9cpum8slmfxf0v05sqrp3xp2qlaunqp5quq28r8k8wr994043tcsvxhda3"
+authorization = "signam1qyawknkdkzmydwqzpd2g4lgpqqtff7pgzc69gvql5n38d303zqwa6xvkds45urukpfxgg8c83khwpghsrs7euhmntx0xv8ke5z040kt4qqxpsvmv"
+
+[validator_account.metadata]
+email = "dimi@kintsugi.tech"
+description = "Specialized in operating infrastructure services, contributing to blockchain ecosystems, leading active core infrastructure development, public goods."
+website = "https://kintsugi.tech"
+discord_handle = "dimiandre"
+avatar = "https://raw.githubusercontent.com/kintsugi-tech/assets/3d2bbe2795e96f61053a02769f2aa07ed29b1320/logo/kintsugi-logo-128x128.png"
+
+[validator_account.signatures]
+tpknam1qr4m5m2eu9zc24fzswe2vjwpywlysqewnn704rj6hlgtw948ah5269al0ls = "signam1qz04mgfup3vsu3gmfvyyc2qnuk32htl64wdmatz2y2tcmylfecv7n63nl8c06nwxd76dpqypqmawknzp8m6u4384gcyw7ggaqqw9nugz28qty6"
+
+[[bond]]
+source = "tnam1q97748flqlna0m0kj4703xgmv7x8cl7amcekcc94"
+validator = "tnam1q97748flqlna0m0kj4703xgmv7x8cl7amcekcc94"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qr4m5m2eu9zc24fzswe2vjwpywlysqewnn704rj6hlgtw948ah5269al0ls = "signam1qp3c3agcd5qdg22rqrhmf66hn0dve5amfyucday08ul2r2grjrmavuuhgn4ylkh7upwa29zl3t3ksyr64wqkfx3385evesev3myn3zqqg9g4pv"
