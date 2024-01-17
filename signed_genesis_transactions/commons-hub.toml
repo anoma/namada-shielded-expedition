@@ -1,0 +1,46 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzfd7ecqkp05apl4um0fcpt854gsmfgq2e3pqf00m4c29smkpcvzck374jk"]
+
+[[validator_account]]
+address = "tnam1q9vrxmlr5dlxu4gslu7xl4dtj5mrygtdrvad78e7"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "185.189.181.99:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpqqnq7gkurp3max5a0t5nh27xrqjw95wjtgd9z94u9v2glh7tplgtkhqdq"
+authorization = "signam1qq88r3mq0m0e7aqzfmv30sr6d8xh0naaepywngk9znh56pr9xw0mj5tcqe66qx65pna7zyzu3clv0em20gdxsr6j2ezaw6n5vzelzggx62a9fu"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpve2csldm3u7cmjm7gxj4vuhl2pnrx6wnkfyygr53nvrgmj6wsyswk9sem"
+authorization = "signam1qz0zrdadqn57u0nqwu5gh5w0azu22ucc4ygwfepfseneldmnetfk9jk6gztqeg4x2gyfqfy8t5lwu3sjqj3s8yw2396ku766fvu5skqp63unh5"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq7d56s29ld43kkdppg2qmgq24lvcp06lr9dxpqnnhlgzlnxtjna6s33up9"
+authorization = "signam1qqst7732mqmpt6kl3598vwjl98fllasstt6hqc747vrqf2ug3llhaud55vzcfrmtvp0zf3pdu3xemn238mwh3te2z3w5eupsw46xwtc2c0q86k"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp8zj8meteyxg68shkdyqm8weknvu75xme22q94cy2ltj7jkqgcw4qf9fxyx"
+authorization = "signam1qykdt2l3yer3j9wrf8za33zg8f84uxgupdm5a9h6nh3sllwt62h4zfm8dnwplp7xfv6zrrclk7qcnn7u7z3dmrmn06tltqsg9hxzzt95qqzv7stc"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyphcvqmssnh7pq6k8yh9fd6fs8ff4gk50zx5yz4x05ggdk7jmsk0yqfntffa"
+authorization = "signam1qyx08ejpma7n6umvy3etzzkws7xahhv4hedxnu6gmccepz3t2rpx75jwq9vrau6s2gpgzqxtdseky5yusqmuda34zsajlkyqtsp6rzc5qq7qfmmc"
+
+[validator_account.metadata]
+email = "e.fritsch@commons-hub.at"
+discord_handle = "emil_commons_hub"
+
+[validator_account.signatures]
+tpknam1qzfd7ecqkp05apl4um0fcpt854gsmfgq2e3pqf00m4c29smkpcvzck374jk = "signam1qpycrg5whfudfv9z4mfkkc63ruarjacduwc0xpwfj32yul2maukh5n3qnyhy2m5ljd8j4s3rjjcs64gpykqm5nw2ggkdgy8lvt75gpqz2ujdxn"
+
+[[bond]]
+source = "tnam1q9vrxmlr5dlxu4gslu7xl4dtj5mrygtdrvad78e7"
+validator = "tnam1q9vrxmlr5dlxu4gslu7xl4dtj5mrygtdrvad78e7"
+amount = "2630949"
+
+[bond.signatures]
+tpknam1qzfd7ecqkp05apl4um0fcpt854gsmfgq2e3pqf00m4c29smkpcvzck374jk = "signam1qqfz9h3nhyy0guteeku4nywnxa4dnyxvrme6ru3dwwaxv4ad3pshv6x6cnp7c5486ug0c6x6td0zvyjcsut8a5kl56a2rqp5czkzx6gphzaazr"
