@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrha04tuejrt4xffq6dncsw27z58qx947qx9wnq4n4vnf27ekvz02j4ywdc"]
+
+[[validator_account]]
+address = "tnam1qycyxsy0k6d7nlklk656unaktnu4ju3j9q5fggzr"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "195.88.87.74:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqxaryr5sx3paa79mjvq4jkxsweudyaf7rqrnd3w7hj5zxf8jun7jfxhnek"
+authorization = "signam1qzg6urulq07ee4df7ke3dtvmp2elyyngn7erzk38vlnkkklaadmp9tnc6wtw2zzhzgd6jdy2arwa6wk3fj4kn4lft4kxy5srhghp8tcfjc4v54"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrpqywdx0knsgmj5degefjwkuyxj3mkw6008yefrq9088s0fmruputclwxh"
+authorization = "signam1qp9nx5uhhuckus6rxkkf4sasuhgce8yhetpzrege8u6hmulhzqwe0egkc65wwwkk76k2ywptmssshyzl9dm73enj94u3pp2qt8sxlzqfma2l6v"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp3x5glmcekw9ht7dgqpv3gq8lguuzkyt28sueqfjqlrpw4dk4gyvn5rsht"
+authorization = "signam1qr8a67wuh5eexxukel96sv5sx708dvl82dwvv06kvrzap373mtl2vgtmazyyrmyyycy5nend22n3qmuup6nx3mak3pu78qjyg2qr5ygrekh5r4"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp6394rvmpg0q7ar5c7ku74etq5045u5lu8mqmtne3kwndakajwkhqcaz4wg"
+authorization = "signam1q9tzeqddw6ncmj9mj707t7ymzewzeswyehlxydp6a7u7yz6tr77my5vk82jyrj4kyvkh2q3jcp2hs2rrrryn3qlkz8l7eqvagsegxvcuqqg3etxz"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypyk7958zt49h0q8sq56392d8qqelrz73tftg948nusjmtgfkwsmfseyhapl"
+authorization = "signam1qx5u990gtvh7a39zxs8z2wacjtzkylzty2d9d7cpayzenk5ktcunztmly9cpqqddwpk0ksq4pm8pp6y9484m3fshgt47727frpgmhelyqy8k2e3c"
+
+[validator_account.metadata]
+email = "adi@validblocks.com"
+description = "Valid Blocks helps you, the investor, increase your cryptocurrency assets by participating in staking."
+website = "https://validblocks.com"
+discord_handle = "bunghii"
+avatar = "https://pasteboard.co/aZExhJGqUNwl.png"
+
+[validator_account.signatures]
+tpknam1qrha04tuejrt4xffq6dncsw27z58qx947qx9wnq4n4vnf27ekvz02j4ywdc = "signam1qqgxvexhl6nggvcenvcsqqcqg7zsyag7dqg4586gjflkzqtq34pvrgu565rdq2q98mkzczy3l575suyln6u6m3csvsfl99e43dphzmgzuc95j0"
+
+[[bond]]
+source = "tnam1qycyxsy0k6d7nlklk656unaktnu4ju3j9q5fggzr"
+validator = "tnam1qycyxsy0k6d7nlklk656unaktnu4ju3j9q5fggzr"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qrha04tuejrt4xffq6dncsw27z58qx947qx9wnq4n4vnf27ekvz02j4ywdc = "signam1qrp8p3knu69yc25v28jk983zk88uk7e9ns42jpr0pkk3hwe5xc6qpj4m9zuyr2upmujevmna4p6nudz2cmdqh99n80e6ltp2ycaprlcpcv76pm"
