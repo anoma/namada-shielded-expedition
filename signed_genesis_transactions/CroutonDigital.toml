@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2"]
+
+[[validator_account]]
+address = "tnam1qyguekptqut80c2vpyj20fyvg6n0xcld0v73w2hj"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.238.215:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpe6dxefjcc3s85lx085n2revh0mnx65ns2dx0u94uezeusx0qxqunrs0w2"
+authorization = "signam1qp3y2ddk7jf0r2apx229fkc92nlel8xjn3js2z2s0vkkn7j3xnc0jjajgwrgzrz02atxmxyntpus4vt9qd9d9t6muj4mja302hc775qqudqa2g"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpvhmp8jlmrw3lawk7ut6s3t7anh5yhqwe5exherz7lx6vdl0ttuug7lla6"
+authorization = "signam1qrqxj6k2kzj84ztlqzw9kf0mj0n9rcmhs2eu6l704krhjx30jr03n5lwzz933yuy7a347p8c3yx8uz9glm74tnvv2epmuelmxlfy8ys2dyln8q"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrd6puds0y4ze69w9e9qyr0m45f8cgr23ncnjy48tkzmskenc7wjcnlxrds"
+authorization = "signam1qrt8u2l4y5fggsxugymmn6mle4j8kv2sfz2uytpg0z7qmgx5qu5uscxpt855we47jc359awcy9f8stdzezymw45ycp5ssewy9qdssjs8g0xlm7"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp8cat0mq3eq9tsanfqtvfcy64j70ea8r6h60h285gcle9xkuhpdxqmk6g2d"
+authorization = "signam1q866s84zdqex099zes932nh7cpm0nsfyssvf3qfuvxy09ektgu4x6yu9m3u2dsf3d6xjzzxnpqnz54jclf2pjw4ahlsdjnw632dgcvpzqqksljlr"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp3fvpl972v49r0frxznjn548gzqkv92v0pdf5h4pay0h82swdz4uqc4ggjt"
+authorization = "signam1qx94knd6qqd0jg9qq9fhsj52reprj07jcjfttndq5c3x2a5gk9yn7aanp7eje76a6el3s5s2weguqx7ngj7mtm82w0m9648nxqh56ytsqy0pk8sh"
+
+[validator_account.metadata]
+email = "croutondigital@aol.com"
+description = "Non-custodial staking provider for proof-of-stake networks. Our aim is to provide the highest quality of service. Monitoring 24/7 secure and reliable"
+website = "https://stake.crouton.digital/"
+discord_handle = "ak32821"
+avatar = "https://raw.githubusercontent.com/Crouton-Digital/guide/main/testnets/namada/crouton128.png"
+
+[validator_account.signatures]
+tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2 = "signam1qz0zqvwmk2kj0yq6fwh73erhelxhgqs8xn2q7usex7qjepfegry96kv20fzeaesygzhutfgh8sjn2aztk9ustxfs3v588t2k8h4xnecpz8d942"
+
+[[bond]]
+source = "tnam1qyguekptqut80c2vpyj20fyvg6n0xcld0v73w2hj"
+validator = "tnam1qyguekptqut80c2vpyj20fyvg6n0xcld0v73w2hj"
+amount = "2631500"
+
+[bond.signatures]
+tpknam1qqjzwxrku9pv8vtz0x2y578ytj58cwc55ughh7qlj3rwekye2lz2y30dua2 = "signam1qz2cdmwak3txa600wtpnq3506vdctvm6em4s2m6ntfd3p72n0c06qwz8u6y9862kewqwp4tcwfkkaffvqwt36uw5anm449273s43y5stxyvutg"
