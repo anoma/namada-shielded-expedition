@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrr43npwdtdna47wrajn2klegwxug2358ke24yawy7rme0fdrycxkzv9enx"]
+
+[[validator_account]]
+address = "tnam1qxkutfx2r75j6vp7v2g25ulp0yggacu8hs6g7mgv"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "37.27.59.71:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqem685vdldn6e5z67cvwtk02tl9lqnx0uveeerwzy687l8040frzwqpvt2"
+authorization = "signam1qpsfc8w33sdmmqfq2ktxtwavvzjf5gaqn3u4c74msyq8mt4v4k4dkukjzfg5sd658j5jvxta90txj7f4ldy0zncx9ctz92q0luh275cymfpp4p"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqme9pusug8cr08nach7gksy9n2kckcrvuax22zel9u4pglgw2k6cx9dlja"
+authorization = "signam1qpkecm7g0t6neteteme2y52wuxj04clafp4x9p550ynu7ks7tsjgw7gadaaaudq6g0ady7g8lfjhe3gzgt5pdt9nqstul43s4ny3h8gp0sl03n"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpf7w22yaljluqkpzsryqjhajdt25rhp5u8uczf5qntuc2pvz54f7dmt7hl"
+authorization = "signam1qpklj734wwqpdpt6eresfuplrpqs6lg6esgv49ktkedktfdhy7xyr9z5ujt8nec0ps26ype26r5tsu35y9g88kr5vsngq3csxmp93yg954jgk0"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp7rvznqmrujp7pvgf25vww0lxqg8uxydlhpnne7n5kffllz02qcjcpqkz5a"
+authorization = "signam1q953s6yxfk8k5mayfhz5ku4mhcnd04kla8qezdlsuqrnhwm9ly4qkwfqgju66x34km6waxglru5nlkkr2xln6ffd5qdg8y8twlvcpvrgqqkxvk89"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypn7craaswpxw7n9a6znumq5zwkpa5wrke5z2gtaff63yqaalm5nwc2tw33t"
+authorization = "signam1q8mlwmrwxdvdgcldjma0pxfp5q6j4p32wj98ttep0m7rlua2ed0azp2vhd4yk3a5453v99nrcpthlm3256nvhkl8vv03ekfwlktjgd2cqqzj5f42"
+
+[validator_account.metadata]
+email = "hello@polkachu.com"
+description = "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+website = "https://polkachu.com"
+discord_handle = "polkachu"
+
+[validator_account.signatures]
+tpknam1qrr43npwdtdna47wrajn2klegwxug2358ke24yawy7rme0fdrycxkzv9enx = "signam1qpxumswk00qdww830vjkgech8w8aqxphvpxa2u4tly5ngxk20t26qk4fsra788dlcjatrhkq6gklt55df6kmr5ce85ccrf4spmeaa7czzm0z8d"
+
+[[bond]]
+source = "tnam1qxkutfx2r75j6vp7v2g25ulp0yggacu8hs6g7mgv"
+validator = "tnam1qxkutfx2r75j6vp7v2g25ulp0yggacu8hs6g7mgv"
+amount = "1000000"
+
+[bond.signatures]
+tpknam1qrr43npwdtdna47wrajn2klegwxug2358ke24yawy7rme0fdrycxkzv9enx = "signam1qq9lv0exeruyhav87a0ktvhtyr0mspjdly26u7jx9ykyszx6qmkh9wl4cxdfq5u2qxct2yn0hnktkzk5vy43sxp3qrhyk2yd98kxmpqrr5w80s"
