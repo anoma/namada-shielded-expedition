@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq9fp6sey02842qjmrs2w8jq0ued6hql3228xymxjs45c4ll8quqzkc3vax"]
+
+[[validator_account]]
+address = "tnam1qyg76jtxvlmv98jz54v03g48j3zve850eq84j4f2"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.05"
+net_address = "34.107.45.76:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpf0afwrrnw648eevuq8mleqj6j3hj0wf9r89mhz42w24pcv334eusvdeuv"
+authorization = "signam1qphwwkmzuczde5umq2xs7qzjnn63yl04mfq4dx5zftnvr9ryugmyhxm3xnkm9j33ly8q39vw6wqv834js5eqave5ummm3m48wgee98q9pw024z"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqjgf6khhfa73zak67yqjc0w5lufc0rj5uy9saduqunfzn27n88psl2hgqr"
+authorization = "signam1qrdsgfanczuan9gxw7w6cftvfna6skdwd2tw73rwa3fxjm27xff2jst5an5qshtmg0huj04k7prhsynw3c0h4tgafsysveu27sqp2mg28rsqm9"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqhqzxg2azcdn7fzq4ys4cta8g3rp8m6ywk05r2zaenu3s3zpsfzkz8qggp"
+authorization = "signam1qrgwjcu60r2p7dg3d7qpzg3v6g8rl905hefqmeghrfadgvx3cm3vgrjmjvnlplqqlw9xaj45t7ujlx5drk8q6dz2rlksxksj05ne42stxg0kt6"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypxseqd6ce7x0yxh2krlkevgnlpxvrjnejhwl3w3c9vc5s38svv30gf3c2nm"
+authorization = "signam1q8j3zj5ly5yhy22z9mwwkg69vrdawx9d9u2wep8tsfqmaxdrxha8cw5xtdvmrehkeu8sux4psq4ngsy36f7drflc63f9zjdfe3clecg0qqdu3g47"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypvrh4te4rv2g34q28emdcn9qve47d8jfky9t5nmzajxuwh0nr835cm09xc6"
+authorization = "signam1qxqsqkgexjrxzrphw9epzaau9cj8xpgn0h3xp4qr0cwdd0lhwwm95fg4z0qyaezzzvsvvurlmzx24md9fawt476fsjnlfwl9xmfv96fwqyt5j00t"
+
+[validator_account.metadata]
+email = "node-operator@chainapsis.com"
+description = "Keplr Infra handles hundreds of millions of requests every day, providing robust infrastructure for your seamless Interchain experience. We promise to securely protect both your assets and the network. Stake with us and earn rewards!"
+website = "https://infra.keplr.app"
+discord_handle = "daniel_ck"
+
+[validator_account.signatures]
+tpknam1qq9fp6sey02842qjmrs2w8jq0ued6hql3228xymxjs45c4ll8quqzkc3vax = "signam1qrdcccjktshm99xlkrwstx5efqne8eqqzaa452u6dxfmudxg52ckvk27hfzw3v893c0s57fer9dwl4tr7eq7q67xgp9qf697unj8huqrpnfach"
+
+[[bond]]
+source = "tnam1qyg76jtxvlmv98jz54v03g48j3zve850eq84j4f2"
+validator = "tnam1qyg76jtxvlmv98jz54v03g48j3zve850eq84j4f2"
+amount = "2631501"
+
+[bond.signatures]
+tpknam1qq9fp6sey02842qjmrs2w8jq0ued6hql3228xymxjs45c4ll8quqzkc3vax = "signam1qrnp9dhmr7lcpl5nd25qxz8vpc8xww0eusdu2et7pdp3u0lq0al3qj085cuxzksch886gmvp8gvthezgmpdearsq7qz7h2fx2u9jxzspvsyysu"
