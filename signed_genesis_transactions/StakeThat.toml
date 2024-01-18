@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpju2fgal9rplrt8f3k6rqvxk2508haawqp7x8zcttca2gqkkm28v8mk0rw"]
+
+[[validator_account]]
+address = "tnam1q8et68khd5l4jfzhynvdr6s2wsz3tcn3e53jg5mr"
+vp = "vp_user"
+commission_rate = "0.1"
+max_commission_rate_change = "0.1"
+net_address = "135.181.91.243:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrpu6rz33u37kxquq9t4kp3ewcjt06tl2e8khlnctsakmtu8wvskgfqsd8w"
+authorization = "signam1qqnq3vymwtkav3n5gmd3qe0mjf65fj0w62ht8h9sr44fw55p770fgqnu2tfc8rwfn46qa33chjdj4ndzfz0mfp6k9lexp74ltu0q44gw3u75j5"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpspyl2wp5809kyx0cu49e6a7t2u58xhfsfnzx83phj6aahv423mu07kny4"
+authorization = "signam1qz9y05mkmppmhqmstpavlw5x49vtfuqqc9v6qjt7ewrljmmezshw4jtxnlytvxtsywauevtkcvsg7ldlxpjxfhs6napxgh8j8gqh2lg8yc7chc"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp6pmu77gdeh33s447g20wy2mup7hc5kmapwfg7ffdv6djcd48n0x8suwjj"
+authorization = "signam1qr3r94fpyasevtqvyrkya6e8tflhl8qjkxx5707yc3dwt33n387mv244qz0j0j5gsyj6p7687nussntn4yfntqylkj7zac5282rd67svs279qs"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp6s4cjapje8yc76f38n0qgd8h8n4xru42dwmve2fsk6x9r5qfnspq7fx0uv"
+authorization = "signam1q9cz7g3u3jmvu0hwzds5pht78dyshekqmvvzwya8jgr5qzgfv4zqvr8xe27092cld4mjlvnddnskawzgrrqh3h32famn9jpezf376fpfqqlpedx6"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp8n3crtk3deav8cddrptqnjx7u7vge97tcgz4r05xc2h2q8cx8c6qgdj09f"
+authorization = "signam1qxfxr9dn3aa4ccjjdu2403tzlwxpufgkwzluk7937ytnlldg3pp4g8ux8q4yudxk989ew78p8pl7yhf68pddpgvzf0a200543yv62n62qqx9lmh9"
+
+[validator_account.metadata]
+email = "stakethathq@gmail.com"
+website = "https://stakethat.io"
+discord_handle = "andreisid"
+avatar = "https://stakethat.io/images/logo.png"
+
+[validator_account.signatures]
+tpknam1qpju2fgal9rplrt8f3k6rqvxk2508haawqp7x8zcttca2gqkkm28v8mk0rw = "signam1qrygnqp97ptx7sed0xv98cxhjufry2e07k8gq52rdwmzntjepetpkplhhpa7f0j369dzh60aulwwehup9ztfapqx4wgkx6883p3sd5gg67jefd"
+
+[[bond]]
+source = "tnam1q8et68khd5l4jfzhynvdr6s2wsz3tcn3e53jg5mr"
+validator = "tnam1q8et68khd5l4jfzhynvdr6s2wsz3tcn3e53jg5mr"
+amount = "2600000"
+
+[bond.signatures]
+tpknam1qpju2fgal9rplrt8f3k6rqvxk2508haawqp7x8zcttca2gqkkm28v8mk0rw = "signam1qr2mf3z52drp68zurdnprqc85zuazglaj6ey6nghmp4kcl60pgsj6w0hd7xt63ek7suj3mg8sggs02shywlxhxvhlj5c3qjc6hms3pcvpvpk3r"
