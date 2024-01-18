@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp8k7e56nzd2h278l8vcq0udx6mce08q07686ekvupgnr8nc5aslsj0gqc6"]
+
+[[validator_account]]
+address = "tnam1qxcudgqkf03hfuv43zjfe76julypzdwxyggjjhk2"
+vp = "vp_user"
+commission_rate = "0.08"
+max_commission_rate_change = "0.06"
+net_address = "34.80.225.203:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqwdwp7wfv0man6u90j0ppr9hgkukwguylgs7wlq94yx5cutwydqcequ6ps"
+authorization = "signam1qzzluyrwupkqkjq4d0mjp37uws959l5cz859pqq2hxuu60q6879gldsmmla5wn869e2ccf7e3fmmcxncvtsvwkkt237vcujjjmep3tqyvh8vp9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qz597wld62k24xy7uqv67trlurfvzv2uuvlflrdwvfull5p0nuzzgj3yd83"
+authorization = "signam1qr674gnd42tktkmdc87f64mu2mj5y5mk66w5dunpc7cwpu5we66skwymgztcm808mvvxq6rxw0z6hhczxvqgzv80z0qzfuxuxpfzrdgqut8rja"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzfd5d93c2zp8slg9qkd3hqaz9r0ultydkk297a3208zxt9e5atjch8pxk6"
+authorization = "signam1qquwt2fzdxwvpg7pl54y2sk4pjqmx8c6jy4n7w2nz4pknntuayhevsaa8765xzazf8zm5ylttc8hsjfdzq8e6t8ce6d8qc0sydjcqpgrhs9sfx"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypwczqnu5z352su4qjtxau4amrfla3azgw8zanpf33zqs30vgan5cggd8vep"
+authorization = "signam1qxvdc35v9ahnsk72gq5qaweyrs6quy4mwwdxu360ytyr4adma9h77pmw8qhc0m520kg7kzxp5g2z99kxyze7e546szkdck08j3msl37mqyaey4pp"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypp6rqj38m0h9zy0zpxzlz9pvsqmgdjct6553gdgmdtkw85dcmdwtqjqekms"
+authorization = "signam1q8uw8jw9mrp4n53ev4qkn9lk956uqmty9l9m7e293m0n9lcgskvgspv8wj8wxfsk3z5uj3mjhsclyh2458dnqdhhrrp9rh7pv6h8fwyyqqzpsuk5"
+
+[validator_account.metadata]
+email = "bob@irisnet.org"
+description = "Interchain Service Hub for NextGen Distributed Applications."
+website = "https://irisnet.org"
+
+[validator_account.signatures]
+tpknam1qp8k7e56nzd2h278l8vcq0udx6mce08q07686ekvupgnr8nc5aslsj0gqc6 = "signam1qpv2zztl6e9dhwy0gakehgftsh29jak5wwhj5p4p23qfkea2klyh8te4euhtzjvnggcu8s0evgy0lqk2tfs8dvlvspj3402lh536tecd6qx456"
+
+[[bond]]
+source = "tnam1qxcudgqkf03hfuv43zjfe76julypzdwxyggjjhk2"
+validator = "tnam1qxcudgqkf03hfuv43zjfe76julypzdwxyggjjhk2"
+amount = "2618816"
+
+[bond.signatures]
+tpknam1qp8k7e56nzd2h278l8vcq0udx6mce08q07686ekvupgnr8nc5aslsj0gqc6 = "signam1qq3mcy9yf8jeuaz79nxx46vjwqsrtjrqrqwgk2qgesl8xq2zm4994mnrjgw89mjl5kk426n4m92vltfyuqlh8cezkyyt380vua6kqcq8e5kxwu"
