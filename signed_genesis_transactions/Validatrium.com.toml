@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr5q3npnaecmpe4hlkl5utgfaefkfe0l0nckz9vy0gd4knf7mzt4wleytyx"]
+
+[[validator_account]]
+address = "tnam1qxypnz2hsgdn6avhz6szk82c6nzxq7gvvvexmnrt"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.101.19:20156"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp8yqs75fnghfyfy87ndmel6slz9wtqw4upzx5pkuswfryxj7ex0s4fddek"
+authorization = "signam1qp2hugdpfmgtmup5jedp2cp8q2jkaxh2a2ad6ngy26dh3jme46lsm9mry8dvej6xc9hetcrt9fhcekqgxv8yedjz573xyrry9yenxmsgl869sr"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrj27aq2a8pq5yf0mw4kuxaawavqhnl8r6wps3w25hek9wy39udcwsul7ky"
+authorization = "signam1qz0lgr4neuf0h2utrxywgcs0c0389f70t7hd629tq7u00r9e32wak9hwc9w083w9lu65c7nuau90dllw448vk63tdtj8vmpv4wl80sg2d4wcez"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpzxlrv4sxrpchkjp9qhk3dkehzxk59s0cpynkkuygqr42y4azn2jh092c9"
+authorization = "signam1qr8eh60pdrpe9gft487awy94w04z9r5hfkq2apghk4h0sf5lpt32v2mfa2tlearvy9tjyfg034xymu3vk5ztj8c2qcgmq90n0cldukgrs4r3n8"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyphgf0mqm7jmgdeagn908y5s00pjnxqf9ehncncp8tp4k40qraw34su22pyc"
+authorization = "signam1qxzk85nvxpztf4l4z23yw3vwetkz8r28svzkzkkghak0300sp3afv7k78v4nw7rgj4rl4ff0j2n7vraanddhqg93p94z8fthnueqqp6cqq8vwd82"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyprgve3ec7xg7r5wtn6yrqvdeu2y3u77fxt7d26jt4rnu6zz0fqndcjap89v"
+authorization = "signam1q8zz0s2687m9e9saupwsd45gl9mypt0j4ecuurypq6099jgk3qc82d27392uyajldhq43mx0lhcg64752cprq52jlgt3zuec50w2fukfqywv53re"
+
+[validator_account.metadata]
+email = "info@validatrium.com"
+description = "Stake with us!"
+website = "Validatrium.com"
+discord_handle = "bdm_validatrium"
+avatar = "https://raw.githubusercontent.com/Validatrium/validatrium/main/validatrium.png"
+
+[validator_account.signatures]
+tpknam1qr5q3npnaecmpe4hlkl5utgfaefkfe0l0nckz9vy0gd4knf7mzt4wleytyx = "signam1qr9rnvffj92r02lvasfmm7ce3rw2zdye7pv04xqga5ksw7un23scrp527z4zdqen7d8eeumn2y55078ft9dr63ypeexye0p0qds4has8rzh8mh"
+
+[[bond]]
+source = "tnam1qxypnz2hsgdn6avhz6szk82c6nzxq7gvvvexmnrt"
+validator = "tnam1qxypnz2hsgdn6avhz6szk82c6nzxq7gvvvexmnrt"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qr5q3npnaecmpe4hlkl5utgfaefkfe0l0nckz9vy0gd4knf7mzt4wleytyx = "signam1qr8klh9fuh5j72d227x74e8lqa8fp6jwpjcsttkjwejawm0uzlsgzhyhrjckerh6lsuuwd6seshhle6fvezdw0hy8hqzggndp6dcvxqr8agf0l"
