@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrfx49r78s4u4mdt74vpfk6m9e0e9wvlmndgtc85gkywzgldp56nycwqgde"]
+
+[[validator_account]]
+address = "tnam1q8h9p66fz526500xlxjhkpns3xsnxgtmgc6jd888"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.75.107:58656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrglvg8q08uqdqkhv2cze4yccwrsa3q9eju9cmyn34rqp28pkj4lk6d2ttl"
+authorization = "signam1qqmm85du9u0g09edpz7emk9gkjdw9nu9gue6qkx6dnq250qewc4dxwnyqtx6y5edejkachpwvxu708c5tpg25hex53wqzy2m6kynemcdplrqn4"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzcssmdqtfsyh40kmeh8cqxc8jsy0uysn6nr594gcchnymdtr5es7c3l7me"
+authorization = "signam1qrgmlz6zsdl8gj2s2tx82zcrle3jxmf6ycyy9emwyvyqfm3xv85jugmj74hp496swm486mx34uetml4wdwr9h3ye7sekty24kgknd0sdp57trm"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qr3q2wc9ehalvyrzqeg9wjth9ar408c2nhp303nkuwarmwqe87c5jp67eat"
+authorization = "signam1qpg8npurkauwfwx058lv3w96n3hg9a34763pq36fef4gts6mtqhu0m3q62kkv9zcgt7qcdvta2antedpsmnkahx2mvcp67gludnvnugxm4c7yx"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypc4rp0l0k6cshgwuur33a0h62pwn2jplzp30m4cacr4cpm75n057sz047nn"
+authorization = "signam1qyyvyzvxdp04pdxsmdw5y4u43f6rvlfvwmggdjhkgflm8ugaxltqvgtqjgtl2wxq77gc7h5lz2h7mggrkpeqdu08sfs49l5fuzm7yda9qqqg8nec"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypwe4ygl5r0nrvvn5y2n2lt5l4r0wuk982vgc5ly0wnkr6hc6g03wcup5d4d"
+authorization = "signam1qycxnawxzpa7upueqn452gwswrr8tgrrr2hwnrgcye0wg723ejsrjp33axlzrzm6mfyxvwljp3nnsf7t4lg8jumkyg3y8swv24q7fdy0qywwhnt8"
+
+[validator_account.metadata]
+email = "silentvalidator@gmail.com"
+website = "https://silentvalidator.com"
+discord_handle = "silent666"
+avatar = "https://i.imgur.com/0KUHPnZ.png"
+
+[validator_account.signatures]
+tpknam1qrfx49r78s4u4mdt74vpfk6m9e0e9wvlmndgtc85gkywzgldp56nycwqgde = "signam1qrw9dudw8vmr2kl5s00e6j0wula8djqlwpyywwqeyqu3ythcg0rwk478vgxn32tqx07jhqtvhdjn406zq4nw0r9mf985plkuw89sx5cfq4hhd7"
+
+[[bond]]
+source = "tnam1q8h9p66fz526500xlxjhkpns3xsnxgtmgc6jd888"
+validator = "tnam1q8h9p66fz526500xlxjhkpns3xsnxgtmgc6jd888"
+amount = "2631539"
+
+[bond.signatures]
+tpknam1qrfx49r78s4u4mdt74vpfk6m9e0e9wvlmndgtc85gkywzgldp56nycwqgde = "signam1qpqv3jwalhj4ul6ndw8mt9mqmxcg905vsgugrljh8cu24nymsxgx0aclfx6y639c77xrz696tvksr9jadz44v2qgkzyzlxf60uk6rgg8lkehws"
