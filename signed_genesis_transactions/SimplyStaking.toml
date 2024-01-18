@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq3w4mnjk8tvs0xl7sq9vp5vfmtn386k5wmutvxsr4knyrzwmge77q7jgvf"]
+
+[[validator_account]]
+address = "tnam1qx8wlxvz42vw79m0ruf65rxa0a2d7w9t7y0m84rs"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "80.64.208.172:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpr0w8vasksufm6vncggzgtxqy77xun39myyzy60qgn0nda6vapnzey6s4a"
+authorization = "signam1qrfpnwrzfx8mtkup62te70cmnsxj4hgal9y3e8qsw99992ylca23h8k32jar9kerh36m7xkynnzc7kzgn80w5rfr3rky5l9hknjewms0vrevu9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp5zn4ztv62fenu6vvg4jus7g7epaqcg72794xes28nl94vfa9q4y2znc6j"
+authorization = "signam1qp8hw474v955hhfxg07t6nhlscwd6ugx23pan26jqsfq48x073cvmr5k0g2j5wmacp5uk58uvs98jqd06dej96ve4p5nmvx2cchmpvq067eaxv"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqxp5jsj0qcqcl77k9r9fzyxl4verxqzfhc3mpcn5v0pjgeqqlw5kutjdjj"
+authorization = "signam1qzwmsguhg8cxs9r3xhcwerdx45lqg9ghflfz3gqapmupnx7wfzt8q6zaq09qfvnduv8asgmxswhpvnen9x73ysul7u68r8ppr9daqrqzlf340e"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyprqmk2tkhvs55yth2y68qmewqlyuqnvmx0ymuyf6xauvampqtsq0qkftlh0"
+authorization = "signam1qy2fq4vdleus4pggped0psluj9kdfmrmla0pspk4tsqzg4rtt6z9vrkprx6ckmtlx93xn3r0m8yazazzqwv0mgkz8mw88lk982u34836qyc5mrwz"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp5uuvpp4ywfwcgph46mnhkdadftd8sc5cl8zjvmhjava5k95rjvwg86k76c"
+authorization = "signam1qy6s9xfhn789drpeauw9z8jfzsjkl8jmwm07j9r78grxxwe870wl7u30n97uda9xfvjxq5fyxay40a5evr7m3772cw9pc5jtxa43dtgfqqhctqqu"
+
+[validator_account.metadata]
+email = "staking@simplystaking.com"
+description = "SimplyStaking runs highly reliable and secure infrastructure in our own datacentre in Malta, built with the aim of supporting the growth of the blockchain ecosystem."
+website = "https://simplystaking.com"
+discord_handle = "cabbache"
+avatar = "https://simplystaking.com/wp-content/uploads/2024/01/Logo-128.png"
+
+[validator_account.signatures]
+tpknam1qq3w4mnjk8tvs0xl7sq9vp5vfmtn386k5wmutvxsr4knyrzwmge77q7jgvf = "signam1qrrqxa2m5j7r3qf2vedkqwajxukdsf9ptamk0fxva5s7v4hvjn72s8sp8j86r52kvkqm058yplkhparkj35kcslpaeze9r7feafar2svv4uq4y"
+
+[[bond]]
+source = "tnam1qx8wlxvz42vw79m0ruf65rxa0a2d7w9t7y0m84rs"
+validator = "tnam1qx8wlxvz42vw79m0ruf65rxa0a2d7w9t7y0m84rs"
+amount = "1842084"
+
+[bond.signatures]
+tpknam1qq3w4mnjk8tvs0xl7sq9vp5vfmtn386k5wmutvxsr4knyrzwmge77q7jgvf = "signam1qqu9kas6xc7k5m6ct69zlzh5a6rjksutewtc35wz2nncjdecl0fa7tfnysv7r9n2gl44c2ter48x8l8d7h9kzlnhw7fs07hp2cauxacd58hpkd"
