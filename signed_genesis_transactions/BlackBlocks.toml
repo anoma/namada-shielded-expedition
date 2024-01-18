@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr7rdp30f030t09fxy5c4r7cftw0uukm64pqc38y8l0jv0sc0mndk0dz7my"]
+
+[[validator_account]]
+address = "tnam1qyguhhm90xs7g3erhy5976ldxfj3de73ngdx72qu"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.131.189:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpxem09l5d38zc9wus40k670450r287u4uvjnkpkmgcuatd9ex3lusncwnj"
+authorization = "signam1qpwlqppus56gt7sj3wp04dyt7ss0k5t5d6xf8njrvgfjxelulp446fy4yel4ff8j8qqf6tllctrashxvcvgqxqpzhap9np8ulpa4q4gqdv7ens"
+
+[validator_account.protocol_key]
+pk = "tpknam1qz8prlhxfvdp0m6lkmtwrm2x2hvlpsd4u6l6zr53zm746qun9q3r7we7wqv"
+authorization = "signam1qp5h6h7e9qh0jn67e5xgvegs7qzskf7vscckx65gdyjz88vux057xpuvvp2xwea3ttlgthxty6zdacrpvyqgt6f6app7yun62n02mzqdh2w5as"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qps8nyd6v0ygwzytshxye3gz4q9nnmyyy5nvtvcq8r92c4evxl587v2kvhu"
+authorization = "signam1qp8y8p40v764aff4wq7d3n2rme7p86h0mzl39mspap9jyd3ul8fq8jgguttakh4r30t6zxgjl5yf0lst0dwmlsz8t39ar865y5k4xec92tjgw2"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypr7m27c98dacjk9qxn7pwamg2cxggx9gvyl5jw0qhpywp8nv5s3wc3l9cnv"
+authorization = "signam1q88dj2vtg3fwq66pq8wupytldrntkf8u4fajs049lu6ap9hvrpw72g7ptz4tqgrus2gltxzyqspx4tm8vauunw9c0lf6zhsvfdsjah8fqqfz2gq7"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypv0qd3se0vg76elaa8nm34meplxycems7f2mj6f77cyc4hrwgvl3cvf6k8a"
+authorization = "signam1q8caza397t9aj7tnkqfvar08nsvyxhjz9nh5c3d9mg7yfduucp4358rly2cppl39edj9saemk6uwgqlnhffttrmpg5s7hqpkr69marxzqy2str7n"
+
+[validator_account.metadata]
+email = "info@blackblocks.io"
+description = ""
+website = "https://blackblocks.io"
+discord_handle = "blackblocks.io"
+avatar = "https://raw.githubusercontent.com/BlackBlocks-io/eigenlayer-metadata/main/Original.png"
+
+[validator_account.signatures]
+tpknam1qr7rdp30f030t09fxy5c4r7cftw0uukm64pqc38y8l0jv0sc0mndk0dz7my = "signam1qph9jk7j5lfnqqtt3k84qtdrqfpefy9754pxgy708lgsmkgyyjcj0cdfuysccz0e4lehptplpmjjrek495clf38muncncwajp6tvwzsrswyjdm"
+
+[[bond]]
+source = "tnam1qyguhhm90xs7g3erhy5976ldxfj3de73ngdx72qu"
+validator = "tnam1qyguhhm90xs7g3erhy5976ldxfj3de73ngdx72qu"
+amount = "2630549"
+
+[bond.signatures]
+tpknam1qr7rdp30f030t09fxy5c4r7cftw0uukm64pqc38y8l0jv0sc0mndk0dz7my = "signam1qzg6c3eyfvx7w3tlsrezknkzw93qcx06znyh9hmdx3hgpedca9es4nhdgrxpc23epm0fqfz9srnmvtu9p2zv7he6fkrp9z44c5w44msftana8v"
