@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqgr0vh9q823pf35w6eqm50rf6exs5e7c5t8zylk0x4g5ppgtqscy5zmq2n"]
+
+[[validator_account]]
+address = "tnam1qx7xkpd7e3xjl4guhnqs4xycahwpfcsfpq4q449g"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.109.32.148:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqp2hc8q8mqql7atwwt2x2w26y7x74jk28kx27wlzvz2yadgw8ucqj46eln"
+authorization = "signam1qz399zgyda5qfcqg4cjwaf2gf5uyk3qqc5yzxtdejwqzjqlz7tmxy548xh07a497c3ld33dhwjgulm9kywhsuwek62ggqz3qeu7ngasx3phsw6"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzng5nfq82cp9vxx8vzp8vx0k5fcrllgq6kt9dh4uskxfx5y72fmvu2tz76"
+authorization = "signam1qq0qa5k2r8hw3eyvk55v2a5ndhlv6yz4h5zyut7an35m2ee9x9qkcfww97a650awkp48m9c0pjjm8628rqypzr46srl5d7lge06ux5gyl3dhe3"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzdfvxrypg4l09sf2qyawkn6wx9ltt3tr8n7s70hev9vn7hj7wgrcsw2vvu"
+authorization = "signam1qruy57qhk06as4hp6a9n5867mskyk9gn73t6u435kumqrd6rqmyxjtkgcyfzpv9kthvrv0fzh2429cakef37r5m40z4jvuysghygmvsym6gdhj"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp5nap0q0cdyxdw6hpdttkphyx92976a030ukpswwpmmy5lwmu0r0qmtwruy"
+authorization = "signam1q90lvs8sp4w83gdwdq6323qyj2d7rv4weh8p7h8aymwtp43za6n2spa24gv36y4fs6jqwke3y3482gqdr9640anp7y32vatz3lycmngfqqke6w0a"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypzm5re038u2wu2900s4scut0aagxk643ztdslkhtwjqh8k86pglsgydqqff"
+authorization = "signam1q9twp5hwlfjh6l3zqt666qxzyu67hzmg2032wq4ppfwfgtzew79yskjaevj2ejs4pf4ayupmnppuy9rpwea3nnql8mpn4jx82vv9246hqqajlv7k"
+
+[validator_account.metadata]
+email = "architectnodes@gmail.com"
+description = "Baremetal_validator_and_IBC_relayer_operator"
+website = "https://architectnodes.com"
+discord_handle = "architectnodes"
+
+[validator_account.signatures]
+tpknam1qqgr0vh9q823pf35w6eqm50rf6exs5e7c5t8zylk0x4g5ppgtqscy5zmq2n = "signam1qzesfphzz6sh82n9yeptgvyzg82md7lzmxhftrq5f46w972qdmdlhvcskk5c642lfqjxu3vsk0rp7aucqwedge6k0ja8mchsqr0k96gpyn0590"
+
+[[bond]]
+source = "tnam1qx7xkpd7e3xjl4guhnqs4xycahwpfcsfpq4q449g"
+validator = "tnam1qx7xkpd7e3xjl4guhnqs4xycahwpfcsfpq4q449g"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qqgr0vh9q823pf35w6eqm50rf6exs5e7c5t8zylk0x4g5ppgtqscy5zmq2n = "signam1qpa8rndk28u22gantx55738n3wj5wzqyah390afuyc7p0v0mf904ergvn3v8maa574ln9gcjx84489s9r5428zc249f8u7xccy6phcgqrsnthq"
