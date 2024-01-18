@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqavmgjhe6nn582evhkvgn7jtu20a6wrzn30mmummyyacllkrnmfvk9n2ga"]
+
+[[validator_account]]
+address = "tnam1q9flpn456nuncfvj9k75mnhwndezmw7dnvmczrjv"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "195.14.6.173:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqw3hzzp6d09tj8w42a2h9ek98zmtgslaqydtmcuc607c2qm6anuvudcagl"
+authorization = "signam1qq993y6pm665u3mdhytrg4ur7ea99wcgzrwrn0n5eq48gqnu0h30gc8v3f89t79kx3qtjp3m2mfku5dqezmfvkqwm3fhmjsh0x8fgaqpjhuvap"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp6rattnva4edlqwenekyup0vzscn9quvat7dvc9xl4xn4hx0ryk7vzp6ek"
+authorization = "signam1qrrtxflmptdxmg5e8sp4yq8247l9dje35eg29zmpt4j4j96zgd6c0v4aw0tyalj94fm3qxvqhpuj2l2urheh7jvl5g5cerkes4j0vaqqgmwuu4"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq467ykpxnzl92yy65wzd6sdk58k7fhmxt9gfdr6vfyvm95fr0qzjyvyh5p"
+authorization = "signam1qzrsj8pc6egq7kt9p6mv4c8p6atgnaq7nna2gpd0la4nqxucqwquzpvgfxszx95zy3prlpg0vrw78pvcg72wuwxruqmh4u25gyf69qgfhmrelj"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypkhk93u0xfzay33zhwq2wzj74xkc9t5k6k5trau4luuy2ygfx8spgkvn2mg"
+authorization = "signam1q84jnl0qacyueucf6aaudvs3h53y2haxp0w8tv8vqe0ztqxl6ch6w9j8nzxhvknejdd0tgynr0qdj8040km0dgpnagedwayrfx58q3maqyns8mrh"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypr0quty3st0g95trrgzv8nrjtttaefvyx25w4wedgdclae5vz2x6cg5x2rm"
+authorization = "signam1q9gamf3w63crc8k2xgz90xhr7saealtexmjw0kg92rgdvyhuuk262085greggx9c7um6tesyns3khc6fqqykxscyj94luj354pk0ffm8qqpxquag"
+
+[validator_account.metadata]
+email = "secops@01node.com"
+description = "Securely validating one block at a time since 2019"
+website = "https://01node.com"
+discord_handle = "jiukelo"
+avatar = "https://01node.com/logo128.png"
+
+[validator_account.signatures]
+tpknam1qqavmgjhe6nn582evhkvgn7jtu20a6wrzn30mmummyyacllkrnmfvk9n2ga = "signam1qzl4m2y24leftkgzcfglhhn4a6q8zjcg9rwd27rl7ucj7vqhmxah0q3hpfcdn9v54f9kzq06ndy6x9ph0zxfae9dxnrta5chufx80dq8n8c69j"
+
+[[bond]]
+source = "tnam1q9flpn456nuncfvj9k75mnhwndezmw7dnvmczrjv"
+validator = "tnam1q9flpn456nuncfvj9k75mnhwndezmw7dnvmczrjv"
+amount = "1000000"
+
+[bond.signatures]
+tpknam1qqavmgjhe6nn582evhkvgn7jtu20a6wrzn30mmummyyacllkrnmfvk9n2ga = "signam1qqf80v3rcm0dct89mvp0aggqgtta77ulpzrj5spe9uvg95gc43gjj8rp6jw4t4r6rzq65kwerljemm9ymdpztfelrkc2lsq2uuqzl2cxclkzgm"
