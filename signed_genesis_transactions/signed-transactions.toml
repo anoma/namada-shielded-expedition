@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp3w2fc283pwwta6glcrxsn2ffnu6xu7333vr69nvupt30vxx836vj0syul"]
+
+[[validator_account]]
+address = "tnam1qxe9a4xn6ujjap5ps3p2zmwl243shdzeuvl8munz"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.04"
+net_address = "37.27.69.100:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp3ramcwn0cvjk5w078f6z0tjysnhztz2ukgy6egspy47hvauch6vcxu279"
+authorization = "signam1qzgj6wvzg3sn2cmygav993mr74fmcmnv9ww60w8s8979499p2mrsmgsgam7hgjha02mzz9fx6zk554uy54z8trzanscduu7y5zjswksgqjekgn"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqc408dd9pfqz4a63zd0k7zvedrvyj5zt6lt4lf3xuytcegl6cswuad507j"
+authorization = "signam1qzeme02ds4s2vyqntnc47g29p5f3dp4vk8py3ss2yvgzdwggdamvrftmxq6g93228jdskggf5rwhfh9gglrxygjtvjd53h568044unc2nd22lv"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrpsmluls7gx24ssszkcetysdv3xz9093puzejefkkp7m44tccs6yr6ztgg"
+authorization = "signam1qq6qdytke9g2gt3crrufq2wgzc06guynhrss585lgs6netqge0uk60cu5rn5d4nkhpgtgwftg49h4w495uks50yu97pactzlx2zrl9qvp6gts5"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyprs2pmk6wp0fcwyr44srqj02z4v8uszkynxcpeypxr7ak2yzutcysqhls2q"
+authorization = "signam1q8rwxcwaj8q0yhcq7jvejuvjr7x3xsyk5q27gua0rh44hcrrvup5u645kkv46pjedcxgk0zgm9m9z6v8xfze8zuggzyc0gk5vreq5y43qqvy37zr"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypp4dagd4zug0y7m6czg973v2jew66yz66w04w4q20aecr24ymckmgkmvef3"
+authorization = "signam1q9g0szu8kmzh9h9437muvfj26l8fyhf6yut9tkeyvs0wz25n9swcge8lkzfnp9mhf74d594fwf9mvf9cqjz8ua9reymnnn628zry6eunqyz4e8n6"
+
+[validator_account.metadata]
+email = "aditya@kingsuper.services"
+description = "Others Trust, We Validate ! Your Stake is Important to Us. Secure Networks while You Earn Rewards."
+website = "https://kingsuper.org"
+discord_handle = "kingsuper"
+avatar = "https://i.ibb.co/3TM7cVZ/King-Super-128px.png"
+
+[validator_account.signatures]
+tpknam1qp3w2fc283pwwta6glcrxsn2ffnu6xu7333vr69nvupt30vxx836vj0syul = "signam1qpanfzfa3w4f2ws269aln7ze6pd7pvd2xx7uqqjssgskulfduua95n7nkxpj5weq8phkg538kjdn85gkyne2e5ynpnzg8ryw5rtlducrus5lz0"
+
+[[bond]]
+source = "tnam1qxe9a4xn6ujjap5ps3p2zmwl243shdzeuvl8munz"
+validator = "tnam1qxe9a4xn6ujjap5ps3p2zmwl243shdzeuvl8munz"
+amount = "2631547"
+
+[bond.signatures]
+tpknam1qp3w2fc283pwwta6glcrxsn2ffnu6xu7333vr69nvupt30vxx836vj0syul = "signam1qpv86a3tuql04eslwh8tsw9v2rh6ptltlw06aykvtq8xerupzq6j2h8pvhn6kz2sh6tyweyuqnpafa90zu7k3uvx7kkzhtpny8qgmncdn0t6hm"
