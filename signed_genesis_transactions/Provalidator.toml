@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0"]
+
+[[validator_account]]
+address = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "45.33.86.221:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qr5jsy5g0350lz3wnwpvk80fmj3scwju66xjtvway7hy268cx55a5zdwxde"
+authorization = "signam1qqpk8n5mxlvh2yfmmsyfukalf4gpjac6y5xfg8m56xljnsfuamzhctg739f0h9a0jjafk4wl3cltzvn2353ce2vtnccadejrv26rmjcyz7lchq"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqz5vhak6glh7xhpqmrjs7xnsxl6jr6ugm2gw4y0g0pfys5xrlhevnr4lkh"
+authorization = "signam1qqpku0vpxhlaj5gekja00uwkpevzv8w8hyu35hs4997f66e0yvcwhzxeu06jkw86lq75a5w2z28hcpe5gt92hurhsyd2salvkjcxn9q200cv2a"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qr5em2rp0f2m48mzrfe75cshsynwf03r4thlavc6sxxj30rw62dmg50mmel"
+authorization = "signam1qrhlqfytjdh59lrh72c76dvtgzsf0vs3l7am0eu6vu4eplkcwev3m8kf2vn642gzpw7zch2xx709av58gg3r58x6k8cc0nu6rkfhyeqq8rzk23"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypuvewjch504zekpal9rds6wxrwwrvtfyx2xulnty7sk7gth8c8kpsx3tewf"
+authorization = "signam1q9hyfjhdtauhrsnz9th7k95ed3y87pgk9rxtt86rhpmc3mxhxdhcc7f6dh8e6u4ay6zzw04ycnpe0vvhh047wu70khhwmxechzdqky7rqy7zjv8u"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypsv2rkp5lkju5s8pee20r3d3a6n62gw49lst5shcf354rv8ruz54s7g48t6"
+authorization = "signam1qygadnn26xl0wwv6rwajluyas3rckwrt5hw2yh809g0yqh7r7cs65nru62v7wppt79p3rje272arzc2094cepjnzjjky0e5ws9khkqf7qy5jgcdy"
+
+[validator_account.metadata]
+email = "zenon@provalidator.com"
+description = "Supporting-Blockchain-Infrastructure"
+website = "https://provalidator.com"
+discord_handle = "zenon_provalidator"
+avatar = "https://provalidator.com/images/prv_logo_128_128.png"
+
+[validator_account.signatures]
+tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0 = "signam1qpkfn5lqgkv9yx25x35978g4xy399fsv392vvzq2kkfq6ffuhrtt4y4ehtnd4auppn6ha6x9jqzf9uuzs33ha67z4h6kzc0kn2u5klgww2tysu"
+
+[[bond]]
+source = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+validator = "tnam1q8243m5rnsls5jn4yvv0ycjp46a0emppzvzs7j3n"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qqu4qt2t0ecrpj3put0nf4d9j6y0f53xz7j49pruz23qlyft6nku6mkmem0 = "signam1qqy6a3ztpxdqxj3wzqvtgtlpt305jrhr9y4t9a7jzqkfhtenms00tdwn4xsklek5pfmzrgwan5z45dwf8mxpqeywacezh58mc8cdzygfhlaas6"
