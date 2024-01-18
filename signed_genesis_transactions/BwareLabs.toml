@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrm5husws0a3lzgfll7v23h768lacw3c9xmz8h0xunkg48rt5rjsxcej4u2"]
+
+[[validator_account]]
+address = "tnam1qytuqrevscq0v3d4ctn7zsm4qva2x3n7hqra8llg"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.76.60:36656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpchtg7lwmsxt60kw2v6vd59h5jch250vm3z0qdvh93xeck3mh4wksn4que"
+authorization = "signam1qrp2m8peeh2fu9vvvd65dd4grgaruzk7eqpa963vvq8hpn3gpf334e899067mfuq69mhmn9c6shce5ehchjs59qcdtjm9w4nzhrssygrpcfcup"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp5ygefpd2xjmdaekgjje30vrlwqgmvr2xlhqcw3tpnx5wu53c6wy55sklh"
+authorization = "signam1qr08p4deelznfcj5n300lufkfff2llvp6ssjr78a0et9svnmgn49shh545mcrsskzu7sjwf37ta8m0p997mvkwa3q2serm5kdg6z8mqgawsswd"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrqel2clwmymvjdznmwf88guvzz9rq63fe602l5qu0mh4e3me5smuawszdp"
+authorization = "signam1qrqvaq60sq25fn6skkjdhy56a2nvchqylezw4q6qne99lmdg7sjsvtjd2c0ttmnfhgn8d5g6quhkmxs767t2lx9u79awnah7mav07xq9mxy50k"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypl52xz0seq2w9d6c0trz0sp5hzl90ruv0v2n98jv2spg7d200ut0s8yckkn"
+authorization = "signam1qxfyhxhswrlyhejv560k40q2peyepkwxs7n2mwzvju2r94waw256c96vyfcqr6hxdta3fwaf6pn5weg948y5qjcg6mvnnxwmpvfum7wrqy4vqvny"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypg0zsl5qvscl6t3kjz3rtg58h4cjrp5gq4ravwvaeflwgpr5pa7jgcumffu"
+authorization = "signam1q9466xzvqczr9y783fymw2w9nh2783df769fu4rfy0rzypt44skmua796zygeefpfzz9r3py6cq5srx78qr4qlwsc3hl9ejrr5mkj6uhqq8k8p9d"
+
+[validator_account.metadata]
+email = "validators@bwarelabs.com"
+description = "Guaranteed availability and up-time backed by a professional blockchain infrastructure team."
+website = "https://bwarelabs.com"
+discord_handle = "kristianbwarelabs.com"
+
+[validator_account.signatures]
+tpknam1qrm5husws0a3lzgfll7v23h768lacw3c9xmz8h0xunkg48rt5rjsxcej4u2 = "signam1qrtpzr0hp294vwd65dcx4vten5t339gqyfv4edchk5t4gml25c8rd93tjtvrtz9dntzzyvte53pnsytwuu4p6z2gjzc5kuyv8mcpdrcvea8jv4"
+
+[[bond]]
+source = "tnam1qytuqrevscq0v3d4ctn7zsm4qva2x3n7hqra8llg"
+validator = "tnam1qytuqrevscq0v3d4ctn7zsm4qva2x3n7hqra8llg"
+amount = "2631540"
+
+[bond.signatures]
+tpknam1qrm5husws0a3lzgfll7v23h768lacw3c9xmz8h0xunkg48rt5rjsxcej4u2 = "signam1qzvfth05s9l9uq5fqsu8c9hqluap4whq74ufzz65gl6p5dq6w9d2zunhpj93c9qnqnhvz4mchtzrx4je970h25u5kj376r26kar0s4g2xfz8dm"
