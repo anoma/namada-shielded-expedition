@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qz9jlnwn5utftyzenx4m3kvxnswcgfx0vp3r89fa2rep45ypcug4kl4qf5p"]
+
+[[validator_account]]
+address = "tnam1qy4g7aj6ln7rg2tk4qnpqxxhzyrgkh4ngs6w6uwx"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "0.0.0.0:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qq9z5ksex2y6g8u3lpwmsl9xhhhcxra3e92nrjatdk9gt40l59h9klawg3m"
+authorization = "signam1qrz0xecheuk8mkzgdv5f5s5zua5rtfdy9vmux6ctfvyl8ktjffvv96x0mru6amwfg8x76u6wldsyppz03cx08hh6g4yerctdh400x4gwwh7qu3"
+
+[validator_account.protocol_key]
+pk = "tpknam1qze2hu4fy7fmk9rmwznnnylygsx4nxdvpy4q206fcngmu25tushh7xm53ks"
+authorization = "signam1qpspxeaqtcyjf2a5psnt98mmrn0ptes655du3jv8p5c3e2k4c487mkn9qz0pws8l8pmkeptg0z82jlxx9d7xnrjkuqqs9kr7jncrseg8srrakn"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqalzwlqzrfuvypg76kuczngakmqkl7y7hqv5n238ewgu65w6ajzcu4k9sg"
+authorization = "signam1qzehpcrt0eh0wc46fyexn6ag72s9py3d66h44myy8l475dtw8x6uq3f3zsvjak4wpz5d49f5svpltuqaa3s5y5a8t32h9a5au4jursgv4fwq7f"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypckch7ey5z5a4en5epecqm4crywrhw0ch0a37g2gamlkxc5wdcslqsf5al7"
+authorization = "signam1q87p4kxzjjdxfakhjnt84grslsex2l2ddusyu4nm3lqpnwqk2trkwpmqlh9xz8tzrh393q7d5j3gczpcv07ftaqcvwvgzs3e7l8q6kprqy83a8dt"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypdp8ckehc9rjl886n34qxfj2avuwyxleuyf4klrp8raz9e5fseuschq5ek0"
+authorization = "signam1q9v5486cjch7p0usludss2k2zj26z54dhjn3w5acxz6804ud7yfjuha6sqfvfef48gnzmtc6y9xynqsrx2xmlaf7ny44wv9sead9m6n6qqpdj7wn"
+
+[validator_account.metadata]
+email = "security@stakecito.de"
+description = "Securing and Decentralizing PoS Networks."
+website = "https://stakecito.com/"
+
+[validator_account.signatures]
+tpknam1qz9jlnwn5utftyzenx4m3kvxnswcgfx0vp3r89fa2rep45ypcug4kl4qf5p = "signam1qzz67ecrf6umfc3gyxyuwqvn7najtgdan00xyplef5vvjmrule9lnj787z3mtndhpvjxd5mqeemhe3pgp69sxwwcc5y5e6qmg0ky3aqg6r62v2"
+
+[[bond]]
+source = "tnam1qy4g7aj6ln7rg2tk4qnpqxxhzyrgkh4ngs6w6uwx"
+validator = "tnam1qy4g7aj6ln7rg2tk4qnpqxxhzyrgkh4ngs6w6uwx"
+amount = "2600000000000"
+
+[bond.signatures]
+tpknam1qz9jlnwn5utftyzenx4m3kvxnswcgfx0vp3r89fa2rep45ypcug4kl4qf5p = "signam1qrqeumw2glev788uh7zy90097kss49522h48dz953a5x72tq596zy7nxc3l7had78c2asetpthqujhxmxamvdq8dq704j3xl4ep3z7q82vp3k0"
