@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzmwdhzu96mvmcah0l0kr9t3gshkgq2papatnx27xeuxn28ryeuc6t6pnaq"]
+
+[[validator_account]]
+address = "tnam1q9kdhreynpfg5c2wvnwvherfl3jmuz6rlq09yqcp"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "135.181.165.157:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz67rk5f5qaqs6lqq4slsmp289x4mqlyh6q3uzq9u0769wrrf5jf7h4s604"
+authorization = "signam1qzz30kkgm5r9dgykt3t4cwl0fpg5fqh9n5hwat6cns5gdwlsxwjt659f6tr0uws2zxhnmc2p5uct43n07rmwe3d7vpqgy3jtt6kd6ycy6gvd3d"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqldajnngel6kjuy06cu24z4z0yl32j23kc2609w4wvedycpqr88c8gfspf"
+authorization = "signam1qrqedy5pltmvmsju7nm6fv7468e99pkhh82hlgcztp25mtf444k6zx3jvtshmm6yem0mq3m6njyal0p9sg2nfpadywp43dfkcjg9dmcywfft67"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp8lactgysejln3jevn3hgw426nljphgmd97ls44ljug9qljvlknvl62j73"
+authorization = "signam1qzfpl45s7ru4sgext9zqg28k60u59u3k2t2q2vrvas8c5vwdz3ke66jq4wqvjpd2cq6ey5euhmhhjghvtejag5ncxmphckvt7sj988gp8xzlm7"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypr0cst0eew5m08jgkylqympj9naj7cwxf94g3ventqvtkh55w03pgxt0dup"
+authorization = "signam1q9829clgned73wspf4zp7g3g5xw58c50scc0us7gqt7mfnrn0u8guan7eknl07kpuzzr4szn0gp7hv2vk4mjcch88ajwzrdxrr5dkv5jqy4lhmt4"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp6vlvs08gse0muss4hx86h0f2dwty49cvc0vh0s3p0tkgqg49yx0qdxpjla"
+authorization = "signam1qx2gv6lvttlq5t8hr8jfjej6968v3z3t9p0q7pjmnl7m9lhd9g39gnmrkf9yehkphfrszpfhncpuryddemsre5lhjvzgmc559quweatsqyg9ve52"
+
+[validator_account.metadata]
+email = "ops@nodeguardians.io"
+description = "Namada Network is under the watchful eyes of the Node Guardians - nodeguardians.io"
+website = "https://nodeguardians.io"
+discord_handle = "@jejom43,@antoine_nodeguardians,@jeremynodeguardians"
+avatar = "https://cdn.nodeguardians.io/ng-logo-bw.png"
+
+[validator_account.signatures]
+tpknam1qzmwdhzu96mvmcah0l0kr9t3gshkgq2papatnx27xeuxn28ryeuc6t6pnaq = "signam1qzk5qhtjj7gr3wxhqnd97h3aq3q7m28swzk3p2gj4ey7pjsr58vxqzka7le0l66a5n7dcp9ql4jc5j6qyjzks8kakjj9mq3ln30d0qqzmk99hj"
+
+[[bond]]
+source = "tnam1q9kdhreynpfg5c2wvnwvherfl3jmuz6rlq09yqcp"
+validator = "tnam1q9kdhreynpfg5c2wvnwvherfl3jmuz6rlq09yqcp"
+amount = "2630000"
+
+[bond.signatures]
+tpknam1qzmwdhzu96mvmcah0l0kr9t3gshkgq2papatnx27xeuxn28ryeuc6t6pnaq = "signam1qq03stlu2mw7a65pckq86xhgk9lnkxrdswf9wzvwfztf8cwwyav792wthzl9mg08sx7pc7u7ls972j905d7z9qjly8qk5jf5trn59asfcnjs3p"
