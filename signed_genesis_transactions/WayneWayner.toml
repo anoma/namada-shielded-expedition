@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpllsjggltyxqxja632z53j0qfjthtmcrdkzlezedfttkd4czvy72j0rg98"]
+
+[[validator_account]]
+address = "tnam1q8z9j6lvkay3prylx8k9yjrfet6wfxy26g0nlnfc"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.199.79:26112"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpkmn3cq905df67xx8qqlxaxjdz6hw92xv3snkcquz8m8sz5rgswjhx8t6z"
+authorization = "signam1qrg6m6tc9qffmsae7v7dvul9ud7dgyg0m72ztv4ra4jpkd0su76ehxp9dqnt66gcwtpylyuch0wma9mwqquk63k6uy07s99cxghf6wgyj4rlnv"
+
+[validator_account.protocol_key]
+pk = "tpknam1qpc4897pmh7scgfl307ukqq6mdp2fs42s3qrmcrdxc3r520h4zkvc460085"
+authorization = "signam1qz6f6rwwqtl03du0jhgjsu7xvl3gceuc05rq30qf48lsxu27rk7tfd79qfl9rcxcfl7u5n6npgn5v2mcqppuh3sp6500kmsn5qqsvkqps0q2jh"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq66n2crd9gt07gj02tmczpxetf6jfejg8x8dfeqjrrzunr62che53nvd5y"
+authorization = "signam1qqy6vcqx25rc7nk49lxxfl9zavrtvf5w6uztlxm0kcxcymyz9xslmjkuld23rt9szvjgk3r0c9xkrjr2qhfzvnlz2pxl7ammlpsv98qffuurd6"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp624ky7xq5n6j66cty3a9860ss5yw0zfkz3ne06vn2srgfkndxtkgh5d7ck"
+authorization = "signam1qxqgdzcehdr4v7l4kdw7rl3qlarel4aa3ej42qzxa3a24rrvyl2v2atxfvy37y2dxrqm6vefe2udzrxxyeknh37qjh4gwqvwx29p8tdfqyf2um5v"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypg07cg6as0ptdydk5h84ruw5jyj8eh59qsyn4qgw7676r8fsqjsqgg06z7g"
+authorization = "signam1qy7yf4zgdnkg9ku6dwrdc07nqzlfykwspvv7guvkryn2aq47ehfgj9ayh6yvpe6zstqxwq6dens3yccj4c0hc2fy9d72cxr5kzr2z8l6qqgm3tl7"
+
+[validator_account.metadata]
+email = "waynewayner@protonmail.com"
+description = "sudo apt install description"
+website = "https://waynewayner.de"
+discord_handle = "waynewayner"
+avatar = "https://pbs.twimg.com/profile_images/1002894732907991040/09w5-aQO_400x400.jpg"
+
+[validator_account.signatures]
+tpknam1qpllsjggltyxqxja632z53j0qfjthtmcrdkzlezedfttkd4czvy72j0rg98 = "signam1qzghlwpewsc6qmzxusdaqwlnxl2g5z6vzt79ud8vwqexaqd7np9xqqg4s55dl5gnc2qxhemmr0ln02ajxhsnlnfwpp70wdakq4ydj7cglvwk0n"
+
+[[bond]]
+source = "tnam1q8z9j6lvkay3prylx8k9yjrfet6wfxy26g0nlnfc"
+validator = "tnam1q8z9j6lvkay3prylx8k9yjrfet6wfxy26g0nlnfc"
+amount = "2630549.707602"
+
+[bond.signatures]
+tpknam1qpllsjggltyxqxja632z53j0qfjthtmcrdkzlezedfttkd4czvy72j0rg98 = "signam1qral2yehgp9nxwt39q9gp5qx70u6pmj20p2kdq8a0ggful7jve9uqm2xq2jzs3qpty53jjsn5df94d3hyrueuc4ajuqsks3us6lnsjgxz4zzee"
