@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzm2l06dmknjdkfrkwvqe88x6wfd7pwd8apcn2zvcl6j037lx3vnshn9llh"]
+
+[[validator_account]]
+address = "tnam1q93th4stcuxfs0h8kn9uw0uhdj59dfa5hu768v4t"
+vp = "vp_user"
+commission_rate = "0.07"
+max_commission_rate_change = "0.01"
+net_address = "65.109.85.203:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qpr7ftzpldh7jysq5jxnud3k7g4zxqxn9stm48855mxqxx6cefvh5yg4sec"
+authorization = "signam1qqykuwdfcx2hxgztmvpfnhfmraqtmgslkuz8j9zvdlkj4atwew0vlcm2njqw4xzhpda66mz0wl9m53436a0h76gcvwnpsvdlp7tdwrq24vgysu"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrh3m75e5hnlh5zurnpjartlnrucp5wsvge6s6ryfsthxnejzd9wgud0nxr"
+authorization = "signam1qrp2z3zytx2aq0e2qruqauafd32gxwyf9fnztknrcft6x8e9lhcz5nqkrn28kgtszuz248z7xa9nf2zkaw40v9kmkv8r3e26a5k46dc008ldsy"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qqpf3mus2f9gxvr76fq4rgk8urmsn74q9zmqc2lzvph6gak6r86wsjvawlv"
+authorization = "signam1qrzluwwl97mwmdg95kmzfala5j22zk4f3dzlcs5m69l0dgp04e097qr59d0mwjw8m7el2af0hrjpl7nwy7zk332ayvahr5fcw7hkmrgt8kssef"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp6czg5944xzk2v0zwf06jfv2mh55e75hu645cc5h0m6tla39smt0gh22dz5"
+authorization = "signam1q8thgk5dh7qknr8pajvpmgp5cnd5twrzy87zraj55fcrveeydjz0g6yrycxs7l0e8lvym7ajv7knx3df37f4xduwullceeh9epkpftr9qqukutmp"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypz6tynz6j2n7dxq0xqg56h3k30muhz3r9evxrwgka08wj2sxwy5fquqmpl5"
+authorization = "signam1q9xuqjqyl6y6e9ewf0w8x3tyesgkyytrmcqtetrjzjzx8crywf4vstm7dt8swtnd4nju3kyaz7c45x0qdua6smx4s4l6p0xl5stjaljpqqjkaze7"
+
+[validator_account.metadata]
+email = "team@stakeflow.io"
+website = "https://validator.stakeflow.io/"
+discord_handle = "nick_stakeflow"
+avatar = "https://validator.stakeflow.io/img/validator-logo.png"
+
+[validator_account.signatures]
+tpknam1qzm2l06dmknjdkfrkwvqe88x6wfd7pwd8apcn2zvcl6j037lx3vnshn9llh = "signam1qqs6rh6gwppkeqh4yeqc0egnsx20vhxvlhdffcm9s6d09gn6f3ahdrdyel5psslmqwxf38lhetscx3g6jprqk3jxh3krqwqfnlze9eg04vu2rt"
+
+[[bond]]
+source = "tpknam1qzm2l06dmknjdkfrkwvqe88x6wfd7pwd8apcn2zvcl6j037lx3vnshn9llh"
+validator = "tnam1q93th4stcuxfs0h8kn9uw0uhdj59dfa5hu768v4t"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qzm2l06dmknjdkfrkwvqe88x6wfd7pwd8apcn2zvcl6j037lx3vnshn9llh = "signam1qr9ylkulhgzpcy0vgevzae9vmn72g24jy2pfefez8d5kp5fw2cyp9r9r69x9dceyz3ht6t47unlmwescq2sut8cfwxa3929vff7ykkg2j99y5k"
