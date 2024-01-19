@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpwzqyhlm93rqgt5swj4j2yaf2xxlx274dw9f35nheuaxlehr5d9q495yrl"]
+
+[[validator_account]]
+address = "tnam1qy7u3y3sqltmd68a43lsr0khu8c9y8uyyuzy7sck"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.225.186:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qz3ul629zdlzpc2vefjpe7y0m0hf3r5nmf70t6qayj37vkzqx4dq5h7rueg"
+authorization = "signam1qre8rscgzanvtyde4dfu5qfgrv5hhdf2438sqwl9yyw55w8lcg49rzcxut7rjzqwhk82eucq4dxg0hnfa7hja7syz86syrcpe7qcgtgpnpz209"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp7rclueqehhd8p9lytm2mq3c3a2duk6ktp4tcqk2l74edgpcdxfk6exx8g"
+authorization = "signam1qq7p7zp9elucsy39aedqfqxf5kp55rp326sdlleq97gsw84hc3z8sdg6ajwyxw43u6klr5uzdjp7sn807ap9aue4af0qkxsypkcwsjqxslj6l5"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrvxcklpyjq9ehfszq6a7rn8f2qktaj58zwucc0fevm90wr4sy5ewkf44lu"
+authorization = "signam1qprw326aesv9u0k62ll30xd078w29je6x740antpxfekhpfnmtv3w9evhs6fpsandfcxfm9smq0luap2xad8td840zqz5ga9n5vykygpmjks6a"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyprc0rgv5fvls45zuvc8z75ev6hr765t2u0mrvp64q4y98lek3ghxg4z55k0"
+authorization = "signam1qygr4tthcttuwy7076myl7tvw9n9jgsah4l65uwpsq7dg2ctxxvlz468px362nu3w26a7dqvpszwwt64c2cpxjdhm9x5zmk46wq2ccjrqya3kr2l"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypd5u6jzc5gkuxf95l2xddafqhx9rmtflvvq78qkyp5hzfzvpkh42gvqlj3t"
+authorization = "signam1qyx35p37v6gv27sjsdf5dy67l2ncjcq35x7tfmrd77frwn3q9jqgqmvxpyq94xwgxdxntk0phlu4str7q8cymsjuqjvdu48l49scgfcgqyk5dtlw"
+
+[validator_account.metadata]
+email = "support@gatadao.zone"
+description = "GATA community owned PoS infrastructure"
+website = "https://gatadao.zone"
+discord_handle = "jovegatadao"
+avatar = "https://s3.amazonaws.com/keybase_processed_uploads/9f9ba07fab9c245d5b0fc1fb4241ea05_360_360.jpg"
+
+[validator_account.signatures]
+tpknam1qpwzqyhlm93rqgt5swj4j2yaf2xxlx274dw9f35nheuaxlehr5d9q495yrl = "signam1qzww9vtwsgtdjaygl4yrpscmjgw6l9mwfcr0l9ma4ejjqqfw7p4e8xm8aqrlgxjjnzk3crw0c9rx0vecfddx2efq5ay870zdapw54xsgchdhm4"
+
+[[bond]]
+source = "tnam1qy7u3y3sqltmd68a43lsr0khu8c9y8uyyuzy7sck"
+validator = "tnam1qy7u3y3sqltmd68a43lsr0khu8c9y8uyyuzy7sck"
+amount = "2631549"
+
+[bond.signatures]
+tpknam1qpwzqyhlm93rqgt5swj4j2yaf2xxlx274dw9f35nheuaxlehr5d9q495yrl = "signam1qz8wnpnj2mpju0c00hm5sp0dkhvmk8sthwq2v5sqsuph9wkscl72njduzwegqv5jl2udn6mr8pkk00trn7q9cx8vxznkdsxrmqrpp5srwz8vnp"
