@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qpre24dylpzg2qjrlm9p8kntx7jn60as2rv39x6l7peetmjd2lavjvzq7dt"]
+
+[[validator_account]]
+address = "tnam1qyq8cmlksxny6azher44mwffxcgjukjnrcxjgs2m"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "116.202.227.117:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqrq0srnzs7ezmqxzm4twy6zq2mg55h3l5smeg0zgcwvtyf993rn6xf04vp"
+authorization = "signam1qpsqxawd0zdzmf3gt0s6shhwkt80j9vlypx88dpds79vtfrmd86r2tdpztpj2tw9lrpyplznewa9yyara6ska9gcjtvpcw4el8vndfg0c8xjsw"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrnsm9kz7gwdq7w0gw9vkhe0kmfywewl86wu7ep0vc6fg0atwm96567ppp9"
+authorization = "signam1qrcwyd0gl9egef0y4vphc9s5a6u4lyrkqpck037g789yae9s0tyxe97mwvznm9lqspfw2y40jn8gm7cx5ufg4ksx4mrxr0juc7vh8pq0uzt4kh"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrqkuyevdtcjmq0zzfxq7x38trul7hxus8lemv6s6f6spphgcu26kzvvwas"
+authorization = "signam1qpugqrlfp2sp3ycp2sqj9nwmldmyj0s2xz92z269wu4xw8ghjsd9glp9937470kvvzyp5vjtth7prkg3fxgskz2kzx5gknqmygx6p3gzq6p0gd"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp7ery6dxnqqnzyrvger4xl80lwryh59t9tjh26u5nx3asnq7qw02su35nwe"
+authorization = "signam1q8cxdeepvh2ju4d4508jat36z8cdug7j6tg23pxmv7p0gazllsa46n2v24mwzlrtu8dst363ljqkc5lgstlgj6c487927zcjln0mv9anqyvqn32q"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypf00ldejyrfw99j2ug5v9sdk50tpqypjlkkcczz9vecaksn29su0cekdk3x"
+authorization = "signam1qxu3g4t9kzs5jv5vzl73gvxdexgqrlvgsjmn0p84p3k47nhx6e9cv24q34fnkf0z89njg6qqqgkgp9eslg9txhsuxkaz9qp0f864aasvqqv07zwr"
+
+[validator_account.metadata]
+email = "contact@kjnodes.com"
+description = "Trusted and reliable Proof-of-Stake validator across Cosmoverse."
+website = "https://services.kjnodes.com/testnet/namada/"
+discord_handle = "kjnodes"
+avatar = "https://s3.amazonaws.com/keybase_processed_uploads/d6f1e63ac25d855dad5d1d5915988205_360_360.jpg"
+
+[validator_account.signatures]
+tpknam1qpre24dylpzg2qjrlm9p8kntx7jn60as2rv39x6l7peetmjd2lavjvzq7dt = "signam1qqqx0v02ptavnqavmu6k95s56z3fhnxuyuqpypaxc8aftcx75t697g6adm0luz8h4nafv00t4nrnatp6gldll33qq7decmvz3372qvqvcs5d9f"
+
+[[bond]]
+source = "tnam1qyq8cmlksxny6azher44mwffxcgjukjnrcxjgs2m"
+validator = "tnam1qyq8cmlksxny6azher44mwffxcgjukjnrcxjgs2m"
+amount = "2631500.707602"
+
+[bond.signatures]
+tpknam1qpre24dylpzg2qjrlm9p8kntx7jn60as2rv39x6l7peetmjd2lavjvzq7dt = "signam1qqhn9syk2c2nuq8vrmz89gy66g6uaf9aj6m3dqc4jlkyt50hcm930ev9rv2cq0kds4w842tqg6zfuwvqxzh7sujjmjnp9qr0xykf4jcx4e4mtz"
