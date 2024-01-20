@@ -1,0 +1,41 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrvszm68z899yexpmgs0h9fsdt32dsn05p5kdc0n69q76vwl8kknqekz4zd"]
+
+[[validator_account]]
+address = "tnam1qxudgy9lapfkrjmg2agvkdh6mnmux453cq3g4wse"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "95.217.16.5:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqz4lwh8frms9w8tmh789j8xmakm84met36f58vtemrwzes5xet2vqp7gvz"
+authorization = "signam1qz3yn8wweskkf43x8zpknddw4wklkjfcualkpfqw5f23y6ahn7tv5ekxgyj5sz409m7faql6jaqvcxs755yjut9gw35r4f8977n72gc86fyh8s"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrkrzyrkdymugqfaku33v7ufw8zrvy897zezsxley5cre7cqzae2ywzedyk"
+authorization = "signam1qqny4dqd89q2hlf9gy9jss509fkmcpgwxjld64g0ppy7smy33550qf99tsk0m34jq6cfrdj5vkwqdgcch94mls60flssydt6dakfpcgr8h6l6y"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrksk385s80qrq7m3pdjhfuuvzhv2dq6jyn2jjgtn94vgangpkvu7zundsg"
+authorization = "signam1qqrqlqc6umzqcr2hp5mudlldkl72ce0g9j045fhv66k9spw4kdz2x2hx87fypz7getuskgjxxf23dy0j526zjtf406m52l68k82wyccgpq7qsv"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyp9ngyhzvrhyfhdplyy4cx4xfrfl7h947a9zznfe60dvswl0jz82mcltklt9"
+authorization = "signam1q8rw2twz2sdarz4chgvulss2xsdzzfu70jjlx2g3ml9ghky2vzje7q30p6u69vx4f3rjq3yvnyze8dge2k0jycendmnduxuh6tt7ffpxqy3rc3nr"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypa0w50yn78tdddslnys708kyre4eaeyne6pv4mra3qxtgv0ygtqyce0rryt"
+authorization = "signam1qye038267mqmmkl4s2nw9yu76ej356ht78xjtsr3mp546skvk40lsfdws6ghwrtc56turuumc52z6q2xx4rrsdhc33ku4astnjywhwuqqygmtxuq"
+
+[validator_account.metadata]
+email = "info@nodigy.com"
+description = "Nodigy.com is the WEB3 Nodes Wizard - Run your personal blockchain node seamlessly and hassle-free"
+website = "https://nodigy.com"
+discord_handle = "nodigy"
+
+[validator_account.signatures]
+tpknam1qrvszm68z899yexpmgs0h9fsdt32dsn05p5kdc0n69q76vwl8kknqekz4zd = "signam1qzfu0uegwnu87nkeqn2gckp55l3ac9dd9r3x07lsvr0m7e8wjxve4sax9x8ynqg9ej390h6zvl6a8rrlmd6mzvdruzs268n5myym65qx8tcvqp"
+
