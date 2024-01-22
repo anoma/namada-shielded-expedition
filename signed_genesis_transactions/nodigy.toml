@@ -39,3 +39,10 @@ discord_handle = "nodigy"
 [validator_account.signatures]
 tpknam1qrvszm68z899yexpmgs0h9fsdt32dsn05p5kdc0n69q76vwl8kknqekz4zd = "signam1qzfu0uegwnu87nkeqn2gckp55l3ac9dd9r3x07lsvr0m7e8wjxve4sax9x8ynqg9ej390h6zvl6a8rrlmd6mzvdruzs268n5myym65qx8tcvqp"
 
+[[bond]]
+source = "tnam1qxudgy9lapfkrjmg2agvkdh6mnmux453cq3g4wse"
+validator = "tnam1qxudgy9lapfkrjmg2agvkdh6mnmux453cq3g4wse"
+amount = "2630549"
+
+[bond.signatures]
+tpknam1qrvszm68z899yexpmgs0h9fsdt32dsn05p5kdc0n69q76vwl8kknqekz4zd = "signam1qp2vtvvy74h3dushc3ym4500nca4skw3dnrc7na5xxc8fe05ct3ax4scq03sxt9590jz4mlefengglqjq92j6mwdpz78h3twf06v9kq2ejfwjs"
