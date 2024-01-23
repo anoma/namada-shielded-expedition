@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qr7t9uh2lpcx53hqkdzmwjwsw9004et2vqqajz0yn0c20zwxkx3rx57vm2w"]
+
+[[validator_account]]
+address = "tnam1q8k3n8s8kxru59rv5elrcet04r8py82jmcw3m8cl"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.5"
+net_address = "5.199.172.43:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qqhc3swgrphs66382wls7rypyj9gyp23cxczal2zw35ju7pday3h5lh5jhj"
+authorization = "signam1qz4w3fj8umx78s2j3xwcnxrsjkswdnwezhpusswnntultgzdxrp8jvkp0ht0xn8fwz86luxj57zqz9ktgeyh0garq57jp6d2el2xxdqvdqrgp9"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzga78vawfx9v5dskpntalca9kntsts5aq7uhk4f9nq89m8fmqfmsgsq9ya"
+authorization = "signam1qze4u4dw3fvmdghtn8ejf5jpry9x0wdvuk8a8f3jvmxy57vj5dffygf0acn2v0fe4a44kz9r2kqnq46n43t45f2psttx0uvh0q6gv9g8aw543q"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpl8klykuuucx4ungu9skuzymlavqglqcadjscc30j06eyryzwehsauh23m"
+authorization = "signam1qqvr6xsx4h8jqxzyy86ctw3apzxrrngvav6z2jzmx8azktzaxcm7ql42skmee3lmv3jwhggpaedvjjj00wn03zw6wtmhzz62mvl6r3cz8ghyng"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyprtemx04smptncl6f0dcqtghgugxkp20k8242tfql5uq3tv2nvr3gggqtns"
+authorization = "signam1qysv2hpwqtxrkx8r75mawcfuwkr665fqpfm4j9ljc6p63mzdefcyguvgksavxc55fcnxcma0w8szwc2u66rm2t35f4mg57sgmcawd2yyqyhsnfsd"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypy579xjw7snm9tj7ydvxdkkvwr3w6kdj6amkzks3279fscfdqx5fcw8cvkq"
+authorization = "signam1qyea9qtuttlcr5385rsvufn56rwk685h0du6euy54p22y7fdfe2autn4dmzmts7hrlem42l0sedfzjn9avc3e5vwuvqvmjl3appw66suqqv3tq8d"
+
+[validator_account.metadata]
+email = "namada@chainflow.io"
+description = "Building crypto infrastructure for a brighter future"
+website = "https://chainflow.io"
+avatar = "https://imgur.com/ihlknV0"
+
+[validator_account.signatures]
+tpknam1qr7t9uh2lpcx53hqkdzmwjwsw9004et2vqqajz0yn0c20zwxkx3rx57vm2w = "signam1qqzen94lwvpfxwltcgpw7pjvlhxaklws0kf5weeyar3c89ugm00t7205ydmmmkdyqqpkzrgp5kxruwm46p6f2dp4t6x2zt2mxg36aucfl3cc9s"
+
+[[bond]]
+source = "tnam1q8k3n8s8kxru59rv5elrcet04r8py82jmcw3m8cl"
+validator = "tnam1q8k3n8s8kxru59rv5elrcet04r8py82jmcw3m8cl"
+amount = "2630549.707602"
+
+[bond.signatures]
+tpknam1qr7t9uh2lpcx53hqkdzmwjwsw9004et2vqqajz0yn0c20zwxkx3rx57vm2w = "signam1qrm4q560fthapcqde5szx8qce2e5u8n2ahnfmkwhvm8r3yy5xvu4rz75ukx8y6m5p9hw282u6tja7yp3zyxnlgqmt8zesafxrcmyxjcv3vw2gn"
