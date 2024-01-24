@@ -1,0 +1,48 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qqw80rjakw76jywsktluuyalq29qlfltyl4csje2sfdy7tr36hsh26cc25d"]
+
+[[validator_account]]
+address = "tnam1qxaf6f95elsn7w54tz9txlmlufrsskgdugfv8t6v"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "37.27.43.114:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzh062kkrzcxqzj8psny4h44e7yqml53jwq2yd7xau9r0mupslxtkd73xgj"
+authorization = "signam1qrgutugwvylselz36c7cmxtjz8xegv392nk2u5zc458vsnshtgc3r5xxxy94v3axpdxjkvgcc2g0vcn0lxpl3xfn7ln24fs20av2lccyhelzhm"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrlfgurfks2tx0ukdmfstquwd40fn5uxyckhyw05rrzckkk9dag97kyrg7v"
+authorization = "signam1qrxwxgq7zzd2qznqeu43ap32n8czz3lfhzegyhwqzdqwv240vtzdhx28074c92qg2txca4xqs4zxgjmn2x704799ed33j86rxsjupsgy2r6pa9"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qryuya5wg6cwlrtmhk08nnzjqh7n5esqg22gkvpntzmkc2jcus5mzheylqz"
+authorization = "signam1qqg29hdpdyu478mme50m6fr5fruhg6xcygj0chvs82dp5wnx6xy4ylw4x6tu8h399u6l2slfh63ryvgy2lnz34cuv3dse8k4dcew5kg823np7n"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypqr4v7z720qj5vsgdnsmrzf3ahnq53uwjpgjjl582x3mvfj33lykqrs0ydv"
+authorization = "signam1q8wry6dlzywnhet2tvrwneparql0gg6us36t9hwhpqvp9hqcxcfsjsw387zlcf95sr9zh3usr455s3fdapgeuw8tsnm8hk0zpqly4thxqqvakqe6"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypluyh4gjdv88pvz8avggxljpgsp4l6t0qw9eeqjw8rpx3nxzsdh6chfnuk4"
+authorization = "signam1qysuzjnkpvdhwps04hk7fswkkw3fju439p0e353k630kady0nf2avfjungzssh3p5sksf84ana26luv5mqelgt679mwz4ttz8jxqadahqqcm35vn"
+
+[validator_account.metadata]
+email = "marko@binary.builders"
+description = "Building the Cosmos SDK & NumiaData, validating on cosmos, and supporting teams through the Builders Program"
+website = "https://binary.builders"
+discord_handle = "tacoturtle1"
+
+[validator_account.signatures]
+tpknam1qqw80rjakw76jywsktluuyalq29qlfltyl4csje2sfdy7tr36hsh26cc25d = "signam1qz4n4lg7pauxtpdjavz0yg5940lv8wnk6l2t54mtc5937dwj7n9qg9hplkw7ucuc4l3qqmet2274nc7pszh2pngpapc73ru6waxwdvcyk6tm44"
+
+[[bond]]
+source = "tnam1qxaf6f95elsn7w54tz9txlmlufrsskgdugfv8t6v"
+validator = "tnam1qxaf6f95elsn7w54tz9txlmlufrsskgdugfv8t6v"
+amount = "1000000"
+
+[bond.signatures]
+tpknam1qqw80rjakw76jywsktluuyalq29qlfltyl4csje2sfdy7tr36hsh26cc25d = "signam1qpcn0egw92fckzyk78xrjm3ennrk38culfay55avqz9gnctr0v2c0j76a2d9qtdn7wwdvzz38kgw2jw224a7p72ktwtcjg5rcn6jgvsgt0jnpc"
