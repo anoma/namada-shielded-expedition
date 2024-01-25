@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qrd0fwvu7lg0tc3xxc7kjvtxtvale7tt5fzgjk8myacgcq36gvs3cen6k2s"]
+
+[[validator_account]]
+address = "tnam1qyagaxpgdaksew8smtxkl9gv8xcqcyngkv5k3ynl"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "104.21.18.94:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qruvzx7a6pav0mx5cagn5avy3s6z84zgecdwr48ccfc8lxrzk9q4we9m4sc"
+authorization = "signam1qqyvc9lvu6d2yq6t8064reqamz6j2gqqul0faax0j6039raj7tqau93c4crly8c2ye72hnfzma9rmf0hynzzxevwfqzq3x3ezqkkxvcpcf9hle"
+
+[validator_account.protocol_key]
+pk = "tpknam1qzn7w726lsmh6k9ep94f7kzstyamzu4u8dwsdwx8xgqrxvtnunx7y08hp8d"
+authorization = "signam1qp5g79ct5zjlx2x7s4fayrq9j46v9l73c088qrvuvf49qccrnrc5863ean2vvmhg500y66jsedcp6ggvpdtdef86zvfsg674hpyhf3sdxkm4kz"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qpv89pvh3u8u98lf3nafmljpvxhm88hj87sv27dafkecawzvg8w8s4rpu8y"
+authorization = "signam1qz350ks2cxyk6yjzhqkl04vrlgzs30706xfn37cg2cn7xulc3mua5q6ues7u82cyjgeax720j4u39a795f54fgxgk6dklhmxgqxgk7srxeleyu"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypty6fu9rgs0z6f7m93jg4mg5a7h5hswz0l7lppdflx88nykeyekycza4l5z"
+authorization = "signam1qyqp62djrjq9fthy2efx6ga36mxz7qm7amr0346u23mq7kkleacdx3ll6m7zxr2d6qhkkdx42ah0w0ww7zm6lcjulh00zvasp56ne38dqyaafhpl"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp73fazg64nnhd6hktxhj92dpfvpyglj6lcu8752n4pur7cxs5jfpczkyedt"
+authorization = "signam1q95z84gzrvperq6l67rpr7me6djwrts5ajukypyh4624mgsfydlngt2aqcgz3ll9nhxnwv43kc5ccr498drn90afsg4w6nqlx84fhkf0qyspkkau"
+
+[validator_account.metadata]
+email = "hello@umbrellavalidator.com"
+description = "Umbrella shielded expedition"
+website = "https://www.umbrellavalidator.com"
+discord_handle = "dluigi"
+avatar = "https://www.umbrellavalidator.com/images/umbrella-128.jpg"
+
+[validator_account.signatures]
+tpknam1qrd0fwvu7lg0tc3xxc7kjvtxtvale7tt5fzgjk8myacgcq36gvs3cen6k2s = "signam1qz8qua00s3yzq4vefp8y2j69jsvyyjrz4la4m9z83752c0s6f6t0euk77hh0x0se67exfscuwplcw99jjcxgqka5lnp05ktka06hmkgq5mup6q"
+
+[[bond]]
+source = "tnam1qyagaxpgdaksew8smtxkl9gv8xcqcyngkv5k3ynl"
+validator = "tnam1qyagaxpgdaksew8smtxkl9gv8xcqcyngkv5k3ynl"
+amount = "2600666"
+
+[bond.signatures]
+tpknam1qrd0fwvu7lg0tc3xxc7kjvtxtvale7tt5fzgjk8myacgcq36gvs3cen6k2s = "signam1qpgphk5tkgchae26shna85s4dmuwtfxve2sud7y6lcjw3034d06z90fx083qqpj2jfgk6xghc952f459suxp952tsgzyfw3wp7z7hect9t6ugv"
