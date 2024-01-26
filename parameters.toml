@@ -30,7 +30,9 @@ fee_unshielding_descriptions_limit = 15
 
 # Map of the cost per gas unit for every token allowed for fee payment
 [parameters.minimum_gas_price]
-nam = "0.000001"
+# assumes that an avg tx takes 10,000 gas, this means that a tx cost 1 naan
+# 10,000 * 0.0001
+naan = "0.0001"
 
 # Proof of stake parameters.
 [pos_params]
@@ -62,12 +64,11 @@ duplicate_vote_min_slash_rate = "0.001"
 light_client_attack_min_slash_rate = "0.001"
 # Number of epochs above and below (separately) the current epoch to
 # consider when doing cubic slashing
-# 2 epochs for cubic slashing
-cubic_slashing_window_length = 2
+cubic_slashing_window_length = 1
 # The minimum amount of bonded tokens that a validator needs to be in
 # either the `consensus` or `below_capacity` validator sets
 # A validator should have at least 0.01% of the total tokens to be considered active.
-validator_stake_threshold = "100000"
+validator_stake_threshold = "1000000"
 # The length, in blocks, of the sliding window for consensus validators
 # inactivity verification
 # Liveness window is 24 hours.
@@ -76,9 +77,9 @@ liveness_window_check = 8_640
 # the `liveness_window_check`
 liveness_threshold = "0.9"
 # The P gain factor in the Proof of Stake rewards controller
-rewards_gain_p = "0.25"
+rewards_gain_p = "0.0"
 # The D gain factor in the Proof of Stake rewards controller
-rewards_gain_d = "0.25"
+rewards_gain_d = "0.0"
 
 # Governance parameters.
 [gov_params]
@@ -107,4 +108,4 @@ stewards = [
 # The pgf funding inflation rate
 pgf_inflation_rate = "0.0"
 # The pgf stewards inflation rate
-stewards_inflation_rate = "0.01"
+stewards_inflation_rate = "0.0"
