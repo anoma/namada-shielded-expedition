@@ -8,7 +8,7 @@ address = "tnam1qygfl7c46xjt3dac6huvl2acvz063an9xqkkpuzj"
 vp = "vp_user"
 commission_rate = "0.05"
 max_commission_rate_change = "0.01"
-net_address = "94.31.87.123:26656"
+net_address = "144.76.162.250:26656"
 
 [validator_account.consensus_key]
 pk = "tpknam1qqr9e5um66jwt8gwgx5d0jlnj6emfj8739z6uy6g2zvtkdjen5hdqagyeet"
