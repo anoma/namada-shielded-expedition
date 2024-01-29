@@ -35,6 +35,7 @@ email = "max0476@protonmail.com"
 discord_handle = "power542"
 
 [validator_account.signatures]
+tpknam1qqyker8y2kej8tshtwml5sg67dqx8fyqk5rzz82zqf4nejx66lknvkuw5mm = "signam1qrehf2d6lx8vxyv6tvv0lqxd6v473c5e324c03aj5var73hh0lgethlzfatfhhghfnq0mangdgnyv6qmus0n7z9sgaedzelvule20qsxtrv5xa"
 
 [[bond]]
 source = "tnam1qygfl7c46xjt3dac6huvl2acvz063an9xqkkpuzj"
@@ -42,4 +43,4 @@ validator = "tnam1qygfl7c46xjt3dac6huvl2acvz063an9xqkkpuzj"
 amount = "2630000"
 
 [bond.signatures]
-tpknam1qqyker8y2kej8tshtwml5sg67dqx8fyqk5rzz82zqf4nejx66lknvkuw5mm = "signam1qpvtzkshp9aysjw0y3gyuj5fnvls9gesvc6lm8wmltkz07uqn4hhp6ckfcpeckl66te659yl92k4hqg4c00npqwwuyx8vr5yed              jskms0p57fr9"
+tpknam1qqyker8y2kej8tshtwml5sg67dqx8fyqk5rzz82zqf4nejx66lknvkuw5mm = "signam1qpvtzkshp9aysjw0y3gyuj5fnvls9gesvc6lm8wmltkz07uqn4hhp6ckfcpeckl66te659yl92k4hqg4c00npqwwuyx8vr5yedjskms0p57fr9"
