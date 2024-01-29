@@ -69,7 +69,7 @@ cubic_slashing_window_length = 1
 # The minimum amount of bonded tokens that a validator needs to be in
 # either the `consensus` or `below_capacity` validator sets
 # A validator should have at least 0.01% of the total tokens to be considered active.
-validator_stake_threshold = "1000000"
+validator_stake_threshold = "1000000000000"
 # The length, in blocks, of the sliding window for consensus validators
 # inactivity verification
 # Liveness window is 24 hours.
