@@ -85,7 +85,7 @@ rewards_gain_d = "0.0"
 # Governance parameters.
 [gov_params]
 # minimum amount of naan token to lock
-min_proposal_fund = 500
+min_proposal_fund = 5000
 # proposal code size in bytes
 max_proposal_code_size = 600000
 # min proposal period length in epochs
