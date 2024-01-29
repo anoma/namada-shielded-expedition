@@ -44,9 +44,9 @@ pipeline_len = 2
 # Unbonding length (in epochs). Validators may have their stake slashed
 # for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
 # 2 days for unbonding
-# unbonding is actually unbonding_len + cubic_slashing_window_length so 2.5 days
+# an unbond_tx in epoch n will be withdrawable at epoch n + pipeline_len + unbonding_len + cubic_slashing_window_length
 unbonding_len = 4
-# Votes per fundamental staking token (namnam)
+# Votes per fundamental staking token (micronaan)
 tm_votes_per_token = "1"
 # Reward for proposing a block.
 block_proposer_reward = "0.125"
@@ -92,8 +92,8 @@ max_proposal_code_size = 600000
 # 1 day minimum
 min_proposal_voting_period = 2
 # max proposal period length in epochs
-# 2 days maximum
-max_proposal_period = 4
+# 3 days maximum
+max_proposal_period = 6
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch

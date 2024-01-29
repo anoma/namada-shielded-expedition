@@ -7,4 +7,4 @@ denom = 6
 max_reward_rate = "0.0"
 kd_gain_nom = "0.0"
 kp_gain_nom = "0.0"
-locked_ratio_target = "0.0"
+locked_amount_target = "0.0"
