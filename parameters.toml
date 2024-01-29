@@ -43,8 +43,7 @@ max_validator_slots = 257
 pipeline_len = 2
 # Unbonding length (in epochs). Validators may have their stake slashed
 # for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
-# 2 days for unbonding
-# an unbond_tx in epoch n will be withdrawable at epoch n + pipeline_len + unbonding_len + cubic_slashing_window_length
+# An unbond_tx in epoch 'n' will be withdrawable at epoch 'n + pipeline_len + unbonding_len + cubic_slashing_window_length'
 unbonding_len = 4
 # Votes per fundamental staking token (micronaan)
 tm_votes_per_token = "1"
@@ -52,8 +51,7 @@ tm_votes_per_token = "1"
 block_proposer_reward = "0.125"
 # Reward for voting on a block.
 block_vote_reward = "0.1"
-# Maximum inflation rate per annum (10%)
-# start with 0 inflation
+# Maximum inflation rate per annum
 max_inflation_rate = "0.0"
 # Targeted ratio of staked tokens to total tokens in the supply
 target_staked_ratio = "0.0"
@@ -84,31 +82,23 @@ rewards_gain_d = "0.0"
 
 # Governance parameters.
 [gov_params]
-# minimum amount of naan token to lock
+# Minimum amount of naan token to lock
 min_proposal_fund = 5000
-# proposal code size in bytes
+# Proposal code size in bytes
 max_proposal_code_size = 600000
-# min proposal period length in epochs
-# 1 day minimum
+# Min proposal period length in epochs
 min_proposal_voting_period = 2
-# max proposal period length in epochs
-# 3 days maximum
+# Max proposal period length in epochs
 max_proposal_period = 6
-# maximum number of characters in the proposal content
+# Maximum number of characters in the proposal content
 max_proposal_content_size = 10000
-# minimum epochs between end and grace epoch
-# 1 day grace period
+# Minimum epochs between end and grace epoch
 min_proposal_grace_epochs = 2
 
 # Public goods funding parameters
 [pgf_params]
 # Initial set of stewards
-stewards = [
-    # bertha
-    # "tnam1q9rhgyv3ydq0zu3whnftvllqnvhvhm270qxay5tn",
-    # validator-0
-    # "tnam1q9vhfdur7gadtwx4r223agpal0fvlqhywylf2mzx"
-]
+stewards = []
 # The pgf funding inflation rate
 pgf_inflation_rate = "0.0"
 # The pgf stewards inflation rate
