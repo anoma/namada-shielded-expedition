@@ -22,7 +22,7 @@ epochs_per_year = 730
 # Maximum number of signature per transaction
 max_signatures_per_transaction = 15
 # Max gas for block
-max_block_gas = 20000000
+max_block_gas = 5000000
 # Fee unshielding gas limit
 fee_unshielding_gas_limit = 20000
 # Fee unshielding descriptions limit
