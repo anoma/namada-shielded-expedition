@@ -1,0 +1,47 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp0ydfqcumqejcguturm3l70v9gl2m3qffpcxlmcgusn3d50pu7ak42ctly"]
+
+[[validator_account]]
+address = "tnam1qxspjnl00rdp22qng663fxnh6kzryyethsjwf830"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "65.108.232.188:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qzlxepash7fnwm67am09frnnslkl7ws8lxhw32zcy20cf45hd9u4wtwqs69"
+authorization = "signam1qqkn3xwdd5u8hrc3cqwpsa4d9a8vlsat6304dvmm5zswq334zpexrh0c08lms7pyhfe3l3mr93900sj3wc0n9tguyaj9asvh05485wgqmccgzp"
+
+[validator_account.protocol_key]
+pk = "tpknam1qprdwguax7nnx94m9lemaqmpxuerquj2v2anc8gcn97lh4q5409jyqmvlq4"
+authorization = "signam1qr2f2sqem9e2krf8rteg6wx4d53e5sk4lf7qrrgj9g56al4vcs37q23ykgf9qyvwsd4cu6xypdw0m4929f4yyf9uuumdgp3s2tgdtegrptyru7"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qrdl5hwj0rtwzf09s3fw55mjldvs5gnp8rzvyce3vgtf6tzy2pneza8w80g"
+authorization = "signam1qrpl8jmn24fjh8u47le3gfyk8r6m3prc04m4szjzs05d7pdfw55xt2ym5eqpa0tu6uvunavn0e5s8gunahdpen73ujjv7mwzsz32qqsxqr49j0"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qyph8rp0stza8fy4s4fx0rv7a986wz7q6amjrxuktvn5z9cqmjm3gsgsdusq5"
+authorization = "signam1q9e7zejyp7kvj34tqha2cyhmmwm5k9swuu2025h4elp68dgd2gcxsy86jrljn02jpkk3dxk0ngvy9c7wwafj2tjtxhcpdzgkzaawvf88qyeulnn4"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp8427h4vv2ymqn3y3k9c0q9vt07flfn9q6mm5s4gy3v6uzce3gkxc4wj9xt"
+authorization = "signam1qy3qzy6tkvdhgxme60y4emudax0ewvqf2cllulkkt09p3tq5w7kd2hhd77u7k35vh8qcds9qleac6tgyrk59lzp8pamuyv0qm5lnfx6yqqj5aede"
+
+[validator_account.metadata]
+email = "info@w3coins.io"
+telegram = "@w3coins_Official_Group"
+twitter = "@w3coins_io"
+
+[validator_account.signatures]
+tpknam1qp0ydfqcumqejcguturm3l70v9gl2m3qffpcxlmcgusn3d50pu7ak42ctly = "signam1qpyf5428cyf5nlmfhnrsj5llfenty67yelz02ypqjsv27q23x5y0wrh3wuvtgxdujpsavm7h0twfq2f639sgp32pwt4edwxqtr0jtpcz4nhmnw"
+
+[[bond]]
+source = "tnam1qxspjnl00rdp22qng663fxnh6kzryyethsjwf830"
+validator = "tnam1qxspjnl00rdp22qng663fxnh6kzryyethsjwf830"
+amount = "2621549"
+
+[bond.signatures]
+tpknam1qp0ydfqcumqejcguturm3l70v9gl2m3qffpcxlmcgusn3d50pu7ak42ctly = "signam1qp9ms0qtsrughr6du2jm8h70aq5grsg99xd389rhylxsv406z6f7x2l4jmvpfe7dv6n35csypnu0lsvaaqmvk2wjekr3vv3qpprjqsgquya82g"
