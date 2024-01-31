@@ -1,0 +1,10 @@
+# Token accounts with their validity predicates
+
+[token.NAAN]
+denom = 6
+
+[token.NAAN.masp_params]
+max_reward_rate = "0.0"
+kd_gain_nom = "0.0"
+kp_gain_nom = "0.0"
+locked_amount_target = 0
