@@ -1,0 +1,42 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp88220tyvlnrn7jjxxw7c0l3epvyvnx0xwhsl9npy9vcudjmmlvkwgkuln"]
+[[validator_account]]
+address = "tnam1qyqrt3jy4rg9vcwr9zxfu7g5dvr2mhhf7uc9uw4q"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "37.60.236.238:26656"
+[validator_account.consensus_key]
+pk = "tpknam1qpp4ax0m27r36hmdrgdeyj56ythp73syq2ca9hneq9akxcz2ms4kgtqdns7"
+authorization = "signam1qpramxhgkjj6jm3egyrveya45524hkvv6wn649jqvgrrqz2pngy0xwecgd8pl2lyd7s8xch
+2ksngqhttcfu7y9az3xn7r0t7alvkcrsrv5ee7l"
+[validator_account.protocol_key]
+pk = "tpknam1qq7e2e2u8mnefx7fcg626n76qa04kcflhwrhgh9646g7zxjdq4mq7r5kxd4"
+authorization = "signam1qzgs7h6g6zfvp970atagd5csfhkv94wmx5zhv3348kj2zmpesqemkamzfsulkw02m5apg7c
+6ylj0w55f7ajmlgtqqyky753wx96rvscphe46hm"
+[validator_account.tendermint_node_key]
+pk = "tpknam1qzm9w0ql3qmnjnstvvhdgaq7408f4nztz8hmfwg4h997tm8da5g85sd78aq"
+authorization = "signam1qqkjgqea2vv2400ve9c6jkv8krkgdyar4eythne3fcxht08x3c9mqrwy2asu6v76f5z3nq7
+xg4phm7m2uwu23v6murtds5p0qd0yguqxad26xg"
+[validator_account.eth_hot_key]
+pk = "tpknam1qyptpze38zvrd0eh5kphnr36n6qx4gach6f9rhz5zdsp385eze7ecxcyvgacm"
+authorization = "signam1q8m6xvz378npp4eprzutv4z88t9dj4zf84vmlsj4wletzkz8hq8x2dxcxdrmwmk0cnrcryj
+h4apt589awsvd5uz9llduppqec4nena47qq5apmt9"
+[validator_account.eth_cold_key]
+pk = "tpknam1qyp9z88c2ztwmzsrdg8c5mlqgpuhmk7rukcmmgc3k40gu7kxlhf3euqxv0dxp"
+authorization = "signam1qxdjqhmuula426jsmlgctsj7l9m5sljy9v03x9en74pzu95c4awpurj79a3g8v2d6tu6dpd
+2f7fd0zej745fxkn6s32a5cng7pcnvg70qyvemduy"
+[validator_account.metadata]
+email = "admin@zlkcyber.tech"
+[validator_account.signatures]
+tpknam1qp88220tyvlnrn7jjxxw7c0l3epvyvnx0xwhsl9npy9vcudjmmlvkwgkuln = "signam1qq7lme26mwsd8nq28q
+g8yyvv6sws24crw9ghffr070x6qpej089hqhhx07m0fm3x23hqsnva4xp4hzr0csf90n74u2ngmm4jf2qlg5qp7g6eur"
+[[bond]]
+source = "tnam1qyqrt3jy4rg9vcwr9zxfu7g5dvr2mhhf7uc9uw4q"
+validator = "tnam1qyqrt3jy4rg9vcwr9zxfu7g5dvr2mhhf7uc9uw4q"
+amount = "100"
+[bond.signatures]
+tpknam1qp88220tyvlnrn7jjxxw7c0l3epvyvnx0xwhsl9npy9vcudjmmlvkwgkuln = "signam1qq45kqy7qnq2vqgr0a
+rxxys8ht2nlavpxvz58deyrg0jtuvcjf0ppfkg54l7sg8gvagvw5z3q9nt68wpvqr9455dxsp8hruk8s2ttfgy876308"
