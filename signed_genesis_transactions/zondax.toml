@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qq8ajkt3x77ety3j8f42hrw2w472vx8r098wssu5aqmzvglpcfxls329jnt"]
+
+[[validator_account]]
+address = "tnam1q9rcckf52tszmxc0tvj6k29xk6vdaglpzuy92ddy"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "85.208.51.8:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp49gekeen0m53gj32tmc0wq8fszvhajg3y4hn2y3adk8g7wsg5lw6k0eyc"
+authorization = "signam1qqutvephv5h78syfdz27h7y83kxptjkypyxl5663ej3m5jq9ujvg8kvx9lqa4r325m066ds05rswyp93xf6y9dglcll9g8zrj89tcmqtpw52mk"
+
+[validator_account.protocol_key]
+pk = "tpknam1qrs6x449mmxe87trslhyxt832krzk07qfqjrevaxqqq32asmged7s0pt267"
+authorization = "signam1qpey27dtkehxw39gpu4gj2kesc0eme3ncn6jtlv3qeuyf0j370q3dspu7ryr2ptzqxxskvapd8fmyjsedcm4s25jdezump9m4qnen0g2c05a98"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qreghqtyv4pql9ryhwe08ypck60y7ezwkfx3jr5echk29gnr5dr5cqsfnw9"
+authorization = "signam1qqm2tnnuk6msz4qts7x9yv5rryhy63ne4z0vmedwcscz837vfl8l723hyzfjl7sj7uax7y3pw8j3rqfm5jlxe02f8er5jmfvdw55zkqwfx90qg"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypehw4nq3m39q2feegztuwr8jjayczrl54uqutyvg8pfvuemw53m7q6t47zf"
+authorization = "signam1q9sn3mcnmxdm2gjnkf2vx6ec7ckz6dxfzzwjlltepepresyfsy8rcn8z7f2ya7lzr44km3qde8v0ww0lyl5m87hadw9hy5l58p3tnd5tqywltdn6"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qypan2mpz6rthfctenvetfarzq0gp22f37hyuy4ssj7eyrwpf0zja6srt8uhx"
+authorization = "signam1q9urp5cnxp65yvphpaw0lc7x7my7q9f6yuj7kz5yx90qyk2stqze282xt6vvkekse7qkutpql02033r65ynxythufvgaa4gsjqz8amtdqqm80c3s"
+
+[validator_account.metadata]
+email = "ainhoa.aldave@zondax.ch"
+description = "Lead the blockchain industry with us. Our expertise in pioneering helps leaders grow and scale. Join the revolution"
+website = "https://zondax.ch"
+discord_handle = "ainhoa_zondax"
+avatar = "https://avatars.githubusercontent.com/u/34372050?s=128&v=4"
+
+[validator_account.signatures]
+tpknam1qq8ajkt3x77ety3j8f42hrw2w472vx8r098wssu5aqmzvglpcfxls329jnt = "signam1qr4yr90vrtjr9yq6nsys2j0shcygs09lh29uyp9m769myat7a0n2g6s6hvc9mvdu90s0luh24wugymk9aw57xywmmevjtvjpmyucstcfy2fwxe"
+
+[[bond]]
+source = "tnam1q9rcckf52tszmxc0tvj6k29xk6vdaglpzuy92ddy"
+validator = "tnam1q9rcckf52tszmxc0tvj6k29xk6vdaglpzuy92ddy"
+amount = "1000"
+
+[bond.signatures]
+tpknam1qq8ajkt3x77ety3j8f42hrw2w472vx8r098wssu5aqmzvglpcfxls329jnt = "signam1qq06zuhtftfhhvdw38yw4ce9yzarp7gmn5de3uv4qwylt0p6wu9zmx9rxmlgsfcn56xr7zhfcx9e53vs4d2n7vz6muszsvsqd2052lcyry3xyt"
