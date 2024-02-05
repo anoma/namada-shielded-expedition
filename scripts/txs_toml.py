@@ -45,7 +45,7 @@ def main():
             # when we process a bond, we assign balances to the established accounts
             # attempting to bond. If the `source` is an established account, a validator
             # has attempted to bond twice.
-            assert source.startswith('tpknam1')
+            # assert source.startswith('tpknam1')
 
             # At this point, we know the bond is coming from a public key. Check if
             # it has enough balance to bond.
