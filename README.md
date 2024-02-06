@@ -11,7 +11,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
 1. The signed transactions files were collected in the `signed_genesis_transactions` folder.
-2. The python script in `scripts/txs_toml.py` was run from the root with `python3 scripts/txs_toml.py ./signed_genesis_transactions ./` to generate the `transactions.toml` and to populate the whitelists in the `parameters.toml` file. Once this was done, it was possible to generate the chain-id.
+2. The python script in `scripts/txs_toml.py` was run from the root with `python3 scripts/txs_toml.py ./ ./signed_genesis_transactions` to generate the `transactions.toml` and to populate the whitelists in the `parameters.toml` file. Once this was done, it was possible to generate the chain-id.
 
 ## How to create the chain-id from the genesis files
 
