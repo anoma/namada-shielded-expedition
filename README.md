@@ -11,6 +11,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 ## Seeds
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
 - `tcp://3c12dd31adf945bd10d551713d8dc22795b7de0c@194.163.172.168:26656` (Mandragora)
+- `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
 - [tbd]
 
 ## Creating the genesis files (advanced)
