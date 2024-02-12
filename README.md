@@ -10,7 +10,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 
 ## Seeds
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
-- `tcp://3c12dd31adf945bd10d551713d8dc22795b7de0c@194.163.172.168:26656` (Mandragora)
+- `tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656` (Mandragora)
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
 - `tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656` (adrian)
 
