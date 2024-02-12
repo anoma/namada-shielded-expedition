@@ -21,7 +21,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://f47f2d1fd83f8063571145f90e984a74cba6310f@65.21.194.46:26656` (adrian)
 - `tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056` (WhisperNode)
 - `tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656` (Brightlystake)
-- `tcp://5a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656` (StakeUp)
+- `tcp://a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656` (StakeUp)
 - `tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656` (gnosed)
 - `tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656` (ZKValidator)
 - `tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656` (B-Harvest)
