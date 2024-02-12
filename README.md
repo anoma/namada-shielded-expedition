@@ -12,6 +12,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
 - `tcp://3c12dd31adf945bd10d551713d8dc22795b7de0c@194.163.172.168:26656` (Mandragora)
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
+- `tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656` (adrian)
 
 ## Full Nodes
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) full nodes. Here is a list of full nodes:
@@ -21,6 +22,9 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056` (WhisperNode)
 - `tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656` (Brightlystake)
 - `tcp://5a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656` (StakeUp)
+- `tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656` (gnosed)
+- `tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656` (ZKValidator)
+- `tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656` (B-Harvest)
   
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
