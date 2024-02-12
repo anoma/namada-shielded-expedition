@@ -11,6 +11,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 ## Seeds
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
 - `tcp://3c12dd31adf945bd10d551713d8dc22795b7de0c@194.163.172.168:26656` (Mandragora)
+- `tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656` (CroutonDigital)
 - [tbd]
 
 ## Full Nodes
