@@ -15,7 +15,9 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 
 ## Full Nodes
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) full nodes. Here is a list of full nodes:
-
+- `tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656` (CroutonDigital)
+- [tbd]
+  
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
 1. The signed transactions files were collected in the `signed_genesis_transactions` folder.
