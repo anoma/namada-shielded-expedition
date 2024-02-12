@@ -12,7 +12,7 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
 - `tcp://3c12dd31adf945bd10d551713d8dc22795b7de0c@194.163.172.168:26656` (Mandragora)
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
-
+- `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 ## Full Nodes
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) full nodes. Here is a list of full nodes:
 - `tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656` (CroutonDigital)
