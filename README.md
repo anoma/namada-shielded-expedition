@@ -24,6 +24,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656` (gnosed)
 - `tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656` (ZKValidator)
 - `tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656` (B-Harvest)
+- `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
   
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
