@@ -1,4 +1,4 @@
-я# The Namada Shielded Expedition
+# The Namada Shielded Expedition
 
 Welcome to the Namada shielded expedition!
 
