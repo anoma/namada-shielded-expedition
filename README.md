@@ -20,6 +20,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://f47f2d1fd83f8063571145f90e984a74cba6310f@65.21.194.46:26656` (adrian)
 - `tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056` (WhisperNode)
 - `tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656` (Brightlystake)
+- `tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656` (max-01)
   
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
