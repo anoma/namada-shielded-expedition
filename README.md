@@ -14,9 +14,10 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
+- `tcp://171772a9a13f2adc6e02ef5d9c02fd18272b8d2b@135.181.135.38:26656` (Stake&Relax)
 
 ```bash
-seeds = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
+seeds = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656,tcp://171772a9a13f2adc6e02ef5d9c02fd18272b8d2b@135.181.135.38:26656"
 ```
 
 ## Full Nodes
