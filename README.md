@@ -12,12 +12,11 @@ Participants may bond ***up to*** the amount allocated to their public key. It i
 Syncing a new node may not work if the peers of other nodes are filled up, so participants should use (and consider making) seed nodes. Here is a list of seeds:
 - `tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656` (Mandragora)
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
-- `tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656` (adrian)
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
 
 ```bash
-seeds = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
+seeds = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
 ```
 
 ## Full Nodes
