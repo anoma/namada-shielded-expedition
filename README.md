@@ -53,6 +53,12 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 
 `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 
+
+##Public Indexer endpoints
+
+`https://namada-api.kzvn.xyz/api` (DRAGONVN)
+
+
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
 1. The signed transactions files were collected in the `signed_genesis_transactions` folder.
