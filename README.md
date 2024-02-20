@@ -14,6 +14,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
+- `tcp://476f41eb60074cb603558c271470e807c39dd8bf@207.244.253.244:26656` (cryptobtcbuyer)
 - `tcp://5be8ecf93ce471c6c1b6af9b7cfe0a1dde7462fa@135.125.189.60:32656` (B-Harvest)
 - `tcp://61ce3d7980aaea95e5b56566c727955b1184ccbc@namada-se-seeds.emberstake.xyz:41656` (EmberStake)
 - `tcp://03b452b8bf5f49283a289c411483ac12b7b86749@194.163.132.38:26656` (Daviduok)
