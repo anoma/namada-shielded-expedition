@@ -127,6 +127,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `http://88.198.19.81:26657/`  (Appetitoff)
 
 ## Indexers
 
