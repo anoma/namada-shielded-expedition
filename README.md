@@ -14,6 +14,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
+- `tcp://392a9f700cfe3e88a17e8dbfdc21c626c9d96e86@173.249.11.5:26656` (manueldb2)
 - `tcp://20e1000e88125698264454a884812746c2eb4807@testnet-seeds.lavenderfive.com:20056` (Lavender.Five Nodes)
 - `tcp://171772a9a13f2adc6e02ef5d9c02fd18272b8d2b@135.181.135.38:26656` (Stake&Relax)
 - `tcp://476f41eb60074cb603558c271470e807c39dd8bf@207.244.253.244:26656` (cryptobtcbuyer)
