@@ -45,6 +45,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656` (jasondavies)
 - `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
 - `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
+- `tcp://aa77f29e98af6b079abd32e2cc00cd012d571c9b@65.109.89.5:28656` (2pilot)
 - `tcp://f28adbd7f101fc627c8f5969c33e39635efe3a57@65.108.131.189:1337` (BlackBlocks)
 - `tcp://8dc2223de13c3f2c58102dff3b1255f7063730aa@65.108.199.79:26104` (WayneWayner)
 - `tcp://583790d9c077619ec822f83992d19ab074aec574@154.91.1.75:26656` (Forbole)
