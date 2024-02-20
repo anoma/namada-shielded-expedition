@@ -15,6 +15,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
 - `tcp://679232a0ca3a830cd89992816c1e5fadcd772743@135.181.32.162:26656` (DTEAM)
+- `tcp://ec1c53ae10cc9ad8e798c884aa5e1e42cab473db@43.157.88.96:26656` (P2P.ORG)
 
 ```bash
 seed_nodes = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
@@ -48,6 +49,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://da1d9d2e2ce7445f7cc5ba0ddf46b1026d5a17dd@195.201.197.246:26656` (Citizen Web3)
 - `tcp://d9e2d1ce049401880e8b4eb97fb3a96ce5a72ce0@65.21.225.60:28656` (goto5k)
 - `tcp://11bd97c7107505ebe6ff37b5ce2fca1847120d6c@146.59.149.91:26656` (Forest)
+- `tcp://66ee66185dcaf6f60e872521fcc7e93d9b32c434@43.131.63.125:26656` (P2P.ORG)
 
 ```bash
 persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656,tcp://50e15e1639476ddc091d39c7e6faf4a1a3798235@38.242.152.80:26656,tcp://f47f2d1fd83f8063571145f90e984a74cba6310f@65.21.194.46:26656,tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056,tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656,tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656,tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656,tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656,tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656,tcp://6bf567f926a18f95d5ea45837af189e3f5bd6f04@rpc-1.namada.nodes.guru:26656,tcp://38afb25360d9a698caf5a8934f4484e676352b8e@89.58.28.79:26656,tcp://f6efa383790ad014f0bf9394ec39d19f4f7e0f86@65.108.76.33:33356,tcp://ff0269406b70b76b991c8eb89918042554ecc26d@65.108.13.212:26656,tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656,tcp://a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656,tcp://407240435312de546dd622f4228fbc6faccc8093@88.198.62.53:26656,tcp://53761db95fdb175ead7981ae5b92d6770f846e2f@37.27.63.150:26656,tcp://130efdc964211249504c64b83fdda4511239596e@88.198.54.190:26656,tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656,tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656,tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656,tcp://11bd97c7107505ebe6ff37b5ce2fca1847120d6c@146.59.149.91:26656"
@@ -67,6 +69,8 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://namada-shielded-expedition-rpc.denodes.xyz/` (deNodes)
 - `https://namada-se-rpc.citadel.one/` (CitadelOne)
 - `https://namada-rpc.dsrvlabs.dev/` (DSRVLabs)
+- `https://rpc.namada-expedition.tm.p2p.org/` (P2P.ORG)
+- `https://rpc.namada-expedition.tm.p2p.world/` (P2P.ORG)
 
 ## Indexer
 
@@ -75,7 +79,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://namada-indexer.denodes.xyz/block/last` (deNodes)
 - `https://namada-se-indexer.citadel.one/` (CitadelOne)
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
-  
+
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
 1. The signed transactions files were collected in the `signed_genesis_transactions` folder.
