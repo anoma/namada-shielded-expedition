@@ -52,6 +52,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656` (jasondavies)
 - `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
 - `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
+- `tcp://a6ff4b0836255a41a0bab456ae42fcc98ed49684@namada.rpc.lankou.org:26657` (Lankou)
 - `tcp://3aaba2c749072cb49a42d34a14296d05c27aaea9@namada-testnet-peer.itrocket.net:33656` (itrocket)
 - `tcp://d5edca779487a5cf4800ac26f65be7fe7a0fc903@149.28.146.7:26656` (Chainbase)
 - `tcp://ea1ace5ec14b81f17862d6dc45a9a99595b0ce02@37.27.58.236:26656` (Nodeify)
