@@ -53,18 +53,24 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 
 - `https://namada-explorer.stakepool.dev.br/` (StakePool)
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
+- `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
 
 ## Rpc
 
 - `https://namada-explorer-api.stakepool.dev.br/` (StakePool)
 - `https://rpc-namada.kintsugi-nodes.com/` (Kintsugi)
-- `https://testnet-namada-rpc.gatadao.com/` (GATADAO)
 - `https://namada-se100-rpc.gatadao.com/` (GATADAO)
+- `https://namada-shielded-expedition-rpc.denodes.xyz/` (deNodes)
+- `https://namada-se-rpc.citadel.one/` (CitadelOne)
+- `https://namada-rpc.dsrvlabs.dev/` (DSRVLabs)
 
 ## Indexer
 
 - `https://namada-explorer-api.stakepool.dev.br/node/api-docs/#/` (StakePool)
 - `https://namada-indexer.kintsugi-nodes.com/` (Kintsugi)
+- `https://namada-indexer.denodes.xyz/block/last` (deNodes)
+- `https://namada-se-indexer.citadel.one/` (CitadelOne)
+- `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
   
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
