@@ -52,6 +52,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656` (jasondavies)
 - `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
 - `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
+- `tcp://f9701153dddc901bbe39b4d7305c1b4e8f2f83d9@164.132.206.199:26656` (didbit)
 - `tcp://e503a9c84f0997ca9da1f2aae5969fff94b341f5@142.132.197.215:26656` (Redbooker)
 - `tcp://e77f9559b91a81710e854d590d128bef932e0327@168.119.5.125:31656` (AlexZ)
 - `tcp://a6ff4b0836255a41a0bab456ae42fcc98ed49684@namada.rpc.lankou.org:26657` (Lankou)
@@ -89,6 +90,8 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://namada-shielded-expedition-rpc.denodes.xyz/` (deNodes)
 - `https://namada-se-rpc.citadel.one/` (CitadelOne)
 - `https://namada-rpc.dsrvlabs.dev/` (DSRVLabs)
+- `http://173.212.245.122:26657/`  (didbit)
+
 
 ## Indexer
 
