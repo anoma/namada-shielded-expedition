@@ -50,15 +50,18 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 ## Explorer
 
 - `https://namada-explorer.stakepool.dev.br/` (StakePool)
+- `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 
 ## Rpc
 
 - `https://namada-explorer-api.stakepool.dev.br/` (StakePool)
+- `https://rpc-namada.kintsugi-nodes.com/` (Kintsugi)
 
 ## Indexer
 
 - `https://namada-explorer-api.stakepool.dev.br/node/api-docs/#/` (StakePool)
-
+- `https://namada-indexer.kintsugi-nodes.com/` (Kintsugi)
+  
 ## Creating the genesis files (advanced)
 In order to create the genesis files for the expedition, the following steps were taken.
 1. The signed transactions files were collected in the `signed_genesis_transactions` folder.
