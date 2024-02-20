@@ -59,6 +59,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 
 - `https://namada-explorer-api.stakepool.dev.br/` (StakePool)
 - `https://rpc-namada.kintsugi-nodes.com/` (Kintsugi)
+- `https://namada-se100-rpc.gatadao.com/` (GATADAO)
 - `https://namada-shielded-expedition-rpc.denodes.xyz/` (deNodes)
 - `https://namada-se-rpc.citadel.one/` (CitadelOne)
 - `https://namada-rpc.dsrvlabs.dev/` (DSRVLabs)
