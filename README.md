@@ -129,6 +129,7 @@ Indexer endpoints
 - `http://173.212.245.122:26657/`  (didbit)
 - `https://namadarpcse.cryptosj.net/` (CryptoSJnet)
 - `https://namada-se-rpc.contributiondao.com` (ContributionDAO)
+- `https://namada-se.emberstake.xyz/` (EmberStake)
 
 ## Indexer
 
