@@ -46,6 +46,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656` (jasondavies)
 - `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
 - `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
+- `tcp://431fe43b4868867e37701f3ab8ad576f335714fb@namada-se-rpc.contributiondao.com:26656` (ContributionDAO)
 - `tcp://a31b7a31e553be1dc90c723474b79515f7c7644d@162.55.246.223:26656` (InfraDAO)
 - `tcp://fc1e024c8d27cb769d158b0d7bd7a46572238d4a@95.179.137.86:26656` (DSRVLabs)
 - `tcp://5cf9dbf4cf43d0bd8c9e77d05b2b1db9e86b60e9@seed-namada-shielded-expedition-01.stakeflow.io:28003` (Stakeflow)
