@@ -131,6 +131,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://rpc-namada.cosmostation.io` (Cosmostation)
 - `http://173.212.245.122:26657/`  (didbit)
 - `https://namada-se-rpc.contributiondao.com` (ContributionDAO)
+- `https://namada-se.emberstake.xyz/` (EmberStake)
 
 ## Indexer
 
