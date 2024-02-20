@@ -59,12 +59,14 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 
 - `https://namada-explorer-api.stakepool.dev.br/` (StakePool)
 - `https://rpc-namada.kintsugi-nodes.com/` (Kintsugi)
+- `https://namada-se-rpc.citadel.one/` (CitadelOne)
 - `https://namada-rpc.dsrvlabs.dev/` (DSRVLabs)
 
 ## Indexer
 
 - `https://namada-explorer-api.stakepool.dev.br/node/api-docs/#/` (StakePool)
 - `https://namada-indexer.kintsugi-nodes.com/` (Kintsugi)
+- `https://namada-se-indexer.citadel.one/` (CitadelOne)
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
   
 ## Creating the genesis files (advanced)
