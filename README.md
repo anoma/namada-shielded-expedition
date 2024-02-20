@@ -63,6 +63,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://66ee66185dcaf6f60e872521fcc7e93d9b32c434@43.131.63.125:26656` (P2P.ORG)
 - `tcp://cfdf31beafc3408a07194875c647da6a737c5520@65.108.68.214:28656` (DRAGONVN)
 - `tcp://42d3d815638e34ee8625e88713d4c31bee9ba490@88.99.3.143:26609` (spidey)
+- `tcp://53c597a8ef7d237ed829edcbb708df654a70381c@135.181.215.152:26656` (Node Guardians)
 
 
 ```bash
