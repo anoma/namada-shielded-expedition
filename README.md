@@ -50,7 +50,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 ```
 ## Public RPC endpoints
 
-- `https://namada-rpc.spidey.services` (spidey)
+- `http://namada-rpc.spidey.services` (spidey)
 
 
 ## Public Indexer endpoints
@@ -58,7 +58,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 Indexer endpoints
 
 
-- `https://namada-indexer.spidey.services` (spidey)
+- `http://namada-indexer.spidey.services` (spidey)
 
   
 ## Creating the genesis files (advanced)
