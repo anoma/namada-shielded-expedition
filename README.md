@@ -17,7 +17,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://679232a0ca3a830cd89992816c1e5fadcd772743@135.181.32.162:26656` (DTEAM)
 
 ```bash
-seeds = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
+seed_nodes = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
 ```
 
 ## Full Nodes
@@ -44,6 +44,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656` (jasondavies)
 - `tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656` (Mandragora)
 - `tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656` (Validatorade)
+- `tcp://da1d9d2e2ce7445f7cc5ba0ddf46b1026d5a17dd@195.201.197.246:26656` (Citizen Web3)
 - `tcp://d9e2d1ce049401880e8b4eb97fb3a96ce5a72ce0@65.21.225.60:28656` (goto5k)
 - `tcp://11bd97c7107505ebe6ff37b5ce2fca1847120d6c@146.59.149.91:26656` (Forest)
 
