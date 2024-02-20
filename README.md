@@ -114,6 +114,7 @@ Indexer endpoints
 
 ## Rpc
 
+- `https://namada-testnet-rpc.bwarelabs.com/` (BwareLabs)
 - `https://namada-explorer-api.stakepool.dev.br/` (StakePool)
 - `https://rpc-namada.kintsugi-nodes.com/` (Kintsugi)
 - `https://namada-se100-rpc.gatadao.com/` (GATADAO)
@@ -131,6 +132,7 @@ Indexer endpoints
 
 ## Indexer
 
+- `https://namada-testnet-indexer.bwarelabs.com/` (BwareLabs)
 - `https://namada-explorer-api.stakepool.dev.br/node/api-docs/#/` (StakePool)
 - `https://namada-indexer.kintsugi-nodes.com/` (Kintsugi)
 - `https://namada-indexer.denodes.xyz/block/last` (deNodes)
@@ -138,6 +140,10 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+
+## Snapshot service
+
+- `https://bwarelabs.com/snapshots/namada` (BwareLabs)
 
 ## Creating the genesis files (advanced)
 
