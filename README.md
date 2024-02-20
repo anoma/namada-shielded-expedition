@@ -111,6 +111,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://namada-explorer.stakepool.dev.br/` (StakePool)
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 - `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
+- `https://namadafinder.cryptosj.net/`  (CryptoSJnet)
 
 ## Rpc
 
@@ -124,6 +125,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://rpc.namada-expedition.tm.p2p.org/` (P2P.ORG)
 - `https://rpc.namada-expedition.tm.p2p.world/` (P2P.ORG)
 - `http://173.212.245.122:26657/`  (didbit)
+- `https://namadarpcse.cryptosj.net/` (CryptoSJnet)
 
 
 ## Indexer
@@ -133,6 +135,7 @@ persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.11
 - `https://namada-indexer.denodes.xyz/block/last` (deNodes)
 - `https://namada-se-indexer.citadel.one/` (CitadelOne)
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
+- `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 
 ## Creating the genesis files (advanced)
 
