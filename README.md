@@ -106,6 +106,7 @@ Indexer endpoints
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 - `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
 - `https://namadafinder.cryptosj.net/`  (CryptoSJnet)
+- `https://namada.explorers.guru` (Nodes.Guru)
 
 ## RPCs
 
@@ -127,6 +128,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `https://rpc-1.namada.nodes.guru` (Nodes.Guru)
 
 ## Indexers
 
@@ -138,6 +140,7 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+- `https://namada-indexer.nodes.guru` (Nodes.Guru)
 
 ## Snapshot service
 
