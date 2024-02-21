@@ -106,6 +106,7 @@ Indexer endpoints
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 - `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
 - `https://namadafinder.cryptosj.net/`  (CryptoSJnet)
+- `https://explorer-beige-kappa.vercel.app/` (NodeJom)
 
 ## RPCs
 
