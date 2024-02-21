@@ -127,6 +127,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `https://testnet-rpc-namada.offellnode.top` (offellNode)
 
 ## Indexers
 
@@ -138,6 +139,7 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+- `https://indexer.offellnode.top` (offellNode)
 
 ## Snapshot service
 
