@@ -16,7 +16,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904` (CryptoSJnet)
 - `tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656` (Nodiums)
 - `tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656` (Gian)
-- `tcp://fd5073f30457198be3c7062dca6623b51c7e74ee@namada-testnet-seed.itrocket.net:33656` (itrocket)
+- `tcp://59976ccee681325acda4c9e2e77e21b085f88826@namada-testnet-seed.itrocket.net:33656` (itrocket)
 - `tcp://392a9f700cfe3e88a17e8dbfdc21c626c9d96e86@173.249.11.5:26656` (manueldb2)
 - `tcp://20e1000e88125698264454a884812746c2eb4807@testnet-seeds.lavenderfive.com:20056` (Lavender.Five Nodes)
 - `tcp://171772a9a13f2adc6e02ef5d9c02fd18272b8d2b@135.181.135.38:26656` (Stake&Relax)
@@ -28,7 +28,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://ec1c53ae10cc9ad8e798c884aa5e1e42cab473db@43.157.88.96:26656` (P2P.ORG)
 
 ```bash
-seed_nodes = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656"
+seed_nodes = "tcp://9202be72cfe612af24b43f49f53096fc5512cd7f@194.163.172.168:26656,tcp://2cdf24141644ef9e50ab270e7cf61c661e105d90@seeds.cryptosj.net:12904,tcp://0edfd7e6a1a172864ddb76a10ea77a8bb242759a@65.21.194.46:36656,tcp://8e81eb6d4bc86066ebe0b11519333f635437733c@65.108.100.57:26656,tcp://59976ccee681325acda4c9e2e77e21b085f88826@namada-testnet-seed.itrocket.net:33656"
 ```
 
 ## Full Nodes
@@ -64,9 +64,10 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://cfdf31beafc3408a07194875c647da6a737c5520@65.108.68.214:28656` (DRAGONVN)
 - `tcp://42d3d815638e34ee8625e88713d4c31bee9ba490@88.99.3.143:26609` (spidey)
 - `tcp://53c597a8ef7d237ed829edcbb708df654a70381c@135.181.215.152:26656` (Node Guardians)
+- `tcp://7233f22a664457479a6b194f590f2db95c726240@namada-testnet-peer.itrocket.net:33656` (itrocket)
 
 ```bash
-persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656,tcp://50e15e1639476ddc091d39c7e6faf4a1a3798235@38.242.152.80:26656,tcp://f47f2d1fd83f8063571145f90e984a74cba6310f@65.21.194.46:26656,tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056,tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656,tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656,tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656,tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656,tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656,tcp://6bf567f926a18f95d5ea45837af189e3f5bd6f04@rpc-1.namada.nodes.guru:26656,tcp://38afb25360d9a698caf5a8934f4484e676352b8e@89.58.28.79:26656,tcp://f6efa383790ad014f0bf9394ec39d19f4f7e0f86@65.108.76.33:33356,tcp://ff0269406b70b76b991c8eb89918042554ecc26d@65.108.13.212:26656,tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656,tcp://a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656,tcp://407240435312de546dd622f4228fbc6faccc8093@88.198.62.53:26656,tcp://53761db95fdb175ead7981ae5b92d6770f846e2f@37.27.63.150:26656,tcp://130efdc964211249504c64b83fdda4511239596e@88.198.54.190:26656,tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656,tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656,tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656,tcp://cfdf31beafc3408a07194875c647da6a737c5520@65.108.68.214:28656"
+persistent_peers = "tcp://0c4ce0c5ceb022564b111a4e4d0c0a66a9567dbe@65.109.117.113:26656,tcp://50e15e1639476ddc091d39c7e6faf4a1a3798235@38.242.152.80:26656,tcp://f47f2d1fd83f8063571145f90e984a74cba6310f@65.21.194.46:26656,tcp://7a3ce1bd42d8b2e09a21377f9cc2562b59f574a6@185.84.224.125:20056,tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656,tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656,tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656,tcp://b7c3c9c98dc44880be42a4437e93e3330032ae19@135.125.189.84:26656,tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656,tcp://6bf567f926a18f95d5ea45837af189e3f5bd6f04@rpc-1.namada.nodes.guru:26656,tcp://38afb25360d9a698caf5a8934f4484e676352b8e@89.58.28.79:26656,tcp://f6efa383790ad014f0bf9394ec39d19f4f7e0f86@65.108.76.33:33356,tcp://ff0269406b70b76b991c8eb89918042554ecc26d@65.108.13.212:26656,tcp://9f7d037b6f6757d3ba6352d672b69b42b3e96126@54.195.152.187:26656,tcp://a55591635f84e0aff9b1567d0276fe32794e5ccf@65.109.28.34:26656,tcp://407240435312de546dd622f4228fbc6faccc8093@88.198.62.53:26656,tcp://53761db95fdb175ead7981ae5b92d6770f846e2f@37.27.63.150:26656,tcp://130efdc964211249504c64b83fdda4511239596e@88.198.54.190:26656,tcp://e6542c7f53d2b3bc0754f6a14b1533fcca64ef2b@147.135.65.3:26656,tcp://d4d14a3a8879527e42753d1bff8a69c12b4f3cd7@194.163.166.56:26656,tcp://783b88ab64a99d0efd7e077ecd3f1c9f787edab1@164.132.206.199:28656,tcp://cfdf31beafc3408a07194875c647da6a737c5520@65.108.68.214:28656,tcp://7233f22a664457479a6b194f590f2db95c726240@namada-testnet-peer.itrocket.net:33656"
 ```
 
 ## Public Indexer endpoints
@@ -79,7 +80,7 @@ Indexer endpoints
 - `tcp://e503a9c84f0997ca9da1f2aae5969fff94b341f5@142.132.197.215:26656` (Redbooker)
 - `tcp://e77f9559b91a81710e854d590d128bef932e0327@168.119.5.125:31656` (AlexZ)
 - `tcp://a6ff4b0836255a41a0bab456ae42fcc98ed49684@namada.rpc.lankou.org:26657` (Lankou)
-- `tcp://3aaba2c749072cb49a42d34a14296d05c27aaea9@namada-testnet-peer.itrocket.net:33656` (itrocket)
+- `tcp://7233f22a664457479a6b194f590f2db95c726240@namada-testnet-peer.itrocket.net:33656` (itrocket)
 - `tcp://d5edca779487a5cf4800ac26f65be7fe7a0fc903@149.28.146.7:26656` (Chainbase)
 - `tcp://ea1ace5ec14b81f17862d6dc45a9a99595b0ce02@37.27.58.236:26656` (Nodeify)
 - `tcp://3b8e58431ee4b331c2e4bc0763caa5364cd56ed9@95.217.203.60:26656` (ValidatorVN)
@@ -127,6 +128,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `https://namada-testnet-rpc.itrocket.net` (itrocket)
 
 ## Indexers
 
@@ -138,10 +140,12 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+- `https://namada-testnet-indexer.itrocket.net` (itrocket)
 
 ## Snapshot service
 
 - `https://bwarelabs.com/snapshots/namada` (BwareLabs)
+- `https://itrocket.net/services/testnet/namada` (itrocket)
 
 ## Creating the genesis files (advanced)
 
