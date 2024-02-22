@@ -106,6 +106,7 @@ Indexer endpoints
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 - `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
 - `https://namadafinder.cryptosj.net/`  (CryptoSJnet)
+- `https://explorer-namada.stakeup.tech/` (StakeUp)
 
 ## RPCs
 
@@ -127,6 +128,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `https://rpc.namada.stakeup.tech` (StakeUp)
 
 ## Indexers
 
