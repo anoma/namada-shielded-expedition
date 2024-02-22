@@ -138,6 +138,7 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+- `https://namada-se-indexer.contributiondao.com/block/last` (ContributionDAO)
 
 ## Snapshot service
 
