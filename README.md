@@ -95,6 +95,7 @@ Indexer endpoints
 - `tcp://c2d0b83418f6fb8b780f6bbdbdc2e0719f967824@158.220.127.197:26656` (UniqNodes)
 - `tcp://1fc8eb5685ea76faf20df5ed35d7622657e91b04@45.132.246.138:26656` (CosmicValidator)
 - `tcp://fb06663d96ee935816a8494fee4d81c0546a3731@217.197.107.144:26656` (StoneMac65)
+- `https://namada-indexer.sined222.xyz/` (Sined222)
 
 ## Validator Miss Dashboard
 
@@ -106,6 +107,7 @@ Indexer endpoints
 - `https://extended-nebb.kintsugi.tech/` (Kintsugi)
 - `https://namada-explorer.dsrvlabs.dev/` (DSRVLabs)
 - `https://namadafinder.cryptosj.net/`  (CryptoSJnet)
+- `https://namada-explorer.sined222.xyz/`  (Sined222)
 
 ## RPCs
 
@@ -127,6 +129,7 @@ Indexer endpoints
 - `https://namada-se.emberstake.xyz/` (EmberStake)
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
+- `https://namada-rpc.sined222.xyz/` (Sined222)
 
 ## Indexers
 
@@ -138,6 +141,7 @@ Indexer endpoints
 - `https://namada-indexer.dsrvlabs.dev/` (DSRVLabs)
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
+- `https://namada-indexer.sined222.xyz/` (Sined222)
 
 ## Snapshot service
 
