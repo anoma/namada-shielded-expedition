@@ -128,7 +128,7 @@ Indexer endpoints
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
-
+- `http://161.97.103.23:26657/` (Capperi96)
 ## Indexers
 
 - `https://namada-testnet-indexer.bwarelabs.com/` (BwareLabs)
