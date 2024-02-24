@@ -128,7 +128,7 @@ Indexer endpoints
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
-- 'http://http://167.172.69.47:26657' (D.Santos)
+- 'http://167.172.69.47:26657' (D.Santos)
 
 ## Indexers
 
