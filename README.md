@@ -21,7 +21,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://20e1000e88125698264454a884812746c2eb4807@testnet-seeds.lavenderfive.com:20056` (Lavender.Five Nodes)
 - `tcp://171772a9a13f2adc6e02ef5d9c02fd18272b8d2b@135.181.135.38:26656` (Stake&Relax)
 - `tcp://476f41eb60074cb603558c271470e807c39dd8bf@207.244.253.244:26656` (cryptobtcbuyer)
-- `tcp://5be8ecf93ce471c6c1b6af9b7cfe0a1dde7462fa@namada-rpc.bharvest.io:32656` (B-Harvest)
+- `tcp://5be8ecf93ce471c6c1b6af9b7cfe0a1dde7462fa@namada-se.bharvest.io:32656` (B-Harvest)
 - `tcp://61ce3d7980aaea95e5b56566c727955b1184ccbc@namada-se-seeds.emberstake.xyz:41656` (EmberStake)
 - `tcp://03b452b8bf5f49283a289c411483ac12b7b86749@194.163.132.38:26656` (Daviduok)
 - `tcp://679232a0ca3a830cd89992816c1e5fadcd772743@135.181.32.162:26656` (DTEAM)
@@ -42,7 +42,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://b1edad170073d82537aaf3177e5042d857956adf@162.250.127.226:26656` (Brightlystake)
 - `tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656` (gnosed)
 - `tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656` (ZKValidator)
-- `tcp://ec6bf7cfa3ffb6f915684e3660896f7a13a27223@namada-rpc.bharvest.io:33656` (B-Harvest)
+- `tcp://ec6bf7cfa3ffb6f915684e3660896f7a13a27223@namada-se.bharvest.io:33656` (B-Harvest)
 - `tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656` (max-01)
 - `tcp://6bf567f926a18f95d5ea45837af189e3f5bd6f04@rpc-1.namada.nodes.guru:26656` (Nodes.Guru)
 - `tcp://38afb25360d9a698caf5a8934f4484e676352b8e@89.58.28.79:26656` (OriginStake)
@@ -128,7 +128,7 @@ Indexer endpoints
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
-- `http://namada-rpc.bharvest.io:34657` (B-Harvest)
+- `http://namada-se.bharvest.io:34657` (B-Harvest)
 
 ## Indexers
 
