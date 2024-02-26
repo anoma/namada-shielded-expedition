@@ -129,6 +129,7 @@ Indexer endpoints
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
 - `https://namada-testnet-rpc.redesignmypage.com` (Forest)
+- `http://146.59.149.91:26657` (Forest)
 
 ## Indexers
 
