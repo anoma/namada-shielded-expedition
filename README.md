@@ -144,6 +144,8 @@ Indexer endpoints
 ## Snapshot service
 
 - `https://bwarelabs.com/snapshots/namada` (BwareLabs)
+- `https://www.cryptosj.net/namadaservice.html ` (CryptoSJnet)
+
 
 ## Creating the genesis files (advanced)
 
