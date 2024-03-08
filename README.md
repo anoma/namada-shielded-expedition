@@ -128,6 +128,7 @@ Indexer endpoints
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
+- `https://namada-rpc.zlkcyber.tech` (ZLKCyber)
 
 ## Indexers
 
@@ -140,6 +141,7 @@ Indexer endpoints
 - `http://namadafinder.cryptosj.net:30303/` (CryptoSJnet)
 - `https://api-namada.cosmostation.io` (Cosmostation)
 - `https://indexer-namada.civetbera.io` (superpool)
+- `https://indexer.zlkcyber.tech/block/last` (ZLKCyber)
 
 ## Snapshot service
 
