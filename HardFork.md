@@ -54,7 +54,15 @@ Now that you have `migrations.json`:
 1. Run `namadan-0.32.0-MIG ledger update-db --path migrations.json --block-height X`. This will update the DB and try to progress the ledger by two blocks before suspending itself again. The ledger will only be able to progress the two blocks and finish this step if enough voting power is online with this command in execution. After two blocks, the ledger will halt. You may need to kill it yourself with `CTRL+C`, or it may exit for you.
 2. Once the ledger is stopped after updating the DB, run the ledger as normal with the new binaries: `namadan-0.32.0 ledger run`.
 
-### To-Do:
+## Shielded syncing after the hard fork
+
+The hard fork will also make properly scanning for old MASP notes by running `namadac shielded-sync` a bit trickier. After the hard fork, the client will no longer be able to make RPC calls to cometBFT to query for MASP notes before block height `X`, when the hard fork takes place. There are several solutions to help ameliorate this issue:
+
+1. Some nodes that are still running v0.31.9 of the software are listed at `<insert_URL>`. You can query these nodes with `namadac shielded-sync` to scan for all MASP notes up until height `X`.
+2. In v0.32.0, `shielded-sync` has a new option `--from-height` that will start the MASP note scanning at the given height. When you query from a v0.32.0 node, please for at least the first time, use `namadac shielded-sync --from-height X`.
+3. We also encourage users to unshield all of their shielded tokens before the hard fork, and then reshield after. If this is done, you would not need to sync old notes with v0.31.9 nodes.
+
+## To-Do:
 - give shielded sync instructions
 - include all necessary files and the `shasum` of `migrations.json`
 - choose the block height `X`
