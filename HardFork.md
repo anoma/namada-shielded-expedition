@@ -1,6 +1,6 @@
 # Validator instructions for hard fork and state migration
 
-The hard fork is planned to take place at block height `X`. The following instructions to accomplish this are detailed below.
+The hard fork is planned to take place at block height `X`. The following instructions to accomplish this are detailed below. Most of the commands require the use of the `namadan` binary, which is the same as running `namada node`.
 
 ## Hosted files and materials
 
@@ -13,7 +13,7 @@ In the following instructions, we will refer to different binaries with the foll
 
 - `namadan`: the current runtime from v0.31.9
 - `namadan-0.31.9-MIG`: special runtime based on v0.31.9 with extra migration feature.
-- `namadan-0.32.0`: the new runtime to which we are upgrading from the v0.32.0 release. These can be fetched from the release page on Github.
+- `namadan-0.32.0`: the new runtime from v0.32.0. These can be fetched from the release page on Github.
 - `namadan-0.32.0-MIG`: special runtime based on v0.32.0 with extra migration feature.
 
 Please note that `namadan-0.31.9-MIG` can be used to do everything that `namadan` can do, and likewise for v0.32.0.
@@ -24,7 +24,7 @@ We will also host a new wasm for the user VP, along with a new `checksums.json` 
 
 1. Shut down your node and restart it using `namadan ledger run-until --block-height X --suspend`. This will run your ledger and suspend it automatically at the provided block height `X`, where the hard fork is planned.
 2. Once you reach height `X`, you may have to shut down your node with `Ctrl+C`.
-3. Backup your state by zipping your `.local/share/namada/shielded-expedition.88f17d1d14` directory and keeping it in a nice place.
+3. Backup your state by zipping your based directory (you might have the default of `.local/share/namada/shielded-expedition.88f17d1d14`) and keeping it in a nice place.
 
 ## Executing the hard fork
 
@@ -32,14 +32,24 @@ There will be several steps to perform here. At a high-level, you need to manual
 
 ### Getting `migrations.json`
 
-Node operators should attempt to produce the `migrations.json` file themselves. At this moment, this requires building Namada from source somewhere. Please refer to https://github.com/anoma/namada/blob/main/README.md for instructions on how to do this.
+Node operators should attempt to produce the `migrations.json` file themselves. This file can only be produced properly once the chain is halted at block height `X`. At this moment, producing the file requires building Namada from source somewhere. Please refer to https://github.com/anoma/namada/blob/main/README.md for instructions on how to do this.
 
-You will need to build namada from source using [#2937](https://github.com/anoma/namada/pull/2937), which is the branch `brent/test-migration-from-0.31.9`. This is also the same branch that `namadan-0.31.9-MIG` is built from.
+You will need to build namada from source using [#2937](https://github.com/anoma/namada/pull/2937), which is the branch `brent/test-migration-from-0.31.9`. This is also the same branch that `namadan-0.31.9-MIG` is built from. Generally, in order to build from source, you would do:
+
+```
+git clone git@github.com:anoma/namada.git
+cd namada
+git checkout brent/test-migration-from-0.31.9
+make install
+make build-release
+```
+
+The top-level directory is the directory from which you run these commands, after doing `cd namada`. The release binaries like `namada`, `namadan`, etc. will be in the folder `target/release/`.
 
 Given that you have built namada from source on this branch, follow these steps to produce `migrations.json`:
 
-1. Go to the root directory of your Namada built from source
-2. Run `namadan-0.31.9-MIG ledger query-db --db-key conversion_state --hash 05E2FD0BEBD54A05AAE349BBDE61F90893F09A72850EFD4F69060821EC5DE65F --db-column-family state > conversion_state.txt`
+1. Go to the top-level directory of your Namada repo built from source
+2. Run `namadan-0.31.9-MIG ledger query-db --db-key conversion_state --hash 05E2FD0BEBD54A05AAE349BBDE61F90893F09A72850EFD4F69060821EC5DE65F --db-column-family state > conversion_state.txt`. Make sure the produced `conversion_state.txt` file is in the top of the namada repo.
 3. Copy the new `vp.wasm` and `checksums.json` files from `<insert_link>` into the `wasm/` directory relative to your current path (`namada/wasm/`).
 4. Run `cargo run --example make-db-migration`, which should produce `migrations.json` in the current directory
 
