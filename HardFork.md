@@ -1,22 +1,21 @@
 # Validator instructions for hard fork and state migration
 
-The hard fork is planned to take place at block height `X` and will upgrade Namada to `v0.32.1`. The following instructions to accomplish this are detailed below. Most of the commands require the use of the `namadan` binary, which is the same as running `namada node`.
+The hard fork is planned to take place at block height `X` and will upgrade Namada to `v0.32.1`. The following instructions to accomplish this are detailed below. Most of the commands require the use of the `namadan` binary, which is the same as running `namada node`. The use of `namadan` and `namada node` are interchangeable.
 
 ## Hosted files and materials
 
-The team is providing special binaries that are needed in order to execute the migration properly. At the moment, these are:
+The team is providing special files that are needed in order to execute the migration properly. The necessary files are provided in the [hard_fork directory](hard_fork/) of this repository. These are:
 
-- `namada-0.31.9-MIG`: found at `<insert_link>`
+- `namada-0.31.10`: binaries for all architectures also found at https://github.com/anoma/namada/releases/tag/v0.31.10
+- `namada-0.32.1`: binaries for all architectures also found at https://github.com/anoma/namada/releases/tag/v0.32.1
+- `make-db-migration`: linux binary needed to perform the state migration
+- `wasm`: two files - `checksums.json` and `vp_user wasm` are provideď to upgrade the user VP
 
 In the following instructions, we will refer to different binaries with the following different names.
 
-- `namadan`: the current runtime from v0.31.9
-- `namadan-0.31.9-MIG`: special runtime based on v0.31.9 with extra migration feature.
-- `namadan-0.32.1`: the new runtime from v0.32.1. These can be fetched from the release page on Github.
-
-Please note that `namadan-0.31.9-MIG` can be used to do everything that `namadan` can do, and likewise for v0.32.1.
-
-We will also host a new wasm for the user VP, along with a new `checksums.json` file, which can be found at `<insert_link>`.
+- `namadan`: the current runtime from `v0.31.9`
+- `namadan-0.31.10`: the same exact behavior as the `v0.31.9` runtime but also has extra migration features built in. All steps below that are performed with `namadan` can also be performed with `namadan-0.31.10`.
+- `namadan-0.32.1`: the new runtime from `v0.32.1`.
 
 ## Before the hard fork
 
@@ -26,32 +25,22 @@ We will also host a new wasm for the user VP, along with a new `checksums.json` 
 
 ## Executing the hard fork
 
-There will be several steps to perform here. At a high-level, you need to manually manipulate the database using a file called `migrations.json` and then restart your node with the new runtime binaries.
+There will be several steps to perform here. At a high-level, you need to manually manipulate the database after producing a file called `migrations.json` and then restart your node with the new runtime binaries.
 
 ### Getting `migrations.json`
 
-Node operators should attempt to produce the `migrations.json` file themselves. This file can only be produced properly once the chain is halted at block height `X`. At this moment, producing the file requires building Namada from source somewhere. Please refer to https://github.com/anoma/namada/blob/main/README.md for instructions on how to do this.
+Node operators should attempt to produce the `migrations.json` file themselves. This file can only be produced properly once the chain is halted at block height `X`. The following instructions depend on certain files existing on your machine relative to the directory from which you run certain binaries. Typically, you should execute all commands from the home directory of your machine.
 
-You will need to build namada from source using [#2937](https://github.com/anoma/namada/pull/2937), which is the branch `brent/test-migration-from-0.31.9`. This is also the same branch that `namadan-0.31.9-MIG` is built from. Generally, in order to build from source, you would do:
+1. Run `namadan-0.31.10 ledger query-db --db-key conversion_state --hash 05E2FD0BEBD54A05AAE349BBDE61F90893F09A72850EFD4F69060821EC5DE65F --db-column-family state > conversion_state.txt`. Make sure the produced `conversion_state.txt` file is in your current working directory.
+2. Make a direcory called `wasm` in your current directory and then copy the new `vp_user.6065919f895d43099a567cb120ebdfa0c99c3ba4e803fe99159a14bd8f97f0ea.wasm` and `checksums.json` files from [hard_fork directory](hard_fork/) into `wasm/`. This might involve remote copying the files onto your machine and then performing:
+    ```
+    mkdir wasm
+    mv <some_path>/vp_user.6065919f895d43099a567cb120ebdfa0c99c3ba4e803fe99159a14bd8f97f0ea.wasm wasm/
+    mv <some_path>/checksums.json wasm/
+    ```
+3. Run `./make-db-migration` and confirm that `migrations.json` is produced in your current directory as a result
 
-```
-git clone git@github.com:anoma/namada.git
-cd namada
-git checkout brent/test-migration-from-0.31.9
-make install
-make build-release
-```
-
-The top-level directory is the directory from which you run these commands, after doing `cd namada`. The release binaries like `namada`, `namadan`, etc. will be in the folder `target/release/`.
-
-Given that you have built namada from source on this branch, follow these steps to produce `migrations.json`:
-
-1. Go to the top-level directory of your Namada repo built from source
-2. Run `namadan-0.31.9-MIG ledger query-db --db-key conversion_state --hash 05E2FD0BEBD54A05AAE349BBDE61F90893F09A72850EFD4F69060821EC5DE65F --db-column-family state > conversion_state.txt`. Make sure the produced `conversion_state.txt` file is in the top of the namada repo.
-3. Copy the new `vp.wasm` and `checksums.json` files from `<insert_link>` into the `wasm/` directory relative to your current path (`namada/wasm/`).
-4. Run `cargo run --example make-db-migration`, which should produce `migrations.json` in the current directory
-
-Additionally, the Namada team will provide a `migrations.json` file on Github at `<insert_URL>` along with a `shasum` of the file. The team will only be able to generate this file once the chain has halted at the planned hard fork block height `X`, as the contents of this file are dependent on the state at that block height.
+Additionally, the Namada team will provide a `migrations.json` file on Github in the [hard_fork directory](hard_fork/) along with a `shasum` of the file. The team will only be able to generate this file once the chain has halted at the planned hard fork block height `X`, as the contents of this file are dependent on the state at that block height.
 
 While the hosted `migrations.json` file may be downloaded and used, the team encourages operators to try to produce the file themselves and verify that the `shasum` of your own file matches that of the hosted one. You can do this by running `shasum migrations.json`, which will give you a hash.
 
@@ -59,7 +48,8 @@ While the hosted `migrations.json` file may be downloaded and used, the team enc
 
 Now that you have `migrations.json`:
 
-1. Run `namadan-0.32.1 ledger update-db --path migrations.json --block-height X`. This will update the DB and try to progress the ledger by two blocks before suspending itself again. The ledger will only be able to progress the two blocks and finish this step if enough voting power is online with this command in execution. After two blocks, the ledger will halt. You may need to kill it yourself with `CTRL+C`, or it may exit for you.
+1. Run `namadan-0.32.1 ledger update-db --path migrations.json --block-height X --dry-run` and make sure there are no errors.
+1. Run `namadan-0.32.1 ledger update-db --path migrations.json --block-height X` (no `--dry-run`). This will update the DB and try to progress the ledger by two blocks before suspending itself again. The ledger will only be able to progress the two blocks and finish this step if enough voting power is online with this command in execution. After two blocks, the ledger will halt. You may need to kill it yourself with `CTRL+C`, or it may exit for you.
 2. Once the ledger is stopped after updating the DB, run the ledger as normal with the new binaries: `namadan-0.32.1 ledger run`.
 
 ## Shielded syncing after the hard fork
@@ -71,7 +61,5 @@ The hard fork will also make properly scanning for old MASP notes by running `na
 3. We also encourage users to unshield all of their shielded tokens before the hard fork, and then reshield after. If this is done, you would not need to sync old notes with v0.31.9 nodes.
 
 ## To-Do:
-- give shielded sync instructions
 - include all necessary files and the `shasum` of `migrations.json`
 - choose the block height `X`
-- maybe try to provide a special binary instead of requiring `cargo run --example make-db-migration`
