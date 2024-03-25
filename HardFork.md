@@ -4,10 +4,10 @@ The hard fork is planned to take place at block height `X` and will upgrade Nama
 
 ## Hosted files and materials
 
-The team is providing special files that are needed in order to execute the migration properly. The necessary files are provided in the [hard_fork directory](hard_fork/) of this repository. These are:
+The team is providing special files that are needed in order to execute the migration properly. Some of the necessary files are provided in the [hard_fork directory](hard_fork/) of this repository. Other locations are noted below if the files are hosted elsewhere. These are:
 
-- `namada-0.31.10`: binaries for all architectures also found at https://github.com/anoma/namada/releases/tag/v0.31.10
-- `namada-0.32.1`: binaries for all architectures also found at https://github.com/anoma/namada/releases/tag/v0.32.1
+- `namada-0.31.10`: binaries for all architectures can be found at https://github.com/anoma/namada/releases/tag/v0.31.10
+- `namada-0.32.1`: binaries for all architectures can be found at https://github.com/anoma/namada/releases/tag/v0.32.1
 - `make-db-migration`: linux binary needed to perform the state migration
 - `wasm`: two files - `checksums.json` and `vp_user wasm` are provideď to upgrade the user VP
 
@@ -38,7 +38,7 @@ Node operators should attempt to produce the `migrations.json` file themselves. 
     mv <some_path>/vp_user.6065919f895d43099a567cb120ebdfa0c99c3ba4e803fe99159a14bd8f97f0ea.wasm wasm/
     mv <some_path>/checksums.json wasm/
     ```
-3. Run `./make-db-migration` and confirm that `migrations.json` is produced in your current directory as a result
+3. Run `./make-db-migration` and confirm that `migrations.json` is produced in your current directory as a result. You may have to first run `chmod +x make-db-migration` to make the binary executable.
 
 Additionally, the Namada team will provide a `migrations.json` file on Github in the [hard_fork directory](hard_fork/) along with a `shasum` of the file. The team will only be able to generate this file once the chain has halted at the planned hard fork block height `X`, as the contents of this file are dependent on the state at that block height.
 
