@@ -44,6 +44,11 @@ Additionally, the Namada team will provide a `migrations.json` file on Github in
 
 While the hosted `migrations.json` file may be downloaded and used, the team encourages operators to try to produce the file themselves and verify that the `shasum` of your own file matches that of the hosted one. You can do this by running `shasum migrations.json`, which will give you a hash.
 
+UPDATE: The hard fork height has been reached and `migrations.json` has been produced. This file is located in the [hard_fork directory](hard_fork/). The output from `shasum migrations.json` is:
+```
+b68d08158a0914f091c81f55a3658b620a028fd4  migrations.json
+```
+
 ### State migration
 
 Now that you have `migrations.json`:
