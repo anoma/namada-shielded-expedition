@@ -43,7 +43,7 @@ Syncing a new node may not work if the peers of other nodes are filled up, so pa
 - `tcp://52dc61ef963ddeaee15ff358b133fceb8eff5aa3@162.55.0.160:26656` (gnosed)
 - `tcp://f426c9a6287e2c2181ad64139c0963a07aea8b2a@65.108.147.137:26656` (ZKValidator)
 - `tcp://ec6bf7cfa3ffb6f915684e3660896f7a13a27223@135.125.189.84:33656` (B-Harvest)
-- `tcp://0a4ae55f81a2d5541c9f96274d1e51b1078c99df@167.235.35.48:26656` (max-01)
+- `tcp://79467d40e04cfb2e0f4aa07e887d154fea90c4d9@167.235.35.48:26656` (max-01)
 - `tcp://6bf567f926a18f95d5ea45837af189e3f5bd6f04@rpc-1.namada.nodes.guru:26656` (Nodes.Guru)
 - `tcp://38afb25360d9a698caf5a8934f4484e676352b8e@89.58.28.79:26656` (OriginStake)
 - `tcp://f6efa383790ad014f0bf9394ec39d19f4f7e0f86@65.108.76.33:33356` (StakePool)
