@@ -128,6 +128,7 @@ Indexer endpoints
 - `https://namada-rpc.kzvn.xyz` (DRAGONVN)
 - `http://namada-rpc.spidey.services` (spidey)
 - `https://rpc-namada.civetbera.io` (superpool)
+- `https://rpc.papadritta.com` (papadritta)
 
 ## Indexers
 
